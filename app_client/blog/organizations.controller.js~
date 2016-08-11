@@ -1,0 +1,13 @@
+(function() {
+  
+  angular
+    .module('meanApp')
+    .controller('organizationsCtrl', organizationsCtrl);
+  organizationsCtrl.$inject = ['$scope'];
+    function homeCtrl ($scope) {
+      console.log('Organizations controller is running');
+
+    }
+
+})();
+

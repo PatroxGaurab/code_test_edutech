@@ -1,0 +1,31 @@
+<navigation></navigation>
+
+<div class="container">
+  
+  <div class="row">
+    
+    <div class="col-md-6">
+
+      <h1 class="form-signin-heading">Sign in</h1>
+  
+	<form name="usernameForm">
+	  <input type="text" 
+		name="username"
+		ng-model="username" 
+		username-available 
+		required
+		ng-model-options="{ updateOn: 'blur' }">
+	  <div ng-if="myForm.$pending.usernameExists">checking....</div>
+	  <div ng-if="myForm.$error.usernameExists">username exists already</div>
+	</form>
+
+    </div>
+  </div>
+
+<div id="status">
+</div>
+
+
+
+
+</div>

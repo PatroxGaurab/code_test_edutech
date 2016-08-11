@@ -1,0 +1,496 @@
+<navigation></navigation>
+
+
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">About <span style="color:#00a0e3;">Us</span></h1>
+                            <p>The Next Era of E-Learning is here!</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--/#page-breadcrumb-->
+
+    <section id="about-company" class="padding-top wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <img src="images/aboutus/5.png" class="margin-bottom" alt="" height="240" width="500">
+                    <h1 class="margin-bottom"><span style="color:black;">Learn. &nbsp;&nbsp;Create.  &nbsp;&nbsp;Execute.</span></h1>
+                    <p>TheoreX brings up the world's first E-Learning Portal, where one will not only learn but also can showcase his or her expertise,<br/> he or she can connect with other professionals and also can choose the right job for himself or herself choosing the right <br/> company where he or she can suits perfectly according to his or her culture, experience, knowledge and expertise.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#about-company-->
+    
+<br/><br/>
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">Our Services</span></h1>
+                            <p>TheoreX brings you the following services</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+        </div>
+   </section>
+   
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="images/team/icon1.png" alt="">
+                        </div>
+                        <h2>Learn with Motion Graphics</h2>
+                        <p>TheoreX is innovating on all fronts to affect a paradigm shift in conventional education. Move over, drab lecture notes; with attractive motion graphics, learning is poised to be fun and engaging.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="images/team/icon2.png" alt="">
+                        </div>
+                        <h2>Dive into the Discourse with Adda</h2>
+                        <p>Engage with peers and other talented individuals in the TheoreX community. From job opportunities to new developments in science and technology, discuss anything and everything at TheoreX Adda.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="images/team/icon3.png" alt="">
+                        </div>
+                        <h2>Learn & Get Certified</h2>
+                        <p>We believe there is a better approach to education: only learn what you need for the job that you want. Completing a TheoreX certified course is enough to land you a job with leading employers and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="images/team/icon4.png" alt="">
+                        </div>
+                        <h2>For the Old School Folks</h2>
+                        <p>TheoreX also conducts live classes with the very best professors and educators: interactive sessions where you can directly engage with the instructor. TheoreX brings the classroom to your living room.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="images/team/icon5.png" alt="">
+                        </div>
+                        <h2>Engage One on One</h2>
+                        <p>Connect with like minded individuals and grow your professional network on TheoreX. With built-in social tools and a messaging platform, TheoreX helps you build connections online and in real life.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="images/team/icon6.png" alt="">
+                        </div>
+                        <h2>Organisational Training</h2>
+                        <p>Are you a university student, wanting a taste of the action in the industry? Are you a corporate entity, wanting to level up your industrial skill set with some fresh, bright minds? TheoreX can help!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="images/team/icon7.png" alt="">
+                        </div>
+                        <h2>Free Monthly Webinars</h2>
+                        <p>Interested in TheoreX but afraid to commit? We hold free webinars every month that is open to everyone and with absolutely no conditions. Take part and see for yourself what TheoreX is all about.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="images/team/icon8.png" alt="">
+                        </div>
+                        <h2>Workshops and Seminars</h2>
+                        <p>There is definitely something about being there in real life and learning from the experts. That's why TheoreX holds offline workshops and seminars for hands-on learning and all round growth.</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="images/team/icon9.png" alt="">
+                        </div>
+                        <h2>Round the clock Support</h2>
+                        <p>Having problems? Confused about a product? Or simply curious? TheoreX Support is available 24 hours a day, seven days a week. Get in touch with us anytime over telephone or email.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#services-->
+
+    <section id="action">
+        <div class="vertical-center">
+             <div class="container">
+                <div class="row">
+                    <div class="action count">
+                        <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h1 class="timer bold" data-to="5000" data-speed="3000" data-from="0"></h1>   
+                            <h3>Happy Users</h3>
+                        </div>
+                        <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h1 class="timer bold" data-to="100" data-speed="3000" data-from="0"></h1>   
+                            <h3>Happy Instructors</h3> 
+                        </div>
+                        <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h1 class="timer bold" data-to="4000" data-speed="3000" data-from="0"></h1> 
+                            <h3>Online Videos</h3>
+                        </div>
+                        <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h1 class="timer bold" data-to="400" data-speed="3000" data-from="0"></h1> 
+                            <h3>Online Projects</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--/#action-->
+
+    <section id="company-information" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="about-us">
+                    <div class="" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <center><h1 class="bold">The Story behind TheoreX</h1></center><br/><br/><br/>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <img src="images/aboutus/6.png" class="img-responsive" alt="">
+
+                            </div>
+                            <div class="col-sm-7">
+                                <p style="text-align:justify;">Education in this country is in need of a major overhaul: this is what was on young Ayan's mind when he found that his choice of undergraduate studies, engineering, was woefully monotonous and of very little use in the real world. Outdated approaches was all that was being taught, which would count for nothing after graduation.
+                                <br/>
+                                Once done with his formal education, Ayan is inspired to broaden his horizons, learning something that is actually worth something in the present day. He joins a some open source communities to gain industry level experiences, where he meets Debapriya, another kindred soul with something to prove to the world.<br>Together, they strive to build something new, something that will change the face of education, learning, and personal growth, forever. And so, TheoreX was born.<br/>
+                                From Ayan's own experiences as a young graduate watching his peers struggle to get employment even with advanced degrees, TheoreX was envisioned to completely revamp the place of formal education in our society. At the centre was this question: what good is a degree if it cannot get you a job? The need of the hour is employability, and that is what TheoreX strives to create. We offer courses that are designed to be "ready to use"; a certified TheoreX course means you are ready to get to work from the get go. You know this, employers know this. And that is how we aim to launch the next learning revolution.<br/>
+                                After a lot of struggles, sacrifices Ayan, the CEO of TheoreX & Debapriya, the COO, finally found two more enthusiastic buddies who can actually come forward and participate in this noble initiative. There joined Gaurab as a CTO of TheoreX and also Swarnava as Vice President, the vision finally took shape. And finally, days after days, brainstroming new ideas, giving shapes to modern Educational System and with the combined hard work of the rest of the Core Team, TheoreX is finally ready for the primetime. TheoreX is ready to bring the Revolution.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div class="col-sm-5 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
+                        <div class="our-skills">
+                            <h2 class="bold">Our Main Focuses</h2>
+                            <div class="single-skill">
+                                <h3>E-Learning</h3>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="70">70%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill">
+                                <h3>Execution</h3>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="75">75%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill">
+                                <h3>After Learning User Engagement</h3>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="80">80%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill">
+                                <h3>Engagement in forum</h3>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="95">95%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill">
+                                <h3>Increasing Employability Market</h3>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="98">98%</div>
+                                </div>
+                            </div>
+                            <div class="single-skill">
+                                <h3>Users Benefits from Portal</h3>
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-transition="100">100%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#company-information-->
+    <br/>
+    <br/>
+    <section id="action" class="responsive">
+        <div class="vertical-center">
+             <div class="container">
+                <div class="row">
+                    <div class="action take-tour">
+                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <h1 class="title">Are you representating any Organization?</h1>
+                        </div>
+                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="tour-button">
+                                <a href="organizations.html" class="btn btn-common">Please, Take The Tour</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+
+    <section id="team">
+        <div class="container">
+            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the Awesome Team</h1>
+                <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">TheoreX can never be successful without this awesome team! Take a bow team.<br>
+                Meet them, they are always ready to help you!</p>
+                <br/><br/>
+                
+                    <!-- Indicators -->
+                        <div class="item active">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Ayan Choudhury</h2>
+                                        <p>Founder & Chief Executive Officer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/2.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Debapriya Bhattacharya</h2>
+                                        <p>Co-Founder & Chief Operating Officer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Gaurab Patra</h2>
+                                        <p>Co-Founder & Chief Technical Officer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/4.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Swarnava Sengupta</h2>
+                                        <p>Co-Founder & Vice President</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+
+<div class="container">
+            
+                <br/><br/><br/><br/>
+                
+                    <!-- Indicators -->
+                        <div class="item active">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/5.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Ryan Das</h2>
+                                        <p>Chief Marketing Officer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/9.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Joy Ghosh</h2>
+                                        <p>Front End Developer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/8.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Subhom Mitra</h2>
+                                        <p>Head of Content</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/10.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Neil Sengupta</h2>
+                                        <p>Graphic Designer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+<div class="container">
+            
+                <br/><br/><br/><br/>
+                
+                    <!-- Indicators -->
+                        <div class="item active">
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="images/aboutus/11.jpg" class="img-responsive" alt="" height="100" weight="100">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Sayan Samaddar</h2>
+                                        <p>TheoreX Pilot Program Moderator</p></center>
+                                    </div>
+                                </div>
+                            </div>
+
+                        
+                        </div>
+                    </div>
+
+
+
+            </div>
+        </div>
+
+
+    </section>
+    <!--/#team-->
+
+
+
+<footer></footer>
+	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>
+    <script type="text/javascript" src="/lib/js/main.js"></script> 

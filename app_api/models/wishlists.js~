@@ -1,0 +1,15 @@
+var mongoose = require( 'mongoose' );
+
+var wishlistSchema = new mongoose.Schema({
+  userId: {
+    type: mongoose.Schema.Types.ObjectId,
+    required: true
+  },
+  wishlists: [{type: mongoose.Schema.Types.ObjectId}]
+});
+
+wishlistSchema.methods.isWishlisted = function(courseId){
+  return this.find({"wishlists" : {"$in" : [courseId]}, "userId" : userId }).count() > 0
+};
+
+mongoose.model('Wishlist', wishlistSchema);

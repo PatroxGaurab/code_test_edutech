@@ -1,0 +1,285 @@
+<navigation></navigation>
+
+    <section id="home-slider">
+        <div class="container">
+            <div class="row">
+                <div class="main-slider">
+                    <div class="slide-text">
+                        <h1>Come Be a Part of The Next Learning Revolution</h1>
+                        <p>A brand new project that aims to completely revolutionise education & hiring in India. Learn from the very best in the country. Show off your skills to the world. Get hired by the market leaders, right from the comfort of your home. We are out to completely democratise education, & we need your participation to do it.</p>
+                        <a href="#" class="btn btn-common">Sign Up</a>
+                        <a href="#" class="btn btn-common">Sign In</a>
+                    </div>
+                    <img src="/lib/images/home/slider/2.png" class="slider-hill" alt="slider image">
+                    <img src="/lib/images/home/slider/3.png" class="slider-house" alt="slider image">
+                    <img src="/lib/images/home/slider/4.png" class="slider-house" alt="slider image">
+                    <!--<img src="/lib/images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                    <img src="/lib/images/home/slider/house.png" class="slider-house" alt="slider image">
+                    <img src="/lib/images/home/slider/sun.png" class="slider-sun" alt="slider image">
+                    <img src="/lib/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                    <img src="/lib/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">-->
+                </div>
+            </div>
+        </div>
+        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
+    </section>
+    <!--/#home-slider-->
+
+    <section id="services">
+        <div class="container">
+            <br/><br/>
+            <center><h1 style=>Starter Courses</h1></center>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/icon1.png" alt="">
+                        </div>
+                        <h2>Hoping into C</h2>
+                        <p>Get started with the Grand Daddy</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/icon2.png" alt="">
+                        </div>
+                        <h2>Discover C++</h2>
+                        <p>Ready to play with the big boys?</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/icon3.png" alt="">
+                        </div>
+                        <h2>A Cup of JAVA</h2>
+                        <p>Get started with OOP with the one that started it all</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/icon4.png" alt="">
+                        </div>
+                        <h2>The Journey with PHP</h2>
+                        <p>Looking to build the next Facebook? Start here</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/icon5.png" alt="">
+                        </div>
+                        <h2>Build Web with HTML</h2>
+                        <p>Get started with the language of the Internet</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/icon6.png" alt="">
+                        </div>
+                        <h2>Style Web with CSS</h2>
+                        <p>Learn the art of designing web pages</p>
+                    </div>
+                </div>
+            </div>
+            <center><a href="course.html" class="btn btn-common">See All</a></center>
+        </div>
+    </section>
+
+<br/>
+<br/>
+<section id="services">
+        <div class="container">
+            <br/><br/>
+            <center><h1 style=>Interested in More?</h1></center>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/icon7.png" alt="">
+                        </div>
+                        <h2>Database Manipulation with SQL</h2>
+                        <p>Get started which runs the web and databases</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/icon8.png" alt="">
+                        </div>
+                        <h2>Say HI to JavaScript</h2>
+                        <p>Learn to build interactive websites</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/icon9.png" alt="">
+                        </div>
+                        <h2>Digging Deep into Web Dev</h2>
+                        <p>Bring everything together to make a great website</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/icon10.png" alt="">
+                        </div>
+                        <h2>init (Data Structures) { }</h2>
+                        <p>Nitty-Gritties of data manipulation & processing</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/icon11.png" alt="">
+                        </div>
+                        <h2>dotNET and Essentials</h2>
+                        <p>Get into Windows with dotNET Framework</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/icon12.png" alt="">
+                        </div>
+                        <h2>Github & its Importance</h2>
+                        <p>Ready to be part of a vast developer community?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center><a href="course.html" class="btn btn-common">See All</a></center>
+    </section>
+    <br/>
+    <br/>
+
+   
+
+    <section id="features">
+        <div class="container">
+            <br/><br/>
+            <center><h1 style=>How TheoreX Works</h1></center>
+            <div class="row">
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/lib/images/home/image1.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Learn to succeed</h2>
+                        <P>TheoreX believes in tangible value. What good is a degree that does not help you land a job? Education is an investment, and every investment is defined by its ROI: Return on Investment. Maximise your potential by taking a course from TheoreX: certified courses from the very best of institutes with none of the baggage. Study at your convenience and get certified.</P>
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Practice makes everything perfect</h2>
+                        <P>From A to Z, we at TheoreX cover every base of your education. Want a job in Web Development? Take our course. Complete with examples and practice sets, you are subjected to the same academic rigour as a conventional “indoors” course at any top level university. Take our professionally developed assignments and have your work critiqued by the best professionals.</P>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/lib/images/home/image2.png" class="img-responsive" alt="">
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/lib/images/home/image3.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Show off your smarts</h2>
+                        <P>TheoreX is a platform for building your professional portfolio. Showcase your past work and current projects to prospective employers and peers. You can ask for constructive criticism, even new work if you are interested. With TheoreX, you can dive right in to the work you want to be doing!</P>
+                    </div>
+                </div>
+                <div class="single-features">
+                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Connect with professionals</h2>
+                        <p>TheoreX is a community that encourages information exchange and believes in holistic growth. Participate in discussions and talk about whatever suits your fancy in “Open TheoreX Forum”. Engage like-minded individuals and professionals. Learn about what’s happening in your surroundings, in other industries. Network and Grow!</p>
+                    </div>
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/lib/images/home/image4.png" class="img-responsive" alt="">
+                    </div>
+                </div><br/><br/>
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/lib/images/home/image5.png" class="img-responsive" alt="">
+                    </div>
+                    <div class="col-sm-6 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <h2>Get hired</h2>
+                        <p>Interested in a job? TheoreX is a platform that works both ways: helping people get educated by nurturing their skillsets and companies in finding great employees. With a TheoreX certified course under your belt, companies are aware that you have what it takes. Showcase your past projects so that they know what you are capable of. Get Noticed; Get Hired!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--/#features-->
+
+
+      <section id="action" class="responsive">
+        <div class="vertical-center">
+             <div class="container">
+                <div class="row">
+                    <div class="action take-tour">
+                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <h1 class="title">TheoreX Educate Your Organization</h1>
+                            <p>Partner up with <b>'TheoreX for Organizations'</b>. We will empower your students, your whole team to level up their skillset! Take the tour to learn how TheoreX can be your partner!</p>
+                        </div>
+                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <div class="tour-button">
+                                <a href="organizations.html" class="btn btn-common">Take The Tour</a>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--/#action-->
+
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms"><br/><br/><br/>
+                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
+                        <h1 class="title">Our Happy Partners</h1>
+                        <p>They believed in Us, they believed that TheoreX can bring revolution in E-Learning. <br> And today they are our happy partners! We are very thankful to them!</p>
+                    </div>
+                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="https://diensten.github.io/"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
+                        </div>
+                        <div class="col-xs-3 col-sm-2">
+                            <a href="http://www.robotjam.in/"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
+                        </div>
+                         <!--<div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="/lib/images/home/client3.jpg" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="/lib/images/home/client4.jpg" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
+                        </div>
+                         <div class="col-xs-3 col-sm-2">
+                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    <!--/#clients-->
+	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>
+    <script type="text/javascript" src="/lib/js/main.js"></script> 

@@ -1,0 +1,56 @@
+(function() {
+  
+  angular
+    .module('meanApp')
+    .controller('single_courseCtrl', single_courseCtrl);
+
+  single_courseCtrl.$inject = ['$location','$routeParams', 'meanData', 'authentication'];
+  function single_courseCtrl($location, $routeParams, meanData, authentication) {
+    var vm = this;
+
+    vm.user = {};
+    vm.course_json = {};
+    vm.showWishlistedVar=false;
+
+    console.log("Inside single_course controller id:"+$routeParams.id);
+	var params={id:$routeParams.id};
+    meanData.getCourses(params)
+      .success(function(data) {
+	vm.course_json = data;
+	vm.showWishlisted();
+      })
+      .error(function (e) {
+        console.log(e);
+      });
+
+	vm.isUserLoggedIn = function() {
+	    return authentication.isLoggedIn();
+	};
+
+	vm.isWishListed = function() {
+	    meanData.isWishlisted(params).success(function(data) {
+		vm.showWishlistedVar=data.isWishlisted;
+	    })
+	    .error(function (e) {
+		console.log(e);
+		return false;
+	    });
+	};
+
+	vm.showWishlisted = function(){
+		//if(vm.isWishListed()){ vm.showWishlistedVar=true} else { vm.showWishlistedVar=false};
+		vm.isWishListed(function(data){});
+	}
+
+	vm.toggleWishlist = function() {
+	    meanData.toggleWishlist(params)
+	      .success(function(data) {
+		vm.showWishlisted();
+	      })
+	      .error(function (e) {
+		console.log(e);
+	      });
+	};
+  }
+
+})();

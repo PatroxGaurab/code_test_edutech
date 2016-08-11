@@ -1,0 +1,208 @@
+<navigation></navigation>
+
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">Campus Champ Program</h1>
+                            <p>Blog with right sidebar</p>
+                        </div>                                                                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#page-breadcrumb-->
+
+    <section id="blog-details" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                         <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-thumb">
+                                    <a href="blogdetails.html"><img src="images/blog/7.jpg" class="img-responsive" alt=""></a>
+                                    <div class="post-overlay">
+                                        <span class="uppercase"><a href="blogdetails.html">24 <br><small>April</small></a></span>
+                                    </div>
+                                </div>
+                                <div class="post-content overflow">
+                                    <h2 class="post-title bold"><a href="blogdetails.html">TheoreX Campus Champ Program</a></h2>
+                                    <h3 class="post-author"><a href="blogdetails.html">Posted by Subhom Mitra</a></h3>
+                                    <p style="text-align:justify;">TheoreX is a game changer in the domain of education and holistic learning. Come be a part of the next learning revolution with the TheoreX Campus Champ Program where you can learn how to learn and learn how to lead!<br> <br>
+
+                                    TheoreX is a platform where we combine Theory and Experience to create a whole new definition of “education”. We believe that contextual education and wholesome development is key to increasing the employability of technology graduates in India and fashion well rounded and talented individuals out of merely “trained” ones. TheoreX imparts relevant and market-ready knowledge that focuses on immediate employability in addition to professional training and skill development that focuses on developing personality and confidence.<br><br>
+
+                                    If you are young student passionate about learning, technology, building community, and most of all, improving yourself to the highest level, the TheoreX Campus Champ Program provides you with an opportunity to be a part of the oncoming learning revolution. You are provided with access to exclusive skill development programs, rewards, and enhanced career opportunities to get a leg up on the competition. As TheoreX Campus Champ, your responsibility is to promote TheoreX services and act as liaison between your institute and the TheoreX team. Organise seminars and workshops in your campus. Promote TheoreX at college events and fests. Contribute to building the ever increasing and diverse TheoreX Developers’ Community. <br><br>
+
+                                    As rewards, you get access to our wide database of materials reviewed and compiled by experts to best suit the needs of current students looking to get jobs in IT; you have the opportunity to improve them further by adding feedback and new material as needed. We also provide you with free and exclusive training aimed at building leadership, public speaking, and maximising your career opportunities. You also get attractive discounts on flagship TheoreX services and courses. <br><br>
+
+                                    <b>A world of opportunities and awesomeness awaits you at TheoreX. Are you up for it?<b><br><br>
+
+                                        <blockquote>To spark the next learning revolution in India, TheoreX needs your help.</blockquote>
+
+
+                                </p>
+                                    <div class="post-bottom overflow">
+                                        <ul class="nav navbar-nav post-nav">
+                                            <li><a href="blogdetails.html"><i class="fa fa-tag"></i>Creative</a></li>
+                                            <li><a href="blogdetails.html"><i class="fa fa-heart"></i>32 Love</a></li>
+                                            <li><a href="blogdetails.html"><i class="fa fa-comments"></i>0 Comments</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="blog-share">
+                                        <span class='st_facebook_hcount'></span>
+                                        <span class='st_twitter_hcount'></span>
+                                        <span class='st_linkedin_hcount'></span>
+                                        <span class='st_pinterest_hcount'></span>
+                                        <span class='st_email_hcount'></span>
+                                    </div>
+                                    <div class="author-profile padding">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <img src="images/blogdetails/1.jpg" alt="">
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <h3>Subhom Mitra</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+                                                <span>Website:<a href="http://subhommitra.github.io/"> subhommitra.github.io</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--<div class="response-area">
+                                    <h2 class="bold">Comments</h2>
+                                    <ul class="media-list">
+                                        <li class="media">
+                                            <div class="post-comment">
+                                                <a class="pull-left" href="#">
+                                                    <img class="media-object" src="images/blogdetails/2.png" alt="">
+                                                </a>
+                                                <div class="media-body">
+                                                    <span><i class="fa fa-user"></i>Posted by <a href="#">Endure</a></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                                                    <ul class="nav navbar-nav post-nav">
+                                                        <li><a href="#"><i class="fa fa-clock-o"></i>February 11,2014</a></li>
+                                                        <li><a href="#"><i class="fa fa-reply"></i>Reply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="parrent">
+                                                <ul class="media-list">
+                                                    <li class="post-comment reply">
+                                                        <a class="pull-left" href="#">
+                                                            <img class="media-object" src="images/blogdetails/3.png" alt="">
+                                                        </a>
+                                                        <div class="media-body">
+                                                            <span><i class="fa fa-user"></i>Posted by <a href="#">Endure</a></span>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut </p>
+                                                            <ul class="nav navbar-nav post-nav">
+                                                                <li><a href="#"><i class="fa fa-clock-o"></i>February 11,2014</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <div class="post-comment">
+                                                <a class="pull-left" href="#">
+                                                    <img class="media-object" src="images/blogdetails/4.png" alt="">
+                                                </a>
+                                                <div class="media-body">
+                                                    <span><i class="fa fa-user"></i>Posted by <a href="#">Endure</a></span>
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliq Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                                                    <ul class="nav navbar-nav post-nav">
+                                                        <li><a href="#"><i class="fa fa-clock-o"></i>February 11,2014</a></li>
+                                                        <li><a href="#"><i class="fa fa-reply"></i>Reply</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>                   
+                                </div>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="col-md-3 col-sm-5">
+                    <div class="sidebar blog-sidebar">
+                        <div class="sidebar-item  recent">
+                            <h3>Comments</h3>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img src="images/portfolio/project1.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
+                                    <p>posted on  07 March 2014</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img src="images/portfolio/project2.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
+                                    <p>posted on  07 March 2014</p>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <div class="pull-left">
+                                    <a href="#"><img src="images/portfolio/project3.jpg" alt=""></a>
+                                </div>
+                                <div class="media-body">
+                                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
+                                    <p>posted on  07 March 2014</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="sidebar-item categories">
+                            <h3>Categories</h3>
+                            <ul class="nav navbar-stacked">
+                                <li><a href="#">Lorem ipsum<span class="pull-right">(1)</span></a></li>
+                                <li class="active"><a href="#">Dolor sit amet<span class="pull-right">(8)</span></a></li>
+                                <li><a href="#">Adipisicing elit<span class="pull-right">(4)</span></a></li>
+                                <li><a href="#">Sed do<span class="pull-right">(9)</span></a></li>
+                                <li><a href="#">Eiusmod<span class="pull-right">(3)</span></a></li>
+                                <li><a href="#">Mockup<span class="pull-right">(4)</span></a></li>
+                                <li><a href="#">Ut enim ad minim <span class="pull-right">(2)</span></a></li>
+                                <li><a href="#">Veniam, quis nostrud <span class="pull-right">(8)</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-item tag-cloud">
+                            <h3>Tag Cloud</h3>
+                            <ul class="nav nav-pills">
+                                <li><a href="#">Corporate</a></li>
+                                <li><a href="#">Joomla</a></li>
+                                <li><a href="#">Abstract</a></li>
+                                <li><a href="#">Creative</a></li>
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Product</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-item popular">
+                            <h3>Latest Photos</h3>
+                            <ul class="gallery">
+                                <li><a href="#"><img src="images/portfolio/popular1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/portfolio/popular2.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/portfolio/popular3.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/portfolio/popular4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/portfolio/popular5.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="images/portfolio/popular1.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#blog-->
+
+<footer></footer>
+	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>
+    <script type="text/javascript" src="/lib/js/main.js"></script> 

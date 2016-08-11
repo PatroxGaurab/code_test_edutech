@@ -1,0 +1,13 @@
+(function() {
+  
+  angular
+    .module('meanApp')
+    .controller('teamCtrl', teamCtrl);
+  teamCtrl.$inject = ['$scope'];
+    function teamCtrl ($scope) {
+      console.log('Event controller is running');
+
+    }
+
+})();
+

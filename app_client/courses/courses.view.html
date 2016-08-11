@@ -1,0 +1,81 @@
+<navigation></navigation>
+
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">Course Listed Up For You!</h1>
+                            <!--<p>Blog with right sidebar</p>-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>
+    <!--/#action-->
+
+    <section id="blog" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+
+                         <div class="col-md-6 col-sm-12 blog-padding-right" ng-repeat="course in vm.courses | offset: vm.currentPage*vm.itemsPerPage | limitTo: vm.itemsPerPage">
+                            <div class="single-blog two-column">
+                                <div class="post-thumb">
+                                    <a href="/courses/{{ course._id }}"><img src="/lib/images/blog/timeline/2.jpg" class="img-responsive" alt=""></a>
+                                    <!--<div class="post-overlay">
+                                        <span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
+                                    </div>-->
+                                </div>
+                                <div class="post-content overflow">
+                                    <h2 class="post-title bold"><a href="/courses/{{ course._id }}">{{ course.title }}</h2>
+                                    <!--<h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
+                                    <p>{{ course.description }} [...]</p>
+                                    <a href="#" class="read-more">View More</a>
+                                    <div class="post-bottom overflow">
+                                        <ul class="nav nav-justified post-nav">
+                                            <li><a href="#"><i class="fa fa-tag"></i>{{ course.tags }}</a></li>
+                                            <li><a href="#"><i class="fa fa-heart"></i>Wishlist</a></li>
+                                            <li><a href="#"><i class="fa fa-comments"></i>Review</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="blog-pagination">
+                        <ul class="pagination">
+			    <li ng-class="prevPageDisabled()">
+			      <a href ng-click="prevPage()">left</a>
+			    </li>
+			    <li ng-repeat="n in vm.range()"
+			      ng-class="{active: n == vm.currentPage}" ng-click="vm.setPage(n)">
+			      <a href="#">{{n+1}}</a>
+			    </li>
+			    <li ng-class="nextPageDisabled()">
+			      <a href ng-click="nextPage()">right</a>
+			    </li>
+
+                        </ul>
+                    </div>
+                 </div>
+                <div class="col-md-3 col-sm-5">
+                    <div class="sidebar blog-sidebar">
+
+                        <div class="sidebar-item tag-cloud">
+                            <h3>Tag Cloud</h3>
+                            <ul class="nav nav-pills">
+                                <li ng-repeat="tag in vm.courseTags" ng-click="vm.setTag(tag.tag)"><a href="#">{{ tag.tag }}</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

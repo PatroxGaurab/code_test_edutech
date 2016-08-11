@@ -1,0 +1,60 @@
+<navigation></navigation>
+
+<div class="container">
+  
+  <!--<div class="row">
+    
+    <div class="col-md-6">
+
+      <h1 class="form-signin-heading">Sign in</h1>
+  
+      <form ng-submit="vm.onSubmit()">
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter email" ng-model="vm.credentials.email">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password" ng-model="vm.credentials.password">
+        </div>
+        <button type="submit" class="btn btn-default">Sign in!</button>
+      </form>
+
+    </div>
+  </div>-->
+
+<form ng-submit="vm.onSubmit()">
+  <div class="row">
+
+	<div class="col-md-6" style="border-right: 2px solid #abb5bb;">
+	    <div class="form-group">
+          	<label for="email">Email</label>
+          	<input type="email" class="form-control input-lg" id="email" placeholder="Enter email" ng-model="vm.credentials.email">
+	    </div>
+	    <div class="form-group">
+	          <label for="password">Password</label>
+          <input type="password" class="form-control input-lg" id="password" placeholder="Password" ng-model="vm.credentials.password">
+	    </div>
+	    <div class="form-group">
+		<button type="submit" class="btn btn-primary btn-lg btn-block">SIGN IN</button>
+	    </div>
+Not a member? Please register instead.
+	</div>
+	<div class="col-md-6" style="display: inline-block;vertical-align: middle;">
+	  <a target="_self" href='/api/login_external/auth/twitter' class="btn btn-block btn-social btn-twitter">
+	    <span class="fa fa-twitter"></span> Sign in with Twitter
+	  </a>
+	  <a target="_self" href='/api/login_external/auth/facebook' class="btn btn-block btn-social btn-facebook">
+	    <span class="fa fa-facebook"></span> Sign in with Facebook
+	  </a>
+	  <a target="_self" href='/api/login_external/auth/linkedin' class="btn btn-block btn-social btn-linkedin">
+	    <span class="fa fa-linkedin"></span> Sign in with LinkedIn
+	  </a>
+	  <a target="_self" href='/api/login_external/auth/google' class="btn btn-block btn-social btn-google">
+	    <span class="fa fa-google"></span> Sign in with Google
+	  </a>
+	</div>
+  </div>
+</form>
+
+</div>
