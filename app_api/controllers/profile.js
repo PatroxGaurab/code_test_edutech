@@ -125,7 +125,7 @@ module.exports.isWishlisted = function(req, res) {
 	if(course){
 
 	Wishlist.findOne({userId:req.payload._id},function(err, model){
-		if(model.wishlists.indexOf(req.query.id)!=-1){
+		if(model && model.wishlists.indexOf(req.query.id)!=-1){
 		    res.status(200).json({isWishlisted:true});
 		}
 		else{
