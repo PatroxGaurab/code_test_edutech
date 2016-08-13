@@ -25,7 +25,7 @@
                          <div class="col-md-6 col-sm-12 blog-padding-right" ng-repeat="course in vm.courses | offset: vm.currentPage*vm.itemsPerPage | limitTo: vm.itemsPerPage">
                             <div class="single-blog two-column">
                                 <div class="post-thumb">
-                                    <a href="/courses/{{ course._id }}"><img src="/lib/images/blog/timeline/2.jpg" class="img-responsive" alt=""></a>
+                                    <a href="/courses/{{ course._id }}"><img src="/lib/images/courses/{{ course.cover.low_res }}" class="img-responsive" alt=""></a>
                                     <!--<div class="post-overlay">
                                         <span class="uppercase"><a href="#">14 <br><small>Feb</small></a></span>
                                     </div>-->
@@ -34,7 +34,7 @@
                                     <h2 class="post-title bold"><a href="/courses/{{ course._id }}">{{ course.title }}</h2>
                                     <!--<h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
                                     <p>{{ course.description }} [...]</p>
-                                    <a href="#" class="read-more">View More</a>
+                                    <a href="/courses/{{ course._id }}" class="read-more">View More</a>
                                     <div class="post-bottom overflow">
                                         <ul class="nav nav-justified post-nav">
                                             <li><a href="#"><i class="fa fa-tag"></i>{{ course.tags }}</a></li>
@@ -66,66 +66,14 @@
                  </div>
                 <div class="col-md-3 col-sm-5">
                     <div class="sidebar blog-sidebar">
-                        <!--<div class="sidebar-item  recent">
-                            <h3>Comments</h3>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="/lib/images/portfolio/project1.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body">
-                                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
-                                    <p>posted on  07 March 2014</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="/lib/images/portfolio/project2.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body">
-                                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
-                                    <p>posted on  07 March 2014</p>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="pull-left">
-                                    <a href="#"><img src="/lib/images/portfolio/project3.jpg" alt=""></a>
-                                </div>
-                                <div class="media-body">
-                                    <h4><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit,</a></h4>
-                                    <p>posted on  07 March 2014</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="sidebar-item categories">
-                            <h3>Categories</h3>
-                            <ul class="nav navbar-stacked">
-                                <li><a href="#">Lorem ipsum<span class="pull-right">(1)</span></a></li>
-                                <li class="active"><a href="#">Dolor sit amet<span class="pull-right">(8)</span></a></li>
-                                <li><a href="#">Adipisicing elit<span class="pull-right">(4)</span></a></li>
-                                <li><a href="#">Sed do<span class="pull-right">(9)</span></a></li>
-                                <li><a href="#">Eiusmod<span class="pull-right">(3)</span></a></li>
-                                <li><a href="#">Mockup<span class="pull-right">(4)</span></a></li>
-                                <li><a href="#">Ut enim ad minim <span class="pull-right">(2)</span></a></li>
-                                <li><a href="#">Veniam, quis nostrud <span class="pull-right">(8)</span></a></li>
-                            </ul>
-                        </div>-->
+
                         <div class="sidebar-item tag-cloud">
-                            <h3>Tag Cloud</h3>
+                            <h3>Tags</h3>
                             <ul class="nav nav-pills">
                                 <li ng-repeat="tag in vm.courseTags" ng-click="vm.setTag(tag.tag)"><a href="#">{{ tag.tag }}</a></li>
                             </ul>
                         </div>
-                        <!--<div class="sidebar-item popular">
-                            <h3>Latest Photos</h3>
-                            <ul class="gallery">
-                                <li><a href="#"><img src="/lib/images/portfolio/popular1.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/lib/images/portfolio/popular2.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/lib/images/portfolio/popular3.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/lib/images/portfolio/popular4.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/lib/images/portfolio/popular5.jpg" alt=""></a></li>
-                                <li><a href="#"><img src="/lib/images/portfolio/popular1.jpg" alt=""></a></li>
-                            </ul>
-                        </div>-->
+
                     </div>
                 </div>
             </div>

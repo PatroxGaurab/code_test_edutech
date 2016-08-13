@@ -3,14 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center bottom-separator">
-                    <img src="images/home/under.png" class="img-responsive inline" alt="">
+                    <img src="/lib/images/home/under.png" class="img-responsive inline" alt="">
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
                         <h2>Testimonial</h2>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
+                                <a href="#"><img src="/lib/images/home/profile1.png" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>They Are Awesome! Love for Team TheoreX.</blockquote>
@@ -19,7 +19,7 @@
                          </div>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
+                                <a href="#"><img src="/lib/images/home/profile2.png" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>TheoreX will give you the best platform to enhance your skill. Believe them!</blockquote>
@@ -46,22 +46,27 @@
                         </address>
                     </div>
                 </div>
+
                 <div class="col-md-4 col-sm-12">
                     <div class="contact-form bottom">
                         <h2>Send Us A Message</h2>
-                        <form id="main-contact-form" name="contact-form" method="post" action="sendemail.php">
+                        <form id="main-contact-form" name="contact-form"  ng-submit="footervm.contact_msg()">
                             <div class="form-group">
-                                <input type="text" name="name" class="form-control" required="required" placeholder="Name">
+                                <input type="text" name="name" class="form-control" required="required" placeholder="Name" ng-model="footervm.contactdata.name">
                             </div>
                             <div class="form-group">
-                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id">
+                                <input type="email" name="email" class="form-control" required="required" placeholder="Email Id" ng-model="footervm.contactdata.email">
                             </div>
                             <div class="form-group">
-                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here"></textarea>
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8" placeholder="Your text here" ng-model="footervm.contactdata.message"></textarea>
                             </div>                        
                             <div class="form-group">
-                                <input type="submit" name="submit" class="btn btn-submit" value="Submit">
+                                <button type="submit" name="submit" class="btn btn-submit" value="Submit" >Submit</button>
                             </div>
+				<div class="alert alert-success fade in" style="display:none;" id="champ_success_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Message Successfully Sent
+				</div>
                         </form>
                     </div>
                 </div>

@@ -77,6 +77,12 @@
       });
     };
 
+    sendContactMessage = function(contactdata) {	
+      return $http.post('/api/sendcontact/message',contactdata).success(function(data) {
+
+      });
+    };
+
     return {
       currentUser : currentUser,
       saveToken : saveToken,
@@ -87,7 +93,8 @@
       logout : logout,
       login_external : login_external,
       googleCallback : googleCallback,
-      applyCampuschamp : applyCampuschamp
+      applyCampuschamp : applyCampuschamp,
+      sendContactMessage : sendContactMessage
     };
   }
 

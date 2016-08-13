@@ -53,13 +53,21 @@ module.exports.toggleWishlist = function(req, res) {
 	if(course){
 
 	Wishlist.findOne({userId:req.payload._id},function(err, model){
-		if(model.wishlists.indexOf(req.query.id)!=-1){
+		if(model && model.wishlists.indexOf(req.query.id)!=-1){
 		    Wishlist.findOneAndUpdate(
 			{userId:req.payload._id},
 			{$pull: {"wishlists": req.query.id}},
 			{safe: true, upsert: true, new : true},
 			function(err, model) {
-			    res.status(200).json({"message":"Successfully Saved"});
+
+			    Course.findOneAndUpdate({_id: req.query.id},
+				{$inc: {"wishlisted": -1}},
+				{safe: true, upsert: true, new : true},
+				function(err, model) {
+				    res.status(200).json({"message":"Successfully Saved"});
+				    console.log(err);
+				}
+			    );
 			    console.log(err);
 			}
 		    );
@@ -70,7 +78,14 @@ module.exports.toggleWishlist = function(req, res) {
 			{$push: {"wishlists": req.query.id}},
 			{safe: true, upsert: true, new : true},
 			function(err, model) {
-			    res.status(200).json({"message":"Successfully Saved"});
+			    Course.findOneAndUpdate({_id: req.query.id},
+				{$inc: {"wishlisted": 1}},
+				{safe: true, upsert: true, new : true},
+				function(err, model) {
+				    res.status(200).json({"message":"Successfully Saved"});
+				    console.log(err);
+				}
+			    );
 			    console.log(err);
 			}
 		    );

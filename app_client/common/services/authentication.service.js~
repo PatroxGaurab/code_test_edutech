@@ -73,7 +73,14 @@
 
     applyCampuschamp = function(campuschamp) {
       return $http.post('/api/campuschamp/apply', campuschamp).success(function(data) {
-        alert("Successfully Saved");
+
+      });
+    };
+
+    sendContactMessage = function(contactdata) {
+alert(JSON.stringify(contactdata));	
+      return $http.post('/api/sendcontact/message',contactdata).success(function(data) {
+
       });
     };
 
@@ -87,7 +94,8 @@
       logout : logout,
       login_external : login_external,
       googleCallback : googleCallback,
-      applyCampuschamp : applyCampuschamp
+      applyCampuschamp : applyCampuschamp,
+      sendContactMessage : sendContactMessage
     };
   }
 

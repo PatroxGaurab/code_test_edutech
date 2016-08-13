@@ -22,6 +22,9 @@ var courseSchema = new mongoose.Schema({
     type: String,
     lowercase: true
   },
+  wishlisted: {
+    type: Number
+  },
   cover: {
     high_res : {
     	type: String,

@@ -7,11 +7,23 @@
   footerCtrl.$inject = ['$location','authentication'];
   function footerCtrl($location, authentication) {
     var vm = this;
+    vm.contactdata = {};
 
-    vm.isLoggedIn = authentication.isLoggedIn();
-
-    vm.currentUser = authentication.currentUser();
-
+    vm.contact_msg = function(){
+	//alert(vm.campuschampdata);
+	authentication.sendContactMessage({"contactdata":vm.contactdata})
+	.success(function(data) {
+	//alert(JSON.stringify(data));	
+		if(data.error==1){
+			campuschampForm.email.$setValidity("required", false);
+		}
+		 vm.contactdata={};
+		 document.getElementById("contact_success_div").style.display="block";
+	})
+	.error(function (e) {
+	console.log(e);
+	});
+    }
   }
 
 })();

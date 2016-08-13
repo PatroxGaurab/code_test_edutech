@@ -19,6 +19,10 @@
 	//alert(JSON.stringify(data));	
 		if(data.error==1){
 			campuschampForm.email.$setValidity("required", false);
+			 $("#champ_error_div").show();
+		}else{
+			//vm.campuschampdata={};
+			 $("#champ_success_div").show();
 		}
 	})
 	.error(function (e) {

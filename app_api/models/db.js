@@ -51,3 +51,4 @@ require('./courses');
 require('./tags');
 require('./wishlists');
 require('./campuschamps');
+require('./contacts');

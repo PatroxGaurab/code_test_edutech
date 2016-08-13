@@ -8,7 +8,7 @@
 7 verbose unsafe-perm in lifecycle true
 8 info MEAN-stack-authentication@0.0.1 Failed to exec start script
 9 error MEAN-stack-authentication@0.0.1 start: `node ./bin/www`
-9 error Exit status 1
+9 error Exit status 8
 10 error Failed at the MEAN-stack-authentication@0.0.1 start script.
 10 error This is most likely a problem with the MEAN-stack-authentication package,
 10 error not with npm itself.

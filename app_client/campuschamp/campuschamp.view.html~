@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="images/aboutus/CampusChamp2.png" class="img-responsive" alt="">
+                    <img src="/lib/images/aboutus/CampusChamp2.png" class="img-responsive" alt="">
                 </div>
                 
                 <div class="">
@@ -55,7 +55,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/campuschamp/icon7.png" alt="">
+                            <img src="/lib/images/campuschamp/icon7.png" alt="">
                         </div>
                         <h2>Referring the Campus Champ Program</h2>
                         <p>Create the TheoreX community at your institute by inviting others to the Campus Champ program. Engage with your peers and refer them!</p>
@@ -64,7 +64,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/campuschamp/icon8.png" alt="">
+                            <img src="/lib/images/campuschamp/icon8.png" alt="">
                         </div>
                         <h2>Promote the e-Learning Program</h2>
                         <p>TheoreX offers world class certified e-Learning courses for every requirement. Help spread the word on your campus.</p>
@@ -73,7 +73,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/campuschamp/icon9.png" alt="">
+                            <img src="/lib/images/campuschamp/icon9.png" alt="">
                         </div>
                         <h2>Build influence on Social Media</h2>
                         <p>Be our mouthpiece on social media. Tell your friends about the exciting products and unparalleled services offered by TheoreX.</p>
@@ -84,7 +84,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/campuschamp/icon10.png" alt="">
+                            <img src="/lib/images/campuschamp/icon10.png" alt="">
                         </div>
                         <h2>Your very own blog with TheoreX</h2>
                         <p>Share your insider perspective with the world! Create your own personal blog, featured on the official TheoreX website.</p>
@@ -93,7 +93,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/campuschamp/icon11.png" alt="">
+                            <img src="/lib/images/campuschamp/icon11.png" alt="">
                         </div>
                         <h2>Build the TheoreX Community</h2>
                         <p>You are the foundation on which the TheoreX Community rests. Help us make it bigger, better, and more diverse.</p>
@@ -102,7 +102,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/campuschamp/icon12.png" alt="">
+                            <img src="/lib/images/campuschamp/icon12.png" alt="">
                         </div>
                         <h2>Help TheoreX Grow Faster</h2>
                         <p>TheoreX is you; you are TheoreX. Paricipate. Create. Build. Improve. Be proud. Be the engine of growth for TheoreX.</p>
@@ -116,7 +116,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/campuschamp/icon16.png" alt="">
+                            <img src="/lib/images/campuschamp/icon16.png" alt="">
                         </div>
                         <h2>Speak up at TheoreX Adda</h2>
                         <p>Campus Champs are priority users on TheoreX Adda, the user forum at TheoreX. Start threads. Post suggestions. Engage.</p>
@@ -125,7 +125,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/campuschamp/icon17.png" alt="">
+                            <img src="/lib/images/campuschamp/icon17.png" alt="">
                         </div>
                         <h2>Exclusive Preperatory Sessions</h2>
                         <p>Only for Campus Champs, we host special sessions for bespoke training as per their needs. Enquire at mailto:ambassador@theorex.tech </p>
@@ -134,7 +134,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/campuschamp/icon18.png" alt="">
+                            <img src="/lib/images/campuschamp/icon18.png" alt="">
                         </div>
                         <h2>Spread the TheoreX Mantra</h2>
                         <p>TheoreX aims to completely revolutionise education by offering targeted education that gets you jobs pronto. Make it known!</p>
@@ -167,7 +167,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/campuschamp/icon1.png" alt="">
+                            <img src="/lib/images/campuschamp/icon1.png" alt="">
                         </div>
                         <h2>Deep Discounts on Courses</h2>
                         <p>As a Campus Champ, you are eligible for special discounts on our flagship e-learning courses, ranging up to 100% off on standard prices.</p>
@@ -176,7 +176,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/campuschamp/icon2.png" alt="">
+                            <img src="/lib/images/campuschamp/icon2.png" alt="">
                         </div>
                         <h2>Exclusive Leadership Training</h2>
                         <p>TheoreX Campus Champs receive special training on Leadership and Personal Development, at no additional expense.</p>
@@ -185,7 +185,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/campuschamp/icon3.png" alt="">
+                            <img src="/lib/images/campuschamp/icon3.png" alt="">
                         </div>
                         <h2>Exclusive Free Webinars</h2>
                         <p>Exclusively for Campus Champs, we host monthly webinars with exciting new content at absolutely no additional cost.</p>
@@ -199,7 +199,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/campuschamp/icon4.png" alt="">
+                            <img src="/lib/images/campuschamp/icon4.png" alt="">
                         </div>
                         <h2>Build up your Résumé</h2>
                         <p>Being a Campus Champ counts as active work experience on your résumé. Back it up with offical recognition from TheoreX.</p>
@@ -208,7 +208,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/campuschamp/icon5.png" alt="">
+                            <img src="/lib/images/campuschamp/icon5.png" alt="">
                         </div>
                         <h2>Official Certification</h2>
                         <p>Get something to show for all the hard work you put in. An authorised certificate from TheoreX validates your experience and efforts.</p>
@@ -217,7 +217,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/campuschamp/icon6.png" alt="">
+                            <img src="/lib/images/campuschamp/icon6.png" alt="">
                         </div>
                         <h2>Exclusive Internship Opportunities</h2>
                         <p>TheoreX Campus Champs get priority access to internship slots with the Core TheoreX Team. Do what you love, and love what you do.</p>
@@ -236,7 +236,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/campuschamp/icon13.png" alt="">
+                            <img src="/lib/images/campuschamp/icon13.png" alt="">
                         </div>
                         <h2>The Champ of the Month</h2>
                         <p>Campus Champs are continuously evaluated on their performance. Beat your competitions to win some exclusive prizes.</p>
@@ -245,7 +245,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/campuschamp/icon14.png" alt="">
+                            <img src="/lib/images/campuschamp/icon14.png" alt="">
                         </div>
                         <h2>Annual Letter of Recognition</h2>
                         <p>The Letter of recognition, sent annually, is a token of our appreciation for the hard work you put into building the TheoreX community.</p>
@@ -254,7 +254,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/campuschamp/icon15.png" alt="">
+                            <img src="/lib/images/campuschamp/icon15.png" alt="">
                         </div>
                         <h2>Attractive Goodies and Swag</h2>
                         <p>As further gratitude for your efforts we give you some exclusive TheoreX swag and assorted goodies, sent annually.</p>
@@ -294,7 +294,7 @@
                 <center><br/><br/>
                     <div class="team-single">
                     <div class="person-thumb">
-                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="" height="400" width="400">
+                        <img src="/lib/images/aboutus/1.jpg" class="img-responsive" alt="" height="400" width="400">
                     </div>
                     </div></center>
 <br/><br/>
@@ -326,41 +326,41 @@
             <div class="form-group" >
             <p>First Name<span>*</span></p>
             <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="firstname" id="firstname" placeholder="Your First Name"ng-model="vm.campuschampdata.firstname" required/>
+                <input type="text" name="firstname" id="firstname" placeholder="Your First Name" ng-model="vm.campuschampdata.firstname" class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.firstname.$invalid && campuschampForm.firstname.$dirty">This field is required</div>
             </div>
                   <div class="form-group">
                     <p>Last Name<span>*</span></p>
                     <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.lastname"  required/>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.lastname"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.lastname.$invalid && campuschampForm.lastname.$dirty">This field is required</div>
        </div> 
 
             <div class="form-group">
             <p>E-mail<span>*</span></p>    
             <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.campuschampdata.email" ng-model="vm.campuschampdata.email"  required/>
+                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.campuschampdata.email" ng-model="vm.campuschampdata.email" class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.email.$invalid && campuschampForm.email.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>College or University<span>*</span></p>
             <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="college" id="college" placeholder="Your College or University Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.college"  required/>
+                <input type="text" name="college" id="college" placeholder="Your College or University Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.college"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.college.$invalid && campuschampForm.college.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Course Name <span>*</span></p>
             <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="course" id="course" placeholder="Your Course Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.course"  required/>
+                <input type="text" name="course" id="course" placeholder="Your Course Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.course"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.location.$invalid && campuschampForm.location.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Current Year of Study <span>*</span></p>
             <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="studyyear" id="studyyear" data-rule="required" placeholder="Your Current Year of Study" data-msg="" ng-model="vm.campuschampdata.studyyear"  required/>
+                <input type="text" name="studyyear" id="studyyear" data-rule="required" placeholder="Your Current Year of Study" data-msg="" ng-model="vm.campuschampdata.studyyear"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.studyyear.$invalid && campuschampForm.studyyear.$dirty">This field is required</div>
             </div> 
 
@@ -368,39 +368,45 @@
             <div class="form-group">
             <p>Your City <span>*</span></p>
             <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="city" id="city" placeholder="The City You Live in" data-rule="required" data-msg="" ng-model="vm.campuschampdata.city"  required/>
+                <input type="text" name="city" id="city" placeholder="The City You Live in" data-rule="required" data-msg="" ng-model="vm.campuschampdata.city"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.city.$invalid && campuschampForm.city.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Phone number <span>*</span></p>  
             <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.campuschampdata.phone"  required/>
+                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.campuschampdata.phone"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.phone.$invalid && campuschampForm.phone.$dirty">This field is invalid</div>
             </div>
 
             <div class="form-group">
             <p>Have you ever participated in a similar program in the past? [Max 200 words] <span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <textarea type="text" name="experience" id="experience" placeholder="Tell us if you have any prior experience in building campus engagement and promotion. If yes, provide something to verify your claim."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.experience"  required></textarea>
+                <textarea type="text" name="experience" id="experience" placeholder="Tell us if you have any prior experience in building campus engagement and promotion. If yes, provide something to verify your claim."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.experience"  class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.experience.$invalid && campuschampForm.experience.$dirty">This field is required</div>
             </div>
         
             <div class="form-group">
             <p>How do you rank your leadership skills? [Max 200 words] <span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="leadership" rows="14" placeholder="Briefly describe your confidence in being a leader." data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.leadership"  required></textarea>
+                <textarea name="leadership" rows="14" placeholder="Briefly describe your confidence in being a leader." data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.leadership"  class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.leadership.$invalid && campuschampForm.leadership.$dirty">This field is required</div>
             </div> 
 
             <div class="form-group">
             <p>How do you expect being a Campus Champ will benefit you? [Max 200 words]<span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <textarea type="text" name="benefit" id="benefit" placeholder="Tell us about your motivation to be a TheoreX Campus Champ."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.benefit"  required></textarea>
+                <textarea type="text" name="benefit" id="benefit" placeholder="Tell us about your motivation to be a TheoreX Campus Champ."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.benefit" class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.benefit.$invalid && campuschampForm.benefit.$dirty">This field is required</div>
             </div>
-        
-            
+        			<div class="alert alert-danger fade in" style="display:none;" id="champ_error_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Already Registered
+				</div>   
+				<div class="alert alert-success fade in" style="display:none;" id="champ_success_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Thanks For Registering Champ!
+				</div>            
         <button type="submit" class="bouton-contact">SIGN ME UP!</button>   
     </div> 
 </form>

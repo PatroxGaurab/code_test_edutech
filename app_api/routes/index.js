@@ -10,6 +10,7 @@ var ctrlProfile = require('../controllers/profile');
 var ctrlAuth = require('../controllers/authentication');
 var ctrlCourses = require('../controllers/courses');
 var ctrlCampuschamp = require('../controllers/campuschamp');
+var ctrlContact = require('../controllers/contact');
 
 // profile
 router.get('/profile*', auth, ctrlProfile.profileRead);
@@ -17,9 +18,9 @@ router.get('/forum/profile*', auth, ctrlProfile.forumProfileRead);
 
 //router.get('/login_external', ctrlAuth.login_external);
 
-//router.get('/wishlist/toggle*', auth, ctrlProfile.toggleWishlist);
+router.get('/wishlist/toggle*', auth, ctrlProfile.toggleWishlist);
 
-//router.get('/wishlist/check*', auth, ctrlProfile.isWishlisted);
+router.get('/wishlist/check*', auth, ctrlProfile.isWishlisted);
 
 // google login
 router.get('/login_external/auth/google', ctrlAuth.login_external_google);
@@ -53,5 +54,8 @@ router.post('/login', ctrlAuth.login);
 
 // campuschamp
 router.post('/campuschamp/apply*', ctrlCampuschamp.champApply);
+
+// contact message
+router.post('/sendcontact/message*', ctrlContact.sendMessage);
 
 module.exports = router;

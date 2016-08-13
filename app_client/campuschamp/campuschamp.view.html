@@ -326,41 +326,41 @@
             <div class="form-group" >
             <p>First Name<span>*</span></p>
             <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="firstname" id="firstname" placeholder="Your First Name"ng-model="vm.campuschampdata.firstname" required/>
+                <input type="text" name="firstname" id="firstname" placeholder="Your First Name" ng-model="vm.campuschampdata.firstname" class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.firstname.$invalid && campuschampForm.firstname.$dirty">This field is required</div>
             </div>
                   <div class="form-group">
                     <p>Last Name<span>*</span></p>
                     <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.lastname"  required/>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.lastname"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.lastname.$invalid && campuschampForm.lastname.$dirty">This field is required</div>
        </div> 
 
             <div class="form-group">
             <p>E-mail<span>*</span></p>    
             <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.campuschampdata.email" ng-model="vm.campuschampdata.email"  required/>
+                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.campuschampdata.email" ng-model="vm.campuschampdata.email" class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.email.$invalid && campuschampForm.email.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>College or University<span>*</span></p>
             <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="college" id="college" placeholder="Your College or University Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.college"  required/>
+                <input type="text" name="college" id="college" placeholder="Your College or University Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.college"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.college.$invalid && campuschampForm.college.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Course Name <span>*</span></p>
             <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="course" id="course" placeholder="Your Course Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.course"  required/>
+                <input type="text" name="course" id="course" placeholder="Your Course Name" data-rule="required" data-msg="" ng-model="vm.campuschampdata.course"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.location.$invalid && campuschampForm.location.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Current Year of Study <span>*</span></p>
             <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="studyyear" id="studyyear" data-rule="required" placeholder="Your Current Year of Study" data-msg="" ng-model="vm.campuschampdata.studyyear"  required/>
+                <input type="text" name="studyyear" id="studyyear" data-rule="required" placeholder="Your Current Year of Study" data-msg="" ng-model="vm.campuschampdata.studyyear"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.studyyear.$invalid && campuschampForm.studyyear.$dirty">This field is required</div>
             </div> 
 
@@ -368,39 +368,45 @@
             <div class="form-group">
             <p>Your City <span>*</span></p>
             <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="city" id="city" placeholder="The City You Live in" data-rule="required" data-msg="" ng-model="vm.campuschampdata.city"  required/>
+                <input type="text" name="city" id="city" placeholder="The City You Live in" data-rule="required" data-msg="" ng-model="vm.campuschampdata.city"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.city.$invalid && campuschampForm.city.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Phone number <span>*</span></p>  
             <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.campuschampdata.phone"  required/>
+                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.campuschampdata.phone"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.phone.$invalid && campuschampForm.phone.$dirty">This field is invalid</div>
             </div>
 
             <div class="form-group">
             <p>Have you ever participated in a similar program in the past? [Max 200 words] <span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <textarea type="text" name="experience" id="experience" placeholder="Tell us if you have any prior experience in building campus engagement and promotion. If yes, provide something to verify your claim."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.experience"  required></textarea>
+                <textarea type="text" name="experience" id="experience" placeholder="Tell us if you have any prior experience in building campus engagement and promotion. If yes, provide something to verify your claim."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.experience"  class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.experience.$invalid && campuschampForm.experience.$dirty">This field is required</div>
             </div>
         
             <div class="form-group">
             <p>How do you rank your leadership skills? [Max 200 words] <span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="leadership" rows="14" placeholder="Briefly describe your confidence in being a leader." data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.leadership"  required></textarea>
+                <textarea name="leadership" rows="14" placeholder="Briefly describe your confidence in being a leader." data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.leadership"  class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.leadership.$invalid && campuschampForm.leadership.$dirty">This field is required</div>
             </div> 
 
             <div class="form-group">
             <p>How do you expect being a Campus Champ will benefit you? [Max 200 words]<span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <textarea type="text" name="benefit" id="benefit" placeholder="Tell us about your motivation to be a TheoreX Campus Champ."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.benefit"  required></textarea>
+                <textarea type="text" name="benefit" id="benefit" placeholder="Tell us about your motivation to be a TheoreX Campus Champ."  data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.campuschampdata.benefit" class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="campuschampForm.benefit.$invalid && campuschampForm.benefit.$dirty">This field is required</div>
             </div>
-        
-            
+        			<div class="alert alert-danger fade in" style="display:none;"  id="champ_error_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Already Registered
+				</div>   
+				<div class="alert alert-success fade in" style="display:none;" id="champ_success_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Thanks For Registering Champ!
+				</div>            
         <button type="submit" class="bouton-contact">SIGN ME UP!</button>   
     </div> 
 </form>
