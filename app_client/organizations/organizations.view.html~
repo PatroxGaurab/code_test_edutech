@@ -20,7 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
-                    <img src="images/services/4.png" class="img-responsive" alt="">
+                    <img src="/lib/images/services/4.png" class="img-responsive" alt="">
                 </div>
                 <div class="col-sm-6 padding-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
                     <h2>Why You Should Choose TheoreX?</h2>
@@ -45,7 +45,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/services/5.png" alt="">
+                            <img src="/lib/images/services/5.png" alt="">
                         </div>
                         <h2>Tie Up with Technical Clubs</h2>
                         <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -54,7 +54,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/services/6.png" alt="">
+                            <img src="/lib/images/services/6.png" alt="">
                         </div>
                         <h2>Sponsor Technical Events</h2>
                         <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -63,7 +63,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/services/7.png" alt="">
+                            <img src="/lib/images/services/7.png" alt="">
                         </div>
                         <h2> Vacation Training</h2>
                         <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -73,7 +73,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/services/1.png" alt="">
+                            <img src="/lib/images/services/1.png" alt="">
                         </div>
                         <h2>Corporate Training</h2>
                         <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -82,7 +82,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/services/2.png" alt="">
+                            <img src="/lib/images/services/2.png" alt="">
                         </div>
                         <h2>Student Group Learning Facilities</h2>
                         <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -91,7 +91,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/services/3.png" alt="">
+                            <img src="/lib/images/services/3.png" alt="">
                         </div>
                         <h2>Online Organizational Activities</h2>
                         <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -101,7 +101,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/services/8.png" alt="">
+                            <img src="/lib/images/services/8.png" alt="">
                         </div>
                         <h2>Frequent Free Seminars</h2>
                         <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -110,7 +110,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/services/9.png" alt="">
+                            <img src="/lib/images/services/9.png" alt="">
                         </div>
                         <h2>Internship Opportunities</h2>
                         <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -119,7 +119,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/services/10.png" alt="">
+                            <img src="/lib/images/services/10.png" alt="">
                         </div>
                         <h2>Venture Certification</h2>
                         <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -162,7 +162,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <a href="https://diensten.github.io/"><img src="images/portfolio/1.png" class="img-responsive" alt=""></a>
+                                <a href="https://diensten.github.io/"><img src="/lib/images/portfolio/1.png" class="img-responsive" alt=""></a>
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -174,7 +174,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <a href="http://www.robotjam.in/"><img src="images/portfolio/2.png" class="img-responsive" alt=""></a>
+                                <a href="http://www.robotjam.in/"><img src="/lib/images/portfolio/2.png" class="img-responsive" alt=""></a>
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -186,7 +186,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                                <img src="/lib/images/portfolio/3.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -198,7 +198,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                <img src="/lib/images/portfolio/4.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -210,7 +210,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/5.jpg" class="img-responsive" alt="">
+                                <img src="/lib/images/portfolio/5.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -222,7 +222,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/6.jpg" class="img-responsive" alt="">
+                                <img src="/lib/images/portfolio/6.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -234,7 +234,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/7.jpg" class="img-responsive" alt="">
+                                <img src="/lib/images/portfolio/7.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -246,7 +246,7 @@
                     <div class="portfolio-wrapper">   
                         <div class="portfolio-single">
                             <div class="portfolio-thumb">
-                                <img src="images/portfolio/8.jpg" class="img-responsive" alt="">
+                                <img src="/lib/images/portfolio/8.jpg" class="img-responsive" alt="">
                             </div>
                         </div>
                         <div class="portfolio-info">
@@ -263,7 +263,7 @@
 <section id="form">
       <center><h1>Request Demo Form</h1></center>
 
-<form>
+<form ng-submit="organizations_apply()" name="organizationForm">
         
     <div class="contentform">
         <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
@@ -273,42 +273,42 @@
             <div class="form-group">
             <p>Name <span>*</span></p>
             <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="prenom" id="prenom" placeholder="Your First Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="firstname" id="firstname" placeholder="Your First Name" ng-model="vm.organizationdata.firstname" class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.firstname.$invalid && organizationForm.firstname.$dirty">This field is required</div>
             </div>
                   <div class="form-group">
                     <p>Surname<span>*</span></p>
                     <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="nom" id="nom" placeholder="Your Last Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné."/>
-                <div class="validation"></div>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.organizationdata.lastname"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.lastname.$invalid && organizationForm.lastname.$dirty">This field is required</div>
        </div> 
 
             <div class="form-group">
             <p>E-mail <span>*</span></p>    
             <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-                <div class="validation"></div>
+                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.organizationdata.email" ng-model="vm.organizationdata.email" class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.email.$invalid && organizationForm.email.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Company/Organization/University<span>*</span></p>
             <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="society" id="society" placeholder="Your Organization Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organization" id="organization" placeholder="Your Organization Name" data-rule="required" data-msg="" ng-model="vm.organizationdata.organization"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organization.$invalid && organizationForm.organization.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Company/Organization/University Address <span>*</span></p>
             <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="adresse" id="adresse" placeholder="Your Organization Address" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationAddress" id="organizationAddress" placeholder="Your Organization Address" data-rule="required" data-msg="" ng-model="vm.organizationdata.organizationAddress"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organizationAddress.$invalid && organizationForm.organizationAddress.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
-            <p>Postcode <span>*</span></p>
+            <p>Postal Code <span>*</span></p>
             <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="postal" id="postal" data-rule="required" placeholder="Your Organization Postal Code" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationPostalCode" id="organizationPostalCode" placeholder="Your Organization Postal Code" data-rule="required" data-msg="" ng-model="vm.organizationdata.organizationPostalCode"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organizationPostalCode.$invalid && organizationForm.organizationPostalCode.$dirty">This field is required</div>
             </div> 
     </div>
 
@@ -317,40 +317,53 @@
             <div class="form-group">
             <p>City <span>*</span></p>
             <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="ville" id="ville" placeholder="Your Organization City" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationCity" id="organizationCity" placeholder="Your Organization City" data-rule="required" data-msg="" ng-model="vm.organizationdata.organizationCity"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organizationCity.$invalid && organizationForm.organizationCity.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Phone number <span>*</span></p>  
             <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="text" name="phone" id="phone" placeholder="Your Phone Number" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
-                <div class="validation"></div>
+                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.organizationdata.phone"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.phone.$invalid && organizationForm.phone.$dirty">This field is invalid</div>
             </div>
 
             <div class="form-group">
             <p>Number of Students/Employees <span>*</span></p>
             <span class="icon-case"><i class="fa fa-info"></i></span>
-                <input type="text" name="fonction" id="fonction" placeholder="Number of Students/Employees" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Fonction' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="capacity" id="capacity" placeholder="Number Of Students/Employees" ng-maxlength="10" data-msg="" ng-model="vm.organizationdata.capacity"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.capacity.$invalid && organizationForm.capacity.$dirty">This field is invalid</div>
             </div>
 
             <div class="form-group">
             <p>Subject <span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <input type="text" name="sujet" id="sujet" placeholder="Subject of Your Message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="subject" id="subject" placeholder="Subject Of Your Message" ng-maxlength="10" data-msg="" ng-model="vm.organizationdata.subject"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.subject.$invalid && organizationForm.subject.$dirty">This field is invalid</div>
             </div>
         
             <div class="form-group">
             <p>Message <span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" data-rule="required" placeholder="For which area of expertise your organization thinks that TheoreX will be helpful to you" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-                <div class="validation"></div>
+                <textarea name="message" rows="14" placeholder="For which area of expertise your organization thinks that TheoreX will be helpful to you" data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.organizationdata.message"  class="form-control" required="required"></textarea>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.message.$invalid && organizationForm.message.$dirty">This field is required</div>
+
             </div>  
     </div>
     </div><br/>
+ 
+
+
 <button type="submit" class="bouton-contact">Send Your Request</button> 
+
+        			<div class="alert alert-danger fade in" style="display:none;"  id="organization_error_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Already Registered
+				</div>   
+				<div class="alert alert-success fade in" style="" id="organization_success_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Thanks For Registering
+				</div>  
 </form>
 </section>
 
@@ -361,28 +374,28 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
+                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
                         <h1 class="title">Happy Colleges</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
                         </div>
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client3.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client4.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -397,28 +410,28 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
+                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
                         <h1 class="title">Happy Companies</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="https://diensten.github.io/"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
+                            <a href="https://diensten.github.io/"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
                         </div>
                         <div class="col-xs-3 col-sm-2">
-                            <a href="http://www.robotjam.in/"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
+                            <a href="http://www.robotjam.in/"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
                         </div>
                          <!--<div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client3.jpg" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client3.jpg" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client4.jpg" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client4.jpg" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
                         </div>-->
                     </div>
                 </div>
@@ -433,28 +446,28 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
+                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
                         <h1 class="title">Happy Organizations</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
                         </div>
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client3.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client4.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
                         </div>
                     </div>
                 </div>

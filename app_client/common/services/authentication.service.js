@@ -67,12 +67,48 @@
       });
     };
 
+    var facebookCallback = function (routeParams) {
+      return $http.get('/api/auth/facebook?code='+routeParams.code).success(function(data) {
+        saveToken(data.token);
+      });
+    };
+
+    var twitterCallback = function (routeParams) {
+      return $http.get('/api/auth/twitter?oauth_token='+routeParams.oauth_token+'&oauth_verifier='+routeParams.oauth_verifier).success(function(data) {
+        saveToken(data.token);
+      });
+    };
+
+    var linkedinCallback = function (routeParams) {
+      return $http.get('/api/auth/linkedin?oauth_token='+routeParams.oauth_token+'&oauth_verifier='+routeParams.oauth_verifier).success(function(data) {
+        saveToken(data.token);
+      });
+    };
+
     logout = function() {
       $window.localStorage.removeItem('mean-token');
     };
 
     applyCampuschamp = function(campuschamp) {
       return $http.post('/api/campuschamp/apply', campuschamp).success(function(data) {
+
+      });
+    };
+
+    applyTheorexPilot = function(pilot) {
+      return $http.post('/api/pilot/apply', pilot).success(function(data) {
+
+      });
+    };
+
+    applyOrganization = function(organization) {
+      return $http.post('/api/organization/apply', organization).success(function(data) {
+
+      });
+    };
+
+    applyWorkshopreq = function(workshopreq) {
+      return $http.post('/api/workshopreq/apply', workshopreq).success(function(data) {
 
       });
     };
@@ -93,8 +129,14 @@
       logout : logout,
       login_external : login_external,
       googleCallback : googleCallback,
+      facebookCallback : facebookCallback,
+      twitterCallback : twitterCallback,
+      linkedinCallback : linkedinCallback,
       applyCampuschamp : applyCampuschamp,
-      sendContactMessage : sendContactMessage
+      sendContactMessage : sendContactMessage,
+      applyTheorexPilot : applyTheorexPilot,
+      applyOrganization : applyOrganization,
+      applyWorkshopreq : applyWorkshopreq
     };
   }
 

@@ -1,6 +1,6 @@
 (function () {
 
-  angular.module('meanApp', ['ngRoute']);
+  angular.module('meanApp', ['ngRoute','ngFileUpload']);
 
   function config ($routeProvider, $locationProvider) {
     $routeProvider
@@ -142,6 +142,11 @@
       .when('/blogdetails3', {
         templateUrl: '/blog/blogdetails3.view.html',
         controller: 'blogCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/workshoprequest', {
+        templateUrl: '/event/workshoprequest.view.html',
+        controller: 'workshopRequestCtrl',
         controllerAs: 'vm'
       })
       .otherwise({redirectTo: '/'});

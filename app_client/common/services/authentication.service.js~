@@ -77,8 +77,25 @@
       });
     };
 
-    sendContactMessage = function(contactdata) {
-alert(JSON.stringify(contactdata));	
+    applyTheorexPilot = function(pilot) {
+      return $http.post('/api/pilot/apply', pilot).success(function(data) {
+
+      });
+    };
+
+    applyOrganization = function(organization) {
+      return $http.post('/api/organization/apply', organization).success(function(data) {
+
+      });
+    };
+
+    applyWorkshopreq = function(workshopreq) {
+      return $http.post('/api/workshopreq/apply', workshopreq).success(function(data) {
+
+      });
+    };
+
+    sendContactMessage = function(contactdata) {	
       return $http.post('/api/sendcontact/message',contactdata).success(function(data) {
 
       });
@@ -95,7 +112,10 @@ alert(JSON.stringify(contactdata));
       login_external : login_external,
       googleCallback : googleCallback,
       applyCampuschamp : applyCampuschamp,
-      sendContactMessage : sendContactMessage
+      sendContactMessage : sendContactMessage,
+      applyTheorexPilot : applyTheorexPilot,
+      applyOrganization : applyOrganization,
+      applyWorkshopreq : applyWorkshopreq
     };
   }
 

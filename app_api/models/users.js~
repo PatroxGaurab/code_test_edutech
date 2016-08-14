@@ -12,6 +12,20 @@ var userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  username: {
+    type: String,
+    unique: true
+  },
+  username: {
+    type: String
+  },
+  location: {
+    type: String
+  },
+  headline: {
+    type: String
+  },
+  experience: [],
     facebook         : {
         id           : String,
         token        : String,
@@ -30,6 +44,13 @@ var userSchema = new mongoose.Schema({
         email        : String,
         name         : String
     },
+    linkedin          : {
+        id           : String,
+        token        : String,
+        displayName  : String
+    },
+  emailVerificationHash: String,
+  emailVerified: Boolean,
   hash: String,
   salt: String
 });
@@ -40,6 +61,9 @@ userSchema.methods.setPassword = function(password){
 };
 
 userSchema.methods.validPassword = function(password) {
+  if(!this.hash){
+	return false;
+  }
   var hash = crypto.pbkdf2Sync(password, this.salt, 1000, 64).toString('hex');
   return this.hash === hash;
 };

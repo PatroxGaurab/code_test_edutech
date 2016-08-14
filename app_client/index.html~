@@ -32,11 +32,43 @@
   <script src="lib/angular/angular-route.min.js"></script>
   <script src="app.min.js"></script>
 
+<script>
+function onLinkedInLoad() {
+	IN.Event.on(IN, "auth", function() {
+		onLinkedInLogin();
+	});
+	IN.Event.on(IN, "logout", function() {
+		onLinkedInLogout();
+	});
+}
+
+//execute on logout event
+function onLinkedInLogout() {
+	location.reload(true);
+}
+
+//execute on login event
+function onLinkedInLogin() {
+	// pass user info to angular
+	angular.element(document.getElementById("appBody")).scope().$apply(
+		function($scope) {
+			$scope.getCommitData();
+		}
+	);
+}
+</script>
+<script type="text/javascript" src="http://platform.linkedin.com/in.js">
+  //here goes the api key, and the callback function
+  api_key: 81vs6idram25fn
+  onLoad: onLinkedInLoad
+  authorize: true
+</script>
+
     <script type="text/javascript" src="/lib/js/jquery.js"></script>
     <script type="text/javascript" src="/lib/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="/lib/js/lightbox.min.js"></script>
     <script type="text/javascript" src="/lib/js/wow.min.js"></script>
-    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="/lib/js/jquery.countTo.js"></script>
 </body>
  
 </html>

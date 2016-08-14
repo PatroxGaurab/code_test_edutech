@@ -1,0 +1,31 @@
+<navigation></navigation>
+
+<div class="container">
+  
+  <div class="row">
+    
+    <div class="col-md-6">
+
+      <h1 class="form-signin-heading">Choose Username</h1>
+  
+	<form name="usernameForm">
+	  <input type="text" 
+		name="username"
+		ng-model="username" 
+		required
+		>
+	  <div ng-show="checking">checking....</div>
+	  <div ng-show="usernameExists">username exists already</div>
+          <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+
+    </div>
+  </div>
+
+<div id="status">
+</div>
+
+
+
+
+</div>

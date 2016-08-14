@@ -1,0 +1,31 @@
+<navigation></navigation>
+
+<div class="container">
+  
+  <div class="row">
+    
+    <div class="col-md-6">
+
+      <h1 class="form-signin-heading">Choose Email</h1>
+  
+	<form name="setEmailForm" ng-submit="vm.onSubmit()">
+	  <input type="email" 
+		name="setemail"
+		ng-model="setemail" 
+		required
+		>
+	  <div ng-show="checking">checking....</div>
+	  <div ng-show="emailExists">Email exists already</div>
+          <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+
+    </div>
+  </div>
+
+<div id="status">
+</div>
+
+
+
+
+</div>

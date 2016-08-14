@@ -57,21 +57,94 @@
     };
     var getForumProfile = function (routeParams) {
 	if(routeParams.sso && routeParams.sig){
-	      return $http.get('/api/forum/profile?sso='+$window.localstorage['sso']+'&sig='+routeParams.sig, {
+	      return $http.get('/api/forum/profile?sso='+routeParams.sso+'&sig='+routeParams.sig, {
 		headers: {
 		  Authorization: 'Bearer '+ authentication.getToken()
 		}
 	      });
 	}
     };
+
+    var isUsernameUnique = function (username) {
+      return $http.get('/api/username?username='+username, {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+    var saveUsername = function (username) {
+	var config = {
+	 params: {username : username},
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.post('/api/username/save', config, {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+
+    var isEmailUnique = function (setemail) {
+      return $http.get('/api/email?setemail='+setemail, {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+    var saveEmail = function (setemail) {
+	var config = {
+	 params: {setemail : setemail},
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.post('/api/email/save', config, {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+
+    var getPublicProfile = function (username) {
+	var config = {
+	 params: {username : username},
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.get('/api/profile/public', config);
+    };
+
+
+    var updateProfile = function (profileParams) {
+      return $http.post('/api/profile', profileParams, {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+
+   /* var uploadImage = function (file) {
+      file.upload = Upload.upload({
+        url: 'api/upload/profilepic',
+        data: {file: file},
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+*/
+
     return {
       getProfile : getProfile,
+      isUsernameUnique : isUsernameUnique,
+      saveUsername : saveUsername,
       googleCallback : googleCallback,
       getCourses : getCourses,
       getTags : getTags,
       toggleWishlist : toggleWishlist,
       isWishlisted : isWishlisted,
-      getForumProfile : getForumProfile
+      getForumProfile : getForumProfile,
+      isEmailUnique : isEmailUnique,
+      saveEmail : saveEmail,
+      getPublicProfile : getPublicProfile,
+      updateProfile : updateProfile,
+      //uploadImage : uploadImage
     };
   }
 

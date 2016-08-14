@@ -11,8 +11,15 @@ var ctrlAuth = require('../controllers/authentication');
 var ctrlCourses = require('../controllers/courses');
 var ctrlCampuschamp = require('../controllers/campuschamp');
 var ctrlContact = require('../controllers/contact');
+var ctrlPilot = require('../controllers/pilot');
+var ctrlOrganization = require('../controllers/organization');
+var ctrlWorkshopreq = require('../controllers/workshopreq');
+var ctrlPublicProfile = require('../controllers/publicprofile');
 
 // profile
+router.post('/profile/public/connect*',auth, ctrlProfile.connectToUser);
+router.post('/profile/public/acceptconnect*',auth, ctrlProfile.acceptConnect);
+router.get('/profile/public*', ctrlPublicProfile.publicProfileRead);
 router.get('/profile*', auth, ctrlProfile.profileRead);
 router.get('/forum/profile*', auth, ctrlProfile.forumProfileRead);
 
@@ -40,8 +47,12 @@ router.get('/login_external/auth/linkedin', ctrlAuth.login_external_linkedin);
 router.get('/auth/linkedin*', ctrlAuth.login_external_callback_linkedin);
 
 // Check unique username
-//router.post('/username/save', auth, ctrlProfile.saveUsername);
-//router.get('/username*', auth, ctrlProfile.isUsernameUnique);
+router.post('/username/save', auth, ctrlProfile.saveUsername);
+router.get('/username*', auth, ctrlProfile.isUsernameUnique);
+
+// Check unique email
+router.post('/email/save', auth, ctrlProfile.saveEmail);
+router.get('/email*', auth, ctrlProfile.isEmailUnique);
 
 // course
 router.get('/courses*', ctrlCourses.getCourses);
@@ -51,9 +62,20 @@ router.get('/tags*', ctrlCourses.getTags);
 // authentication
 router.post('/register', ctrlAuth.register);
 router.post('/login', ctrlAuth.login);
+router.post('/verifyemail', ctrlAuth.verifyEmail);
 
 // campuschamp
 router.post('/campuschamp/apply*', ctrlCampuschamp.champApply);
+
+// pilot
+router.post('/pilot/apply*', ctrlPilot.pilotApply);
+
+// organization
+router.post('/organization/apply*', ctrlOrganization.organizationApply);
+
+// workshopreq
+router.post('/workshopreq/apply*', ctrlWorkshopreq.workshopreqApply);
+
 
 // contact message
 router.post('/sendcontact/message*', ctrlContact.sendMessage);

@@ -3,29 +3,45 @@
 <div class="container">
   
   <div class="row">
-    
-    <div class="col-md-6">
+    <div class="col-md-7">
 
-      <h1 class="form-signin-heading">Sign in</h1>
+      <h1 class="form-signin-heading">Pick A Username</h1>
   
-	<form name="usernameForm">
-	  <input type="text" 
+	<form name="usernameForm"  ng-submit="vm.onSubmit()">
+
+	    <div class="input-group " >
+            <span class="lead input-group-addon" style="font-size:18px;" >http://theorex.tech/x/</span>
+	  <input id="username_input" style="font-size:18px;font-weight:bold; color:#00a0e3;text-transform: lowercase" type="text" 
 		name="username"
 		ng-model="username" 
-		username-available 
-		required
-		ng-model-options="{ updateOn: 'blur' }">
-	  <div ng-if="myForm.$pending.usernameExists">checking....</div>
-	  <div ng-if="myForm.$error.usernameExists">username exists already</div>
+		required placeholder="username" style="" class="form-control" required="required" />
+<span ng-show="usernameExists && !usernameLength" class="fa fa-exclamation-triangle errsuccspan" style="color:red;"></span>
+<span ng-show="!usernameExists && usernameLength" class="fa fa-check errsuccspan" style="color:green;"></span>
+             <span class="input-group-btn">
+		<button type="submit" class="btn-info form-control" ng-disabled="usernameExists">Confirm</button> 
+ 	     </span>
+	    </div>
+	  <div ng-show="checking">checking....</div>
+	  <div ng-show="usernameExists"  style="color:red;">username exists already</div>
+	  <div ng-show="!usernameLength"  style="color:red;">username invalid</div>
+
 	</form>
 
     </div>
+
   </div>
 
 <div id="status">
 </div>
 
-
-
+<style type="text/css">
+.errsuccspan {
+    float: right;
+    margin-right: 6px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+}
+</style>
 
 </div>

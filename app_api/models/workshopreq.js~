@@ -1,0 +1,51 @@
+var mongoose = require( 'mongoose' );
+
+var workshopreqSchema = new mongoose.Schema({
+  firstname: {
+    type: String,
+    required: true
+  },
+  lastname: {
+    type: String,
+    required: true
+  },
+  email: {
+    type: String,
+    required: true
+  },
+  organization: {
+    type: String,
+    required: true
+  },
+  organizationAddress: {
+    type: String,
+    required: true
+  },
+  organizationPostalCode: {
+    type: String,
+    required: true
+  },
+  organizationCity: {
+    type: String,
+    required: true
+  },
+  phone: {
+    type: String,
+    required: true
+  },
+  capacity: {
+    type: String,
+    required: true
+  },
+  subject: {
+    type: String,
+    required: true
+  },
+  message: {
+    type: String,
+    required: true
+  },
+});
+
+
+mongoose.model('Workshopreq', workshopreqSchema);

@@ -12,6 +12,17 @@ var userSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  username: {
+    type: String,
+    unique: true
+  },
+  location: {
+    type: String
+  },
+  headline: {
+    type: String
+  },
+  experience: [],
     facebook         : {
         id           : String,
         token        : String,
@@ -30,6 +41,13 @@ var userSchema = new mongoose.Schema({
         email        : String,
         name         : String
     },
+    linkedin          : {
+        id           : String,
+        token        : String,
+        displayName  : String
+    },
+  emailVerificationHash: String,
+  emailVerified: Boolean,
   hash: String,
   salt: String
 });

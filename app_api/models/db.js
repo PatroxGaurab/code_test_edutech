@@ -52,3 +52,6 @@ require('./tags');
 require('./wishlists');
 require('./campuschamps');
 require('./contacts');
+require('./theorexpilot');
+require('./organization');
+require('./workshopreq');

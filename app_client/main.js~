@@ -1,6 +1,6 @@
 (function () {
 
-  angular.module('meanApp', ['ngRoute']);
+  angular.module('meanApp', ['ngRoute','ngFileUpload']);
 
   function config ($routeProvider, $locationProvider) {
     $routeProvider
@@ -124,9 +124,29 @@
         controller: 'blogCtrl',
         controllerAs: 'vm'
       })
-      .when('/blog', {
-        templateUrl: '/blog/blog.view.html',
+      .when('/blogdetails', {
+        templateUrl: '/blog/blogdetails.view.html',
         controller: 'blogCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/blogdetails1', {
+        templateUrl: '/blog/blogdetails1.view.html',
+        controller: 'blogCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/blogdetails2', {
+        templateUrl: '/blog/blogdetails2.view.html',
+        controller: 'blogCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/blogdetails3', {
+        templateUrl: '/blog/blogdetails3.view.html',
+        controller: 'blogCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/workshoprequest', {
+        templateUrl: '/event/workshoprequest.view.html',
+        controller: 'workshopRequestCtrl',
         controllerAs: 'vm'
       })
       .otherwise({redirectTo: '/'});

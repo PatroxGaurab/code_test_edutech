@@ -1,0 +1,45 @@
+<navigation></navigation>
+
+<div class="container">
+  
+  <div class="row">
+    
+    <div class="col-md-6">
+
+      <h1 class="form-signin-heading">You Are An Email Away</h1>
+  
+	<form name="setEmailForm" ng-submit="vm.onSubmit()">
+	    <div class="input-group " >
+	  <input id="setemail_input" style="font-size:18px;font-weight:bold; color:#00a0e3;text-transform: lowercase"  type="email" 
+		name="setemail"
+		ng-model="setemail" 
+		required placeholder="Your Email Here" class="form-control" 
+		>
+
+		<span ng-show="emailExists" class="fa fa-exclamation-triangle errsuccspan" style="color:red;"></span>
+		<span ng-show="emailExists" class="fa fa-check errsuccspan" style="color:green;"></span>
+             <span class="input-group-btn">
+		<button type="submit" class="btn-info form-control" ng-disabled="emailExists">Confirm</button> 
+ 	     </span>
+	    </div>
+	  <div ng-show="checking">checking....</div>
+	  <div ng-show="emailExists">Email exists already</div>
+	</form>
+
+    </div>
+  </div>
+
+<div id="status">
+</div>
+
+<style type="text/css">
+.errsuccspan {
+    float: right;
+    margin-right: 6px;
+    margin-top: -28px;
+    position: relative;
+    z-index: 2;
+}
+</style>
+
+</div>

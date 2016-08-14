@@ -20,6 +20,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
+		    <img src="/lib/images/aboutus/pilotgfx.png" class="margin-bottom" alt="" height="220" width="500">
                     <h2>Why You Should Join the TheoreX Pilot Program?</h2>
                     <p>TheoreX brings up the world's first E-Learning Portal, where one will not only learn but also can showcase his or her expertise,<br/> he or she can connect with other professionals and also can choose the right job for himself or herself choosing the right <br/> company where he or she can suits perfectly according to his or her culture, experience, knowledge and expertise.</p>
                 </div>
@@ -455,7 +456,7 @@
 <section id="form1">
       <center><h1>Apply to Become a TheoreX Rockstar</h1></center>
 
-<form>
+<form ng-submit="pilot_apply()" name="pilotForm">
         
     <div class="contentform">
         <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
@@ -463,57 +464,57 @@
 
         <div class="leftcontact">
             <div class="form-group">
-            <p>Name <span>*</span></p>
+            <p>First Name <span>*</span></p>
             <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="prenom" id="prenom" placeholder="Your First Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="firstname" id="firstname" placeholder="Your First Name" ng-model="vm.pilotdata.firstname" class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.firstname.$invalid && pilotForm.firstname.$dirty">This field is required</div>
             </div>
                   <div class="form-group">
                     <p>Surname<span>*</span></p>
                     <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="nom" id="nom" placeholder="Your Last Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné."/>
-                <div class="validation"></div>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.pilotdata.lastname"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.lastname.$invalid && pilotForm.lastname.$dirty">This field is required</div>
        </div>
 
             <div class="form-group">
             <p>E-mail <span>*</span></p>    
             <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-                <div class="validation"></div>
+                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.pilotdata.email" ng-model="vm.pilotdata.email" class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.email.$invalid && pilotForm.email.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Company/Organization/University<span>*</span></p>
             <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="society" id="society" placeholder="Your Organization Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organization" id="organization" placeholder="Your Organization Name" data-rule="required" data-msg="" ng-model="vm.pilotdata.organization"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.organization.$invalid && pilotForm.organization.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Company/Organization/University Address<span>*</span></p>
             <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="adresse" id="adresse" placeholder="Your Organization Address" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationAddress" id="organizationAddress" placeholder="Your Organization Address" data-rule="required" data-msg="" ng-model="vm.pilotdata.organizationAddress"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.organizationAddress.$invalid && pilotForm.organizationAddress.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
-            <p>Postcode <span>*</span></p>
+            <p>Postal Code <span>*</span></p>
             <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="postal" id="postal" data-rule="required" placeholder="Your Organization Postal Code" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationPostalCode" id="organizationPostalCode" placeholder="Your Organization Postal Code" data-rule="required" data-msg="" ng-model="vm.pilotdata.organizationPostalCode"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.organizationPostalCode.$invalid && pilotForm.organizationPostalCode.$dirty">This field is required</div>
             </div> 
             <div class="form-group">
             <p>Your City <span>*</span></p>
             <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="ville" id="ville" placeholder="Your Organization City" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationCity" id="organizationCity" placeholder="Your Organization City" data-rule="required" data-msg="" ng-model="vm.pilotdata.organizationCity"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.organizationCity.$invalid && pilotForm.organizationCity.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Phone number <span>*</span></p>  
             <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="text" name="phone" id="phone" placeholder="Your Phone Number" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
-                <div class="validation"></div>
+                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.pilotdata.phone"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.phone.$invalid && pilotForm.phone.$dirty">This field is invalid</div>
             </div>
     </div>
 
@@ -524,33 +525,45 @@
             <div class="form-group">
             <p>Have you ever work as a Representative in past? [Max 200 words] <span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <textarea type="text" name="sujet" id="sujet" placeholder="Tell us in few words if you have any experience regarding any representative program in past!" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."></textarea>
-                <div class="validation"></div>
+                <textarea type="text" name="experience" id="experience" placeholder="Tell us in few words if you have any experience regarding any representative program in past!" ng-model="vm.pilotdata.experience"  class="form-control" required="required"></textarea>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.experience.$invalid && pilotForm.experience.$dirty">This field is required</div>
+
             </div>
         
             <div class="form-group">
             <p>Some points that will describe your leadership skill! [Max 200 words] <span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" data-rule="required" placeholder="Tell us about your leadership skill so that we can have a clear idea about your capibility." data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-                <div class="validation"></div>
+                <textarea name="leadership" rows="14" placeholder="Tell us about your leadership skill so that we can have a clear idea about your capibility." data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.pilotdata.leadership"  class="form-control" required="required"></textarea>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.leadership.$invalid && pilotForm.leadership.$dirty">This field is required</div>
+
             </div> 
 
             <div class="form-group">
             <p>Why do you want to be a TheoreX Rockstar? [Max 200 words]<span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <textarea type="text" name="sujet" id="sujet" placeholder="Tell us something that why you chose to be TheoreX Rockstar" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."></textarea>
-                <div class="validation"></div>
+                <textarea name="joiningReason" rows="14" placeholder="Tell us something that why you chose to be TheoreX Rockstar" data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.pilotdata.joiningReason"  class="form-control" required="required"></textarea>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.joiningReason.$invalid && pilotForm.joiningReason.$dirty">This field is required</div>
             </div>
         
             <div class="form-group">
             <p>Some links of your work as an Representative so far!<span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" data-rule="required" placeholder="If you have anything to show us about your leadership skill or any other program you are with! We'd love to to hear from you." data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-                <div class="validation"></div>
+                <textarea name="links" rows="14" placeholder="If you have anything to show us about your leadership skill or any other program you are with! We'd love to to hear from you." data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.pilotdata.links"  class="form-control" required="required"></textarea>
+		<div class="col-xs-5 messageContainer" ng-show="pilotForm.links.$invalid && pilotForm.links.$dirty">This field is required</div>
             </div> 
     </div>
     </div><br/>
+
+
 <button type="submit" class="bouton-contact">Apply Today!</button> 
+        			<div class="alert alert-danger fade in" style="display:none;"  id="pilot_error_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Already Registered
+				</div>   
+				<div class="alert alert-success fade in" style="display:none;" id="pilot_success_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Thanks For Registering Pilot!
+				</div>   
 </form>
 </section>
 

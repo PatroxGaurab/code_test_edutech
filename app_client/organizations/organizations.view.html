@@ -263,7 +263,7 @@
 <section id="form">
       <center><h1>Request Demo Form</h1></center>
 
-<form>
+<form ng-submit="organizations_apply()" name="organizationForm">
         
     <div class="contentform">
         <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
@@ -273,42 +273,42 @@
             <div class="form-group">
             <p>Name <span>*</span></p>
             <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="prenom" id="prenom" placeholder="Your First Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="firstname" id="firstname" placeholder="Your First Name" ng-model="vm.organizationdata.firstname" class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.firstname.$invalid && organizationForm.firstname.$dirty">This field is required</div>
             </div>
                   <div class="form-group">
                     <p>Surname<span>*</span></p>
                     <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="nom" id="nom" placeholder="Your Last Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné."/>
-                <div class="validation"></div>
+                        <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.organizationdata.lastname"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.lastname.$invalid && organizationForm.lastname.$dirty">This field is required</div>
        </div> 
 
             <div class="form-group">
             <p>E-mail <span>*</span></p>    
             <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-                <div class="validation"></div>
+                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="" ng-model="vm.organizationdata.email" ng-model="vm.organizationdata.email" class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.email.$invalid && organizationForm.email.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Company/Organization/University<span>*</span></p>
             <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="society" id="society" placeholder="Your Organization Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organization" id="organization" placeholder="Your Organization Name" data-rule="required" data-msg="" ng-model="vm.organizationdata.organization"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organization.$invalid && organizationForm.organization.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
             <p>Company/Organization/University Address <span>*</span></p>
             <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="adresse" id="adresse" placeholder="Your Organization Address" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationAddress" id="organizationAddress" placeholder="Your Organization Address" data-rule="required" data-msg="" ng-model="vm.organizationdata.organizationAddress"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organizationAddress.$invalid && organizationForm.organizationAddress.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
-            <p>Postcode <span>*</span></p>
+            <p>Postal Code <span>*</span></p>
             <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="postal" id="postal" data-rule="required" placeholder="Your Organization Postal Code" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationPostalCode" id="organizationPostalCode" placeholder="Your Organization Postal Code" data-rule="required" data-msg="" ng-model="vm.organizationdata.organizationPostalCode"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organizationPostalCode.$invalid && organizationForm.organizationPostalCode.$dirty">This field is required</div>
             </div> 
     </div>
 
@@ -317,40 +317,53 @@
             <div class="form-group">
             <p>City <span>*</span></p>
             <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="ville" id="ville" placeholder="Your Organization City" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="organizationCity" id="organizationCity" placeholder="Your Organization City" data-rule="required" data-msg="" ng-model="vm.organizationdata.organizationCity"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.organizationCity.$invalid && organizationForm.organizationCity.$dirty">This field is required</div>
             </div>  
 
             <div class="form-group">
             <p>Phone number <span>*</span></p>  
             <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="text" name="phone" id="phone" placeholder="Your Phone Number" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
-                <div class="validation"></div>
+                <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.organizationdata.phone"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.phone.$invalid && organizationForm.phone.$dirty">This field is invalid</div>
             </div>
 
             <div class="form-group">
             <p>Number of Students/Employees <span>*</span></p>
             <span class="icon-case"><i class="fa fa-info"></i></span>
-                <input type="text" name="fonction" id="fonction" placeholder="Number of Students/Employees" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Fonction' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="capacity" id="capacity" placeholder="Number Of Students/Employees" ng-maxlength="10" data-msg="" ng-model="vm.organizationdata.capacity"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.capacity.$invalid && organizationForm.capacity.$dirty">This field is invalid</div>
             </div>
 
             <div class="form-group">
             <p>Subject <span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <input type="text" name="sujet" id="sujet" placeholder="Subject of Your Message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
-                <div class="validation"></div>
+                <input type="text" name="subject" id="subject" placeholder="Subject Of Your Message" ng-maxlength="10" data-msg="" ng-model="vm.organizationdata.subject"  class="form-control" required="required"/>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.subject.$invalid && organizationForm.subject.$dirty">This field is invalid</div>
             </div>
         
             <div class="form-group">
             <p>Message <span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" data-rule="required" placeholder="For which area of expertise your organization thinks that TheoreX will be helpful to you" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-                <div class="validation"></div>
+                <textarea name="message" rows="14" placeholder="For which area of expertise your organization thinks that TheoreX will be helpful to you" data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.organizationdata.message"  class="form-control" required="required"></textarea>
+		<div class="col-xs-5 messageContainer" ng-show="organizationForm.message.$invalid && organizationForm.message.$dirty">This field is required</div>
+
             </div>  
     </div>
     </div><br/>
+ 
+
+
 <button type="submit" class="bouton-contact">Send Your Request</button> 
+
+        			<div class="alert alert-danger fade in" style="display:none;"  id="organization_error_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Already Registered
+				</div>   
+				<div class="alert alert-success fade in" style="display:none;" id="organization_success_div">
+				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+				  Thanks For Registering
+				</div>  
 </form>
 </section>
 

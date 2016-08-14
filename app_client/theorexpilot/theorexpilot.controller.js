@@ -10,15 +10,18 @@
 
     vm.campuschampdata = {};
 
-    console.log("Inside campuschamp controller");
+    console.log("Inside TheorexPilot controller");
 
-    $scope.campuschamps_apply = function(){
+    $scope.pilot_apply = function(){
 	//alert(vm.campuschampdata);
-	authentication.applyCampuschamp({"campuschampdata":vm.campuschampdata})
+	authentication.applyTheorexPilot({"pilotdata":vm.pilotdata})
 	.success(function(data) {
 	//alert(JSON.stringify(data));	
 		if(data.error==1){
-			campuschampForm.email.$setValidity("required", false);
+			pilotForm.email.$setValidity("required", false);
+			$("#pilot_error_div").show();
+		}else{
+			 $("#pilot_success_div").show();
 		}
 	})
 	.error(function (e) {
