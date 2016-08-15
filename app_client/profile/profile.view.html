@@ -7,6 +7,7 @@
 
       <h1 class="form-signin-heading">Your profile</h1>
   <a href="{{jsondata.publicProfileUrl}}">{{jsondata.firstName}} {{jsondata.lastName}}</a>
+	<div ng-show="isVerified">Email Is Verified</div>
   <form ng-submit="getCommitData()">
     <input type="submit" value="Get Data">
   </form>

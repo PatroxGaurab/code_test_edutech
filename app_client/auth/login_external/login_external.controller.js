@@ -12,6 +12,7 @@
 	var googleUser = {};
 if($routeParams.sso){
 	$window.localStorage['sso'] = $routeParams.sso;
+	$window.localStorage['sig'] = $routeParams.sig;
 }
     authentication.googleCallback($routeParams)
       .success(function(data) {

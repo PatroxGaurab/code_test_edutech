@@ -143,7 +143,7 @@
                         </div>
                         <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div class="tour-button">
-                                <a href="#" class="btn btn-common">Request Now</a>
+                                <a href="#form1" class="btn btn-common">Request Now</a>
                              </div>
                         </div>
                     </div>
@@ -360,7 +360,7 @@
 				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 				  Already Registered
 				</div>   
-				<div class="alert alert-success fade in" style="" id="organization_success_div">
+				<div class="alert alert-success fade in" style="display:none;" id="organization_success_div">
 				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 				  Thanks For Registering
 				</div>  

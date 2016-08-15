@@ -149,6 +149,11 @@
         controller: 'workshopRequestCtrl',
         controllerAs: 'vm'
       })
+      .when('/emailverify/:emailHash', {
+	templateUrl: '/auth/setemail/verifyemail.view.html',
+        controller: 'verifyEmailCtrl',
+        controllerAs: 'vm'
+      })
       .otherwise({redirectTo: '/'});
 
     // use the HTML5 History API
@@ -175,6 +180,16 @@
 	}).join('&')
         $rootScope.query = url;
     });
+
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+
    $rootScope.$on("$viewContentLoaded", function (e, current) {
 	$('li.dropdown').find('.fa-angle-down').each(function(){
 		$(this).on('click', function(){

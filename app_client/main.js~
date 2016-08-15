@@ -149,12 +149,24 @@
         controller: 'workshopRequestCtrl',
         controllerAs: 'vm'
       })
+      .when('/emailverify/:emailHash', {
+	templateUrl: '/auth/setemail/verifyemail.view.html',
+        controller: 'verifyEmailCtrl',
+        controllerAs: 'vm'
+      })
       .otherwise({redirectTo: '/'});
 
     // use the HTML5 History API
     $locationProvider.html5Mode(true);
   }
-
+	function scrollToTop() {
+alert();
+		/*verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+		element = $('body');
+		offset = element.offset();
+		offsetTop = offset.top;
+		$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');*/
+	}
   function run($rootScope, $location, authentication, $http) {
 
     $rootScope.$on('$routeChangeStart', function(event, nextRoute, currentRoute) {
@@ -175,6 +187,16 @@
 	}).join('&')
         $rootScope.query = url;
     });
+
+	$(document).on( 'scroll', function(){
+ 
+		if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+
    $rootScope.$on("$viewContentLoaded", function (e, current) {
 	$('li.dropdown').find('.fa-angle-down').each(function(){
 		$(this).on('click', function(){

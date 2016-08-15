@@ -554,16 +554,16 @@
     </div>
     </div><br/>
 
+
+<button type="submit" class="bouton-contact">Apply Today!</button> 
         			<div class="alert alert-danger fade in" style="display:none;"  id="pilot_error_div">
 				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 				  Already Registered
 				</div>   
 				<div class="alert alert-success fade in" style="display:none;" id="pilot_success_div">
 				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-				  Thanks For Registering Champ!
+				  Thanks For Registering Pilot!
 				</div>   
-
-<button type="submit" class="bouton-contact">Apply Today!</button> 
 </form>
 </section>
 

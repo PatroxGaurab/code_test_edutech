@@ -67,6 +67,24 @@
       });
     };
 
+    var facebookCallback = function (routeParams) {
+      return $http.get('/api/auth/facebook?code='+routeParams.code).success(function(data) {
+        saveToken(data.token);
+      });
+    };
+
+    var twitterCallback = function (routeParams) {
+      return $http.get('/api/auth/twitter?oauth_token='+routeParams.oauth_token+'&oauth_verifier='+routeParams.oauth_verifier).success(function(data) {
+        saveToken(data.token);
+      });
+    };
+
+    var linkedinCallback = function (routeParams) {
+      return $http.get('/api/auth/linkedin?oauth_token='+routeParams.oauth_token+'&oauth_verifier='+routeParams.oauth_verifier).success(function(data) {
+        saveToken(data.token);
+      });
+    };
+
     logout = function() {
       $window.localStorage.removeItem('mean-token');
     };
@@ -101,6 +119,13 @@
       });
     };
 
+    verifyEmail = function(emailHash) {
+	var config = {
+	 params: {emailHash : emailHash},
+	};
+      return $http.post('/api/verifyemail', config, {
+      });
+    };
     return {
       currentUser : currentUser,
       saveToken : saveToken,
@@ -111,11 +136,15 @@
       logout : logout,
       login_external : login_external,
       googleCallback : googleCallback,
+      facebookCallback : facebookCallback,
+      twitterCallback : twitterCallback,
+      linkedinCallback : linkedinCallback,
       applyCampuschamp : applyCampuschamp,
       sendContactMessage : sendContactMessage,
       applyTheorexPilot : applyTheorexPilot,
       applyOrganization : applyOrganization,
-      applyWorkshopreq : applyWorkshopreq
+      applyWorkshopreq : applyWorkshopreq,
+      verifyEmail : verifyEmail
     };
   }
 

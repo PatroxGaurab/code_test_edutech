@@ -1,466 +1,350 @@
 <navigation></navigation>
 
-    <section id="page-breadcrumb">
+   <section id="page-breadcrumb">
         <div class="vertical-center sun">
              <div class="container">
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12">
-                            <h1 class="title"><span style="color:#00a0e3">TheoreX</span> for Companies, Organizations, Universities & Colleges</h1>
-                            <p>We provide various tie up opportunities with different colleges, universities, organizations and companies. We are at your services only.</p>
-                        </div>
+                            <h1 class="title">Online Pricing Table</h1>
+                            <p>This is Mainly for the customers who are going to use our e-learning portal online.</p>
+                        </div>                        
                     </div>
                 </div>
             </div>
         </div>
    </section>
-    <!--/#page-breadcrumb-->
-
-    <section id="company-information" class="choose">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
-                    <img src="/lib/images/services/4.png" class="img-responsive" alt="">
-                </div>
-                <div class="col-sm-6 padding-top wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0ms">
-                    <h2>Why You Should Choose TheoreX?</h2>
-                    <p>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore<br /> tail corned beef Capicola nisi flank sed.</p>
-                    <ul class="elements">
-                        <li class="wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms"><i class="fa fa-angle-right"></i> when an unknown printer took a galley of type</li>
-                        <li class="wow fadeInUp" data-wow-duration="800ms" data-wow-delay="200ms"><i class="fa fa-angle-right"></i> scrambled it to make a type specimen book.</li>
-                        <li class="wow fadeInUp" data-wow-duration="700ms" data-wow-delay="300ms"><i class="fa fa-angle-right"></i> scrambled it to make a type specimen book.</li>
-                        <li class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms"><i class="fa fa-angle-right"></i> scrambled it to make a type specimen book.</li>
-                        <li class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms"><i class="fa fa-angle-right"></i> but also the leap into electronic typesetting.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--/#company-information-->
-
-    <section id="services">
-        <div class="container"><br/><br/><br/><br/><br/>
-            <center><h1 class="title">The Services We Will be Providing You</h1></center><br/>
-            <div class="row">
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="/lib/images/services/5.png" alt="">
-                        </div>
-                        <h2>Tie Up with Technical Clubs</h2>
-                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="/lib/images/services/6.png" alt="">
-                        </div>
-                        <h2>Sponsor Technical Events</h2>
-                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="/lib/images/services/7.png" alt="">
-                        </div>
-                        <h2> Vacation Training</h2>
-                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="/lib/images/services/1.png" alt="">
-                        </div>
-                        <h2>Corporate Training</h2>
-                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="/lib/images/services/2.png" alt="">
-                        </div>
-                        <h2>Student Group Learning Facilities</h2>
-                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="/lib/images/services/3.png" alt="">
-                        </div>
-                        <h2>Online Organizational Activities</h2>
-                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="/lib/images/services/8.png" alt="">
-                        </div>
-                        <h2>Frequent Free Seminars</h2>
-                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="/lib/images/services/9.png" alt="">
-                        </div>
-                        <h2>Internship Opportunities</h2>
-                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="single-service">
-                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="/lib/images/services/10.png" alt="">
-                        </div>
-                        <h2>Venture Certification</h2>
-                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-    </section>
-    <!--/#services-->
-
-    <section id="action" class="responsive">
-        <div class="vertical-center">
-             <div class="container">
-                <div class="row">
-                    <div class="action take-tour">
-                        <div class="col-sm-7 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <h1 class="title">Hey There, Request a Demo Today!</h1>
-                        </div>
-                        <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <div class="tour-button">
-                                <a href="#" class="btn btn-common">Request Now</a>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <!--/#action-->
 
-    <section id="recent-projects" class="recent-projects">
-        <div class="container">
+    <center><h1>Our Monthly Plan</h1><br/>
+        <p>Monthly Subscription Plan for Online Users</p></center>
+
+    <section class="container">        
+        <div class="price-table">
             <div class="row">
-                <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Recent Tie Ups</h1>
-                <p class="text-center padding-bottom wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">We have recently tied up with this universities and organizations.<br/>Do you want to be a part of us, then request a demo today!
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <a href="https://diensten.github.io/"><img src="/lib/images/portfolio/1.png" class="img-responsive" alt=""></a>
-                            </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-one">
+                        <div class="table-heading">
+                            <p class="plan-name">Starter Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">0</span><span class="month" style="color:#fff;">/ Month</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Diensten Consultancy Limited</h2></center>
-                        </div>
+                        <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow">Sign Up</a>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <a href="http://www.robotjam.in/"><img src="/lib/images/portfolio/2.png" class="img-responsive" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="portfolio-info">
-                            <center><h2>Robot Jam India</h2></center>
-                        </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-two">
+                        <div class="table-heading">
+                            <p class="plan-name">Enhanced Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">1000</span><span class="month" style="color:#fff;">/ Month</span></p>
+                        </div>                        
+                        <ul>
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow btn-hightlight">Coming Soon</a>
                     </div>
                 </div>
-                <!--<div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="500ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <img src="/lib/images/portfolio/3.jpg" class="img-responsive" alt="">
-                            </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-three">
+                        <div class="table-heading">
+                            <p class="plan-name">Professional Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">2500</span><span class="month" style="color:#fff;">/ Month</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Company Name</h2></center>
-                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow">Coming Soon</a>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <img src="/lib/images/portfolio/4.jpg" class="img-responsive" alt="">
-                            </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-four">
+                        <div class="table-heading">
+                            <p class="plan-name">Maximum Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">4000</span><span class="month" style="color:#fff;">/ Month</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Company Name</h2></center>
-                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow">Coming Soon</a>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="700ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <img src="/lib/images/portfolio/5.jpg" class="img-responsive" alt="">
-                            </div>
+            </div>
+        </div><!--/#price-table-->
+    </section>
+
+<center><h1>Our Yearly Plan</h1><br/>
+        <p>Yearly Subscription Plan for Online Users</p></center>
+        <br/><br/>
+    <section class="container">
+        <div class="price-table2">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">                    
+                    <div class="single-table table-one">
+                        <div class="table-header">
+                            <h2>Starter</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">0</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Company Name</h2></center>
-                        </div>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#">Coming Soon</a>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="800ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <img src="/lib/images/portfolio/6.jpg" class="img-responsive" alt="">
-                            </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-table table-two">
+                        <div class="table-header">
+                            <h2>Enhanced</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">10000</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Company Name</h2></center>
-                        </div>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <span class="btn-signup"><a href="#">Coming Soon</a></span>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <img src="/lib/images/portfolio/7.jpg" class="img-responsive" alt="">
-                            </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-table table-three">
+                       <div class="table-header">
+                            <h2>Professional</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">25000</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Company Name</h2></center>
-                        </div>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                       <span class="btn-signup"><a href="#">Coming Soon</a></span>
                     </div>
                 </div>
-                <div class="col-sm-3 col-xs-6 wow fadeIn" data-wow-duration="1000ms" data-wow-delay="1000ms">
-                    <div class="portfolio-wrapper">   
-                        <div class="portfolio-single">
-                            <div class="portfolio-thumb">
-                                <img src="/lib/images/portfolio/8.jpg" class="img-responsive" alt="">
-                            </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-table table-four">
+                        <div class="table-header">
+                            <h2>Maximum</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">45000</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                        <div class="portfolio-info">
-                            <center><h2>Company Name</h2></center>
-                        </div>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                       <span class="btn-signup"><a href="#">Coming Soon</a></span>
                     </div>
-                </div>-->
+                </div>
+            </div>
+        </div><!--/#price-table2-->
+    </section>
+
+
+
+    <!--<section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">Offline Pricing Table</h1>
+                            <p>This is Mainly for the customers who are going to use our e-learning facility offline.</p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+   </section>-->
+
+    <!--<center><h1>Our Monthly Plan</h1><br/>
+        <p>Monthly Subscription Plan for Offline Users</p></center>-->
+
+    <!--<section class="container">        
+        <div class="price-table">
+            <div class="row">
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-one">
+                        <div class="table-heading">
+                            <p class="plan-name">Starter Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">500</span><span class="month" style="color:#fff;">/ Month</span></p>
+                        </div>
+                        <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow">Sign Up & Buy</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-two">
+                        <div class="table-heading">
+                            <p class="plan-name">Enhanced Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">1500</span><span class="month" style="color:#fff;">/ Month</span></p>
+                        </div>                        
+                        <ul>
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow btn-hightlight">Sign Up & Buy</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-three">
+                        <div class="table-heading">
+                            <p class="plan-name">Professional Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">3000</span><span class="month" style="color:#fff;">/ Month</span></p>
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow">Sign Up & Buy</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-price price-four">
+                        <div class="table-heading">
+                            <p class="plan-name">Maximum Plan</p>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">5000</span><span class="month" style="color:#fff;">/ Month</span></p>
+                        </div>
+                        <ul>
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <a href="#" class="btn btn-buynow">Sign Up & Buy</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!--/#recent-projects-->
 
-
-<section id="form">
-      <center><h1>Request Demo Form</h1></center>
-
-<form>
-        
-    <div class="contentform">
-        <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
-
-
-        <div class="leftcontact">
-            <div class="form-group">
-            <p>Name <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-user"></i></span>
-                <input type="text" name="prenom" id="prenom" placeholder="Your First Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-                  <div class="form-group">
-                    <p>Surname<span>*</span></p>
-                    <span class="icon-case"><i class="fa fa-male"></i></span>
-                        <input type="text" name="nom" id="nom" placeholder="Your Last Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Nom' doit être renseigné."/>
-                <div class="validation"></div>
-       </div> 
-
-            <div class="form-group">
-            <p>E-mail <span>*</span></p>    
-            <span class="icon-case"><i class="fa fa-envelope-o"></i></span>
-                <input type="email" name="email" id="email" placeholder="Your E-Mail Id" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-                <div class="validation"></div>
-            </div>  
-
-            <div class="form-group">
-            <p>Company/Organization/University<span>*</span></p>
-            <span class="icon-case"><i class="fa fa-home"></i></span>
-                <input type="text" name="society" id="society" placeholder="Your Organization Name" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Société' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Company/Organization/University Address <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
-                <input type="text" name="adresse" id="adresse" placeholder="Your Organization Address" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Postcode <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-map-marker"></i></span>
-                <input type="text" name="postal" id="postal" data-rule="required" placeholder="Your Organization Postal Code" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Code postal' doit être renseigné."/>
-                <div class="validation"></div>
-            </div> 
-    </div>
-
-    <div class="rightcontact">  
-
-            <div class="form-group">
-            <p>City <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-building-o"></i></span>
-                <input type="text" name="ville" id="ville" placeholder="Your Organization City" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Ville' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>  
-
-            <div class="form-group">
-            <p>Phone number <span>*</span></p>  
-            <span class="icon-case"><i class="fa fa-phone"></i></span>
-                <input type="text" name="phone" id="phone" placeholder="Your Phone Number" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Number of Students/Employees <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-info"></i></span>
-                <input type="text" name="fonction" id="fonction" placeholder="Number of Students/Employees" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Fonction' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-
-            <div class="form-group">
-            <p>Subject <span>*</span></p>   
-            <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <input type="text" name="sujet" id="sujet" placeholder="Subject of Your Message" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Sujet' doit être renseigné."/>
-                <div class="validation"></div>
-            </div>
-        
-            <div class="form-group">
-            <p>Message <span>*</span></p>
-            <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" data-rule="required" placeholder="For which area of expertise your organization thinks that TheoreX will be helpful to you" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-                <div class="validation"></div>
-            </div>  
-    </div>
-    </div><br/>
-<button type="submit" class="bouton-contact">Send Your Request</button> 
-</form>
-</section>
-
-
-
-    <!--<section id="clients">
-        <div class="container">
+<center><h1>Our Yearly Plan</h1><br/>
+        <p>Yearly Subscription Plan for Offline Users</p></center>
+        <br/><br/>
+    <section class="container">
+        <div class="price-table2">
             <div class="row">
-                <div class="col-sm-12">
-                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
-                        <h1 class="title">Happy Colleges</h1>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
+                <div class="col-sm-6 col-md-3">                    
+                    <div class="single-table table-one">
+                        <div class="table-header">
+                            <h2>Starter</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">5000</span><span class="month" style="color:#fff;">/ Year</span></p>
+                        </div>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <span class="btn-signup"><a href="#">Sign Up & Buy</a></span>
                     </div>
-                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-table table-two">
+                        <div class="table-header">
+                            <h2>Enhanced</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">17500</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                        <span class="btn-signup"><a href="#">Sign Up & Buy</a></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-table table-three">
+                       <div class="table-header">
+                            <h2>Professional</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">35000</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client3.png" class="img-responsive" alt=""></a>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                       <span class="btn-signup"><a href="#">Sign Up & Buy</a></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="single-table table-four">
+                        <div class="table-header">
+                            <h2>Maximum</h2>
+                            <p class="plan-price"><span class="dollar-sign" style="color:#fff;">₹ </span><span class="price" style="color:#fff;">58000</span><span class="month" style="color:#fff;">/ Year</span></p>
                         </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client4.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
-                        </div>
+                         <ul>                            
+                            <li>Lorem ipsum dolor <span><i class="fa fa-check"></i></span></li>
+                            <li>Consectetur adipiscing <span><i class="fa fa-times"></i></span></li>
+                            <li>Nulla pellentesque <span><i class="fa fa-times"></i></span> </li>
+                            <li> Integer quis risus <span><i class="fa fa-check"></i></span></li>
+                            <li>Phasellus et metus <span><i class="fa fa-times"></i></span></li>
+                            <li>Duis nec massa inter <span><i class="fa fa-check"></i></span></li>
+                        </ul>
+                       <span class="btn-signup"><a href="#">Sign Up & Buy</a></span>
                     </div>
                 </div>
             </div>
         </div>
-     </section>-->
-    <!--/#clients-->
-<br/><br/>
+    </section>-->
 
-    <section id="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
-                        <h1 class="title">Happy Companies</h1>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
-                    </div>
-                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="https://diensten.github.io/"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
-                        </div>
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="http://www.robotjam.in/"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <!--<div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client3.jpg" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client4.jpg" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
-                        </div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>
-
-<br/><br/>
-
-         <!--<section id="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="/lib/images/home/clients.png" class="img-responsive" alt=""></p>
-                        <h1 class="title">Happy Organizations</h1>
-                        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
-                    </div>
-                    <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client1.png" class="img-responsive" alt=""></a>
-                        </div>
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client2.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client3.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client4.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client5.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="/lib/images/home/client6.png" class="img-responsive" alt=""></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-     </section>-->
 
 <footer></footer>
 	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>

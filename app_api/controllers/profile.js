@@ -160,7 +160,11 @@ module.exports.forumProfileRead = function(req, res) {
         //res.status(200).send({redirect_to: 'http://www.google.com'});
 	var sso_payload = req.query.sso; // fetch from incoming request 
 	var sig = req.query.sig; // fetch from incoming request 
+
+	//var sso_payload = req.session.sso; // fetch from incoming request 
+	//var sig = req.session.sig; // fetch from incoming request 
 	var redirect_to_url = 'http://ec2-54-169-87-58.ap-southeast-1.compute.amazonaws.com/session/sso_login?';
+
 	//if(sso.validate(sso_payload, sig)) {
 		var nonce = sso.getNonce(sso_payload);
 		var userparams = {
@@ -173,7 +177,11 @@ module.exports.forumProfileRead = function(req, res) {
 			//"name": "Gaurab Patra"
 		};
 		var q = sso.buildLoginString(userparams);
-		res.status(200).json({redirect_to: redirect_to_url+q});
+	if(user.emailVerified){
+		res.status(200).json({redirect_to: redirect_to_url+q, is_verified: true});
+	}else{
+		res.status(200).json({redirect_to: redirect_to_url, is_verified: false});
+	}
 	//}
 	//res.status(200).json({redirect_to: sig});
       });
@@ -198,6 +206,30 @@ module.exports.isUsernameUnique = function(req, res) {
 			res.status(200).json({is_unique: false});
 		}else{
 			res.status(200).json({is_unique: true});
+		}
+
+        });
+  }
+
+};
+
+module.exports.isEmailVerified = function(req, res) {
+  if (!req.payload._id) {
+    res.status(401).json({
+      "message" : "UnauthorizedError: private profile"
+    });
+  } else {
+	//res.status(200).json({is_unique: true});
+	User.findById(req.payload._id, function(err, user) {
+		if(err){
+			res.status(401).json({
+		          "message" : "UnauthorizedError: private profile"
+		        });
+		}
+		if(user && user.emailVerified){
+			res.status(200).json({is_verified: true});
+		}else{
+			res.status(200).json({is_verified: false});
 		}
 
         });

@@ -63,7 +63,7 @@
                             <div class="form-group">
                                 <button type="submit" name="submit" class="btn btn-submit" value="Submit" >Submit</button>
                             </div>
-				<div class="alert alert-success fade in" style="display:none;" id="champ_success_div">
+				<div class="alert alert-success fade in" style="display:none;" id="contact_success_div">
 				  <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 				  Message Successfully Sent
 				</div>
@@ -75,7 +75,55 @@
                         <p>&copy; TheoreX, 2016. All Rights Reserved.</p>   
                     </div>
                 </div>
+<div class="scroll-top-wrapper " onClick="$('html, body').animate({
+    scrollTop: '0px'
+}, 800);">
+	<span class="scroll-top-inner">
+		<i class="fa fa-2x fa-arrow-circle-up"></i>
+	</span>
+</div>
             </div>
         </div>
     </div>
+
+<style>
+.scroll-top-wrapper {
+    position: fixed;
+	opacity: 0;
+	visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 9999;
+    background-color: #00a0e3;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+ 
+</style>
+
     <!--/#footer-->

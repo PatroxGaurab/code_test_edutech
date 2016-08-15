@@ -120,6 +120,14 @@
       });
     };
 
+    var isEmailVerified = function (routeParams) {
+      return $http.get('/api/email/isverified', {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+
    /* var uploadImage = function (file) {
       file.upload = Upload.upload({
         url: 'api/upload/profilepic',
@@ -143,7 +151,8 @@
       isEmailUnique : isEmailUnique,
       saveEmail : saveEmail,
       getPublicProfile : getPublicProfile,
-      updateProfile : updateProfile
+      updateProfile : updateProfile,
+      isEmailVerified : isEmailVerified
       //uploadImage : uploadImage
     };
   }

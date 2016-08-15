@@ -7,8 +7,8 @@
                     <div class="slide-text">
                         <h1>Come Be a Part of The Next Learning Revolution</h1>
                         <p>A brand new project that aims to completely revolutionise education & hiring in India. Learn from the very best in the country. Show off your skills to the world. Get hired by the market leaders, right from the comfort of your home. We are out to completely democratise education, & we need your participation to do it.</p>
-                        <a href="#" class="btn btn-common">Sign Up</a>
-                        <a href="#" class="btn btn-common">Sign In</a>
+                        <a href="register" class="btn btn-common">Sign Up</a>
+                        <a href="login_external" class="btn btn-common">Sign In</a>
                     </div>
                     <img src="/lib/images/home/slider/2.png" class="slider-hill" alt="slider image">
                     <img src="/lib/images/home/slider/3.png" class="slider-house" alt="slider image">
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <center><a href="course.html" class="btn btn-common">See All</a></center>
+            <center><a href="course" class="btn btn-common">See All</a></center>
         </div>
     </section>
 
@@ -163,7 +163,7 @@
                 </div>
             </div>
         </div>
-        <center><a href="course.html" class="btn btn-common">See All</a></center>
+        <center><a href="course" class="btn btn-common">See All</a></center>
     </section>
     <br/>
     <br/>
@@ -237,7 +237,7 @@
                         </div>
                         <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div class="tour-button">
-                                <a href="organizations.html" class="btn btn-common">Take The Tour</a>
+                                <a href="organizations/#" class="btn btn-common">Take The Tour</a>
                              </div>
                         </div>
                     </div>
@@ -281,5 +281,6 @@
         </div>
      </section>
     <!--/#clients-->
+<footer></footer>
 	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>
     <script type="text/javascript" src="/lib/js/main.js"></script> 

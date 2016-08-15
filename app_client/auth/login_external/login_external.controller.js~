@@ -2,15 +2,16 @@
   
   angular
     .module('meanApp')
-    .controller('login_externalCtrl', ['$location','$scope','authentication','$routeParams','meanData',login_externalCtrl]);
+    .controller('login_externalCtrl', ['$location','$scope','authentication','$routeParams','meanData','$window',login_externalCtrl]);
 
-    function login_externalCtrl ($location,$scope,authentication,$routeParams, meanData) {
+    function login_externalCtrl ($location,$scope,authentication,$routeParams, meanData, $window) {
 
 
 	var vm = this;
 
 	var googleUser = {};
 if($routeParams.sso){
+	$window.localStorage['sso'] = $routeParams.sso;
 	$window.localStorage['sso'] = $routeParams.sso;
 }
     authentication.googleCallback($routeParams)

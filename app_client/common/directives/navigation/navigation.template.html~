@@ -31,7 +31,7 @@
                 <div class="collapse navbar-collapse">
 
 		      <ul class="nav navbar-nav navbar-right">
-			<li ng-hide="navvm.isLoggedIn"><a href="login">Sign in</a></li>
+			<li ng-hide="navvm.isLoggedIn"><a href="login_external">Sign in</a></li>
 			<li ng-show="navvm.isLoggedIn"><a href="profile">{{ navvm.currentUser.name }}</a></li>
 		      </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -50,14 +50,15 @@
                             </ul>-->
                         </li>
                         <li><a href="organizations">Organizations</a></li>
-                        <li><a href="pricing">Pricing</a></li>              
+                        <li><a href="pricing">Pricing</a></li>  
+                        <li><a href="http://forum.theorex.tech">Forum</a></li>             
                         <li class="dropdown"><a href="#">More<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
                                 <li><a href="campuschamp">Campus Champ</a></li>
                                 <li><a href="theorexpilot">TheoreX Pilot Program</a></li>
                                 <li><a href="event">Events & Workshops</a></li> 
-                                <li><a href="team.html">About Us</a></li>  
-                                <li><a href="blog2.html">Blog</a></li>
+                                <li><a href="team">About Us</a></li>  
+                                <li><a href="blog2">Blog</a></li>
                                 <!--<li><a href="blogone.html">TheoreX Campus Champ Blog</a></li>-->
                             </ul>
                         </li>

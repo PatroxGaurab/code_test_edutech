@@ -4,7 +4,7 @@
   <div class="row">
     <div class="col-md-4"></div>
 	    <div class="col-md-4">
-	      <h1 class="form-signin-heading" ng-show="!emailVerified">Please Verify Email</h1>
+	      <h1 class="form-signin-heading" ng-show="emailVerified">Please Verify Email</h1>
 	    </div>
     <div class="col-md-4"></div>
   </div>

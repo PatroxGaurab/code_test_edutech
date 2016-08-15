@@ -52,6 +52,7 @@ router.get('/username*', auth, ctrlProfile.isUsernameUnique);
 
 // Check unique email
 router.post('/email/save', auth, ctrlProfile.saveEmail);
+router.get('/email/isverified*', auth, ctrlProfile.isEmailVerified);
 router.get('/email*', auth, ctrlProfile.isEmailUnique);
 
 // course

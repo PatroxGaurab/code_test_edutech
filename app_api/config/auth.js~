@@ -22,8 +22,8 @@ module.exports = {
     },
 
     'linkedinAuth' : {
-        'consumerKey'       : '9D7AKQflGwghKaCYpi5Gpwy5m',
-        'consumerSecret'    : 'pZo8JMOzrXzI8apVIFj8v9tIUXT25un4FwAs6ILDZmPuaTZvkU',
+        'consumerKey'       : '81vs6idram25fn',
+        'consumerSecret'    : 'ZxQWFYylJ6G22O0P',
         'callbackURL'       : 'http://localhost:3000/api/login_external/linkedin/callback'
     },
 };

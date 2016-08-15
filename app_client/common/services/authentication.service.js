@@ -119,6 +119,14 @@
       });
     };
 
+    verifyEmail = function(emailHash) {
+	var config = {
+	 params: {emailHash : emailHash},
+	};
+      return $http.post('/api/verifyemail', config, {
+      });
+    };
+
     return {
       currentUser : currentUser,
       saveToken : saveToken,
@@ -136,7 +144,8 @@
       sendContactMessage : sendContactMessage,
       applyTheorexPilot : applyTheorexPilot,
       applyOrganization : applyOrganization,
-      applyWorkshopreq : applyWorkshopreq
+      applyWorkshopreq : applyWorkshopreq,
+      verifyEmail : verifyEmail
     };
   }
 
