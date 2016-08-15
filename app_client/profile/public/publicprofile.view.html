@@ -1,5 +1,161 @@
 <navigation></navigation>
 
+
+<div class="container">
+    <div class="divider">
+    <div class="col-md-3 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="team-single-wrapper">
+                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt="">
+                                    <div class="person-info"><center>
+                                        <h2>{{ vm.jsondata.name }}</h2>
+                                        <p>{{ vm.jsondata.headline }}</p></center>
+                                    </div>
+                                    
+                                    <div class="social-icons" style="padding: 50px">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                </div>
+                            </div>
+        </div>
+    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-sm-1 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+      <div class="tabs-left">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#bio" data-toggle="tab"><span class="glyphicon glyphicon-user">&nbsp;Bio </span></a></li>
+          <li><a href="#exp" data-toggle="tab"><span class="glyphicon glyphicon-pencil">&nbsp;Experience</span></a></li>
+          <li><a href="#edu" data-toggle="tab"><span class="glyphicon glyphicon-education">&nbsp;Education</span></a></li>
+          <li><a href="#skills" data-toggle="tab"><span class="glyphicon glyphicon-star">&nbsp;Skills</span></a></li>
+          <li><a href="#info" data-toggle="tab"><span class="glyphicon glyphicon-info-sign">&nbsp;Additional Info</span></a></li>
+          <li><a href="#projects" data-toggle="tab"><span class="glyphicon glyphicon-briefcase">&nbsp;Projects</span></a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="bio">
+            <h3>Bio</h3>
+	    <div ng-repeat="biolines in vm.jsondata.bio">
+            <p>{{ biolines }}</p>
+	    </div>
+          </div>
+          <div class="tab-pane" id="exp">
+            <h3>Experience</h3>
+
+<section id="cd-timeline" ng-repeat="explines in vm.jsondata.experience">
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img"><div id="start_year_div">{{ explines.start_year }}</div>
+		</div> <!-- cd-timeline-img -->
+ 
+		<div class="cd-timeline-content">
+			<h2>{{ explines.title }}</h2>
+			<p>{{ explines.company }}</p>
+		</div> <!-- cd-timeline-content -->
+	</div> <!-- cd-timeline-block -->
+ 
+	<div class="cd-timeline-block">
+		<!-- ... -->
+	</div>
+</section>
+          
+          </div>
+          <div class="tab-pane" id="edu">
+            <h3>Education</h3>
+
+<section id="cd-timeline" ng-repeat="edulines in vm.jsondata.education">
+	<div class="cd-timeline-block">
+		<div class="cd-timeline-img"><div id="start_year_div">{{ edulines.to }}</div>
+		</div> <!-- cd-timeline-img -->
+
+		<div class="cd-timeline-content">
+   <div class="progress-bar horizontal">
+    <div class="progress-track">
+      <div class="progress-fill" style="width:{{ edulines.grade }}%">
+        <span>{{ edulines.grade }}%</span>
+      </div>
+    </div>
+  </div>
+			<h2>{{ edulines.school }}</h2>
+			<p>{{ edulines.degree }}</p>
+		</div> <!-- cd-timeline-content -->
+	</div> <!-- cd-timeline-block -->
+ 
+	<div class="cd-timeline-block">
+		<!-- ... -->
+	</div>
+
+
+</section>
+
+	  </div>
+          <div class="tab-pane" id="skills">
+            <h3>Skills</h3>  
+<section id="cd-box" ng-repeat="skills in vm.jsondata.skill">
+	{{ skills}}
+</section>
+	  </div>
+          <div class="tab-pane" id="info"> 
+            <h3>Additional Info</h3>  
+<section id="cd-box" >
+   <p ng-repeat="addl in vm.jsondata.additional_info">
+	{{ addl }}
+   </p>
+</section>
+	  </div>
+          <div class="tab-pane" id="projects">Add projects</div>
+        </div><!-- /tab-content -->
+      </div><!-- /tabbable -->
+    </div><!-- /col -->
+      <div class="col-md-4 col-sm-1 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+          <!--Forum-->
+          <div>
+              <h2>Forum</h2>
+          </div><!--/Forum-->
+          <br>
+          <!--Add sugg.-->
+          <div>
+              <h2>Add Suggstions</h2>
+              <div class="row">
+                <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              
+                  <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+              </div>
+                  
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+            </div><!--/row-->
+              <br>
+              <div class="row">
+                <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+            </div><!--/row-->
+          </div><!--/Add sugg.-->
+    </div><!-- /col -->
+  </div><!-- /row -->
+</div><!-- /container -->        
+                           
+			
+<!--/Dashboard-->
+
 <div class="container">
   <div class="row">
     

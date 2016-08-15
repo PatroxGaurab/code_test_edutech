@@ -16,16 +16,20 @@ var userSchema = new mongoose.Schema({
     type: String,
     unique: true
   },
-  username: {
-    type: String
-  },
   location: {
     type: String
   },
   headline: {
     type: String
   },
+  bio: [],
   experience: [],
+  education: [],
+  skill: [],
+  projects: [],
+  additional_info: {
+    type: String
+  },
     facebook         : {
         id           : String,
         token        : String,

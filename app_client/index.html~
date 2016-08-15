@@ -30,6 +30,8 @@
 
   <script src="lib/angular/angular.min.js"></script>
   <script src="lib/angular/angular-route.min.js"></script>
+  <script src="lib/angular/ng-file-upload-shim.min.js"></script>
+  <script src="lib/angular/ng-file-upload.min.js"></script>
   <script src="app.min.js"></script>
 
 <script>

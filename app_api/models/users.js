@@ -22,7 +22,12 @@ var userSchema = new mongoose.Schema({
   headline: {
     type: String
   },
+  bio: [],
   experience: [],
+  education: [],
+  skill: [],
+  projects: [],
+  additional_info: [],
     facebook         : {
         id           : String,
         token        : String,
