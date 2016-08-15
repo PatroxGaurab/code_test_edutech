@@ -178,9 +178,9 @@ module.exports.forumProfileRead = function(req, res) {
 		};
 		var q = sso.buildLoginString(userparams);
 	if(user.emailVerified){
-		res.status(200).json({redirect_to: redirect_to_url+q});
+		res.status(200).json({redirect_to: redirect_to_url+q, is_verified: true});
 	}else{
-		res.status(200).json({redirect_to: redirect_to_url});
+		res.status(200).json({redirect_to: redirect_to_url, is_verified: false});
 	}
 	//}
 	//res.status(200).json({redirect_to: sig});
