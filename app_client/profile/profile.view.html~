@@ -16,7 +16,7 @@
         </div>
 
       </form>
-<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link http://theorex.tech/x/{{ vm.jsondata.username }}</span>
+<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link &nbsp;&nbsp;&nbsp;http://theorex.tech/x/{{ vm.jsondata.username }}</span>
       <form  class="form-horizontal" name="profile_headline_form" ng-submit="profileHeadlineUpdate()">
         <div class="input-group col-md-6">
           <input type="text" name="headline" ng-model="vm.jsondata.headline" class="form-control" placeholder="Your Professional Headline"  style="font-size:18px;">
