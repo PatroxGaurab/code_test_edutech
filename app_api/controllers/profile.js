@@ -15,8 +15,9 @@ module.exports.profileRead = function(req, res) {
     });
   } else {
     User
-      .findById(req.payload._id)
+      .findOne({_id:req.payload._id})
       .exec(function(err, user) {
+
 	//res.redirect('http://www.google.com');
         //res.status(200).send({redirect_to: 'http://www.google.com'});
 	//var sso_payload = req.query.sso; // fetch from incoming request 
@@ -394,3 +395,36 @@ module.exports.saveEmail = function(req, res) {
   }
 
 };
+
+module.exports.profileEdit = function(req, res) {
+  if (!req.payload._id) {
+    res.status(401).json({
+      "message" : "UnauthorizedError: private profile"
+    });
+  } else {
+	User.findOneAndUpdate({ _id : req.payload._id }, req.body.updateParam , {upsert:true}, function(err, doc){
+	    if (err) return res.send(500, { error: err });
+	    return res.send("succesfully saved");
+	});
+	//res.status(200).json(req.body.name);
+
+  }
+
+};
+
+
+module.exports.uploadImage = function(req, res) {
+console.log(req.files);
+  if (!req.payload._id) {
+    res.status(401).json({
+      "message" : "UnauthorizedError: private profile"
+    });
+  } else {
+	    var file = req.files.file;
+	    console.log(file.name);
+	    console.log(file.type);
+
+  }
+
+};
+

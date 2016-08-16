@@ -3,22 +3,23 @@
 
 <div class="container">
     <div class="divider">
-    <div class="col-md-3 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="team-single-wrapper">
-                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt="">
+    <div class=" wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="team-single-wrapper"><center>
+                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt=""></center>
                                     <div class="person-info"><center>
                                         <h2>{{ vm.jsondata.name }}</h2>
-                                        <p>{{ vm.jsondata.headline }}</p></center>
-                                    </div>
+                                        <p>{{ vm.jsondata.headline }}</p>
+                                    </div></center>
                                     
-                                    <div class="social-icons" style="padding: 50px">
-                                            <ul class="nav nav-pills">
+                                    <div class="social-icons text-center" style="padding: 50px;">
+                                            <ul class="nav nav-pills text-center" >
                                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
-                                </div>
+                                    </div>
                             </div>
         </div>
     </div>
@@ -156,57 +157,4 @@
 			
 <!--/Dashboard-->
 
-<div class="container">
-  <div class="row">
-    
-     <div class="col-md-6">
 
-      <h1 class="form-signin-heading">Your profile</h1>
-  <a href="{{jsondata.publicProfileUrl}}">{{jsondata.firstName}} {{jsondata.lastName}}</a>
-  <form ng-submit="getCommitData()">
-    <input type="submit" value="Get Data">
-  </form>
-  <button type="button" id="connect_btn" ng-click="vm.connect_user()">Connect</button>
-<script type="in/Login"></script>
-      <form  class="form-horizontal" name="profile_form" ng-submit="profileUpdate()">
-       <div class="form-group">
-          <label class="col-sm-3 control-label">Full Name</label>
-          <input type="text" name="user.name" ng-model="vm.jsondata.name" class="form-control-static" >
-        </div>
-       <div class="form-group">
-          <label class="col-sm-3 control-label">Email</label>
-          <p class="form-control-static" >{{ vm.jsondata.email }}</p>
-        </div>
-       <div class="form-group">
-          <label class="col-sm-3 control-label">Local ID</label>
-          <input type="text" name="user._id" ng-model="vm.jsondata._id" class="form-control-static" >
-        </div>
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Headline</label>
-          <input type="text" name="headline" ng-model="jsondata.headline" class="form-control-static" >
-        </div>
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Location</label>
-          <input type="text" name="location.name" ng-model="jsondata.location.name" class="form-control-static" >
-        </div>
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Country</label>
-          <input type="text" name="location.code" ng-model="jsondata.location.code" class="form-control-static" >
-        </div>
-        <div class="form-group">
-          <label class="col-sm-3 control-label">About Me</label>
-          <p class="form-control-static">{{ jsondata.positions }}</p>
-        </div>
-	    <input type="submit" value="Save Data">
-      </form>
-<form name="imgForm" ng-submit="onFileSelect()">
-Upload image <input type="file" name="imgFile" ng-model="imgFile" value="Image">
-
-  <button type="submit" >submit</button>
-</form>
-
-
-    </div>
-
-  </div>
-</div>

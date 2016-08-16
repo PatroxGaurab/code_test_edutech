@@ -16,17 +16,17 @@ h3 {
    position:absolute;
   content:"";
   border-bottom: 1px solid;
-  left:-30px;
+  left:-75px;
   height:25px;
   width:50%;
-    top:0;
+    top:50px;
 }
 .divider:after{
    position:absolute;
   content:"";
   border-bottom: 1px solid;
-  right:-30px;
-  top:0;
+  right:-75px;
+  top:50px;
   height:25px;
   width:50%;
 }
@@ -39,8 +39,23 @@ h3 {
     border-color: dodgerblue;
 }
 
+.team-single-wrapper img{
+    width: 150px;
+	height: 150px;
+	-moz-border-radius: 75px;
+	-webkit-border-radius: 75px;
+	border-radius: 75px;
+    border-color: dodgerblue;
+    z-index:1000;
+}
+
 .badge {
   background-color: #777;
+}
+
+.nav-pills {
+    display: flex;
+    justify-content: center;
 }
 
 .tabs-left {
@@ -205,7 +220,7 @@ h3 {
 
 #cd-box {
   position: relative;
-  padding: 2em 1em;
+  padding: 1em 1em 1em 1em;
   margin-top: 1em;
   margin-bottom: 1em;
   left:20px;
@@ -225,6 +240,57 @@ h3 {
 
 
 
+/* Add Remove Element */
+
+.social {
+    margin: 0;
+    padding: 0;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 30px;
+    height: 30px;
+    color: #FFF;
+    background-color:  #f13f3f ;
+    font-size: 22px;
+    text-align:center;
+    padding-top: 7px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-times:hover {
+    background:  #f35e5e ;
+}
 
 
 

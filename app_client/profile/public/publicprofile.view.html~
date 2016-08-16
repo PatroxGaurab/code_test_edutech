@@ -3,22 +3,23 @@
 
 <div class="container">
     <div class="divider">
-    <div class="col-md-3 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                                <div class="team-single-wrapper">
-                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt="">
+    <div class=" wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="team-single-wrapper"><center>
+                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt=""></center>
                                     <div class="person-info"><center>
                                         <h2>{{ vm.jsondata.name }}</h2>
-                                        <p>{{ vm.jsondata.headline }}</p></center>
-                                    </div>
+                                        <p>{{ vm.jsondata.headline }}</p>
+                                    </div></center>
                                     
-                                    <div class="social-icons" style="padding: 50px">
-                                            <ul class="nav nav-pills">
+                                    <div class="social-icons text-center" style="padding: 50px;">
+                                            <ul class="nav nav-pills text-center" >
                                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
-                                </div>
+                                    </div>
                             </div>
         </div>
     </div>
@@ -98,8 +99,8 @@
 	  </div>
           <div class="tab-pane" id="info"> 
             <h3>Additional Info</h3>  
-<section id="cd-box" ng-repeat="addl in vm.jsondata.additional_info">
-   <p >
+<section id="cd-box" >
+   <p ng-repeat="addl in vm.jsondata.additional_info">
 	{{ addl }}
    </p>
 </section>

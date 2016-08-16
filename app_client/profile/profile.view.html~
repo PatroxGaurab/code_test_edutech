@@ -1,5 +1,230 @@
 <navigation></navigation>
 
+
+<div class="container">
+    <div class="divider">
+    <div class=" wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <div class="team-single-wrapper"><center>
+                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt=""></center>
+                                    <div class="person-info"><center>
+      <form  class="form-horizontal" name="profile_name_form" ng-submit="profileNameUpdate()">
+        <div class="input-group col-md-6">
+          <input type="text" name="user.name" ng-model="vm.jsondata.name" class="form-control" placeholder="Your Name" style="font-size:18px;">
+          <span class="input-group-btn">
+	    <input type="submit" class="btn btn-info form-control" value="Save Data">
+	  </span>
+        </div>
+
+      </form>
+<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link http://theorex.tech/x/{{ vm.jsondata.username }}</span>
+      <form  class="form-horizontal" name="profile_headline_form" ng-submit="profileHeadlineUpdate()">
+        <div class="input-group col-md-6">
+          <input type="text" name="headline" ng-model="vm.jsondata.headline" class="form-control" placeholder="Your Professional Headline"  style="font-size:18px;">
+          <span class="input-group-btn">
+	    <input type="submit" class="btn btn-info form-control" value="Save Data">
+	  </span>
+        </div>
+      </form>
+                                    </div></center>
+                                    
+                                    <div class="social-icons text-center" style="padding: 50px;">
+                                            <ul class="nav nav-pills text-center" >
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                            </div>
+        </div>
+    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-sm-1 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+      <div class="tabs-left">
+        <ul class="nav nav-tabs">
+          <li class="active"><a href="#bio" data-toggle="tab"><span class="glyphicon glyphicon-user">&nbsp;Bio </span></a></li>
+          <li><a href="#exp" data-toggle="tab"><span class="glyphicon glyphicon-pencil">&nbsp;Experience</span></a></li>
+          <li><a href="#edu" data-toggle="tab"><span class="glyphicon glyphicon-education">&nbsp;Education</span></a></li>
+          <li><a href="#skills" data-toggle="tab"><span class="glyphicon glyphicon-star">&nbsp;Skills</span></a></li>
+          <li><a href="#info" data-toggle="tab"><span class="glyphicon glyphicon-info-sign">&nbsp;Additional Info</span></a></li>
+          <li><a href="#projects" data-toggle="tab"><span class="glyphicon glyphicon-briefcase">&nbsp;Projects</span></a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="bio">
+            <h3>Bio</h3>
+      <form  class="form-horizontal" name="experience_form" ng-submit="profileBioUpdate()">
+		<div class="input-group">
+		    <textarea class="form-control custom-control" rows="3" style="resize:none" ng-model="vm.jsondata.bio" ng-list="&#10;" ng-trim="false">></textarea>     
+		    <span class="">
+		      <input type="submit" class="btn btn-info form-control" value="Save Data">
+		    </span>
+		</div>
+	</form>
+
+          </div>
+          <div class="tab-pane" id="exp">
+            <h3>Experience</h3>
+
+      <form  class="form-horizontal" name="experience_form" ng-submit="profileExperienceUpdate()">
+        <div class="form-group" id="cd-box" style="width:98%;" ng-repeat="value in vm.jsondata.experience">
+<div class="social" >
+   <ul>
+        <li  style="position:relative;float:right;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block"><a href="" ng-click="removeExperience($index)"><i class="fa fa-lg fa-times remove" ></i></a></li>
+   </ul>
+</div>
+	 <input type="hidden" name="id" ng-model="value.id" ng-init="value.id = $index" class="form-control-static" >
+         <div class="input-group" style="width:100%">
+            <input type="text" name="company.name" ng-model="value.company" class="form-control" placeholder="Company">
+	 </div>
+         <div class="input-group" style="width:100%">
+          <input type="text" name="company.title" ng-model="value.title" class="form-control" placeholder="Title" >
+	 </div>
+         <div class="input-group" style="width:100%">
+            <input type="number" name="company.start_year" ng-model="value.start_year" class="form-control" placeholder="Start Year">
+	 </div>
+        </div>
+		    <span class="">
+			<input type="button" class="addfields btn btn-info form-control" ng-click="addNewExperience()" value="Add Experience">
+		    </span>
+
+		    <span class="">
+		      <input type="submit" class="btn btn-info form-control" value="Save Data">
+		    </span>
+
+      </form>
+          
+          </div>
+          <div class="tab-pane" id="edu">
+            <h3>Education</h3>
+      <form  class="form-horizontal" name="education_form" ng-submit="profileEducationUpdate()">
+        <div class="form-group" id="cd-box" style="width:98%;" ng-repeat="value in vm.jsondata.education">
+<div class="social" >
+   <ul>
+        <li  style="position:relative;float:right;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block"><a href="" ng-click="removeEducation($index)"><i class="fa fa-lg fa-times remove" ></i></a></li>
+   </ul>
+</div>
+	 <input type="hidden" name="id" ng-model="value.id" ng-init="value.id = $index" class="form-control-static" >
+         <div class="input-group" style="width:100%">
+            <input type="text" name="education.school" ng-model="value.school" class="form-control" placeholder="School">
+	 </div>
+         <div class="input-group" style="width:100%">
+          <input type="text" name="education.degree" ng-model="value.degree" class="form-control" placeholder="Degree">
+	 </div>
+         <div class="input-group" style="width:100%">
+            <input type="number" name="education.from" ng-model="value.from" class="form-control" placeholder="Start Year">
+	 </div>
+         <div class="input-group" style="width:100%">
+            <input type="number" name="education.to" ng-model="value.to" class="form-control" placeholder="End Year">
+	 </div>
+         <div class="input-group" style="width:100%">
+            <input type="number" name="education.grade" ng-model="value.grade" class="form-control" placeholder="% Grade">
+	 </div>
+        </div>
+		    <span class="">
+			<input type="button" class="addfields btn btn-info form-control" ng-click="addNewEducation()" value="Add Education">
+		    </span>
+
+		    <span class="">
+		      <input type="submit" class="btn btn-info form-control" value="Save Data">
+		    </span>
+
+      </form>
+	  </div>
+          <div class="tab-pane" id="skills">
+            <h3>Skills</h3>  
+
+      <form  class="form-horizontal" name="skill_form" ng-submit="profileSkillUpdate()">
+        <div class="form-group" id="cd-box" style="width:98%;" ng-repeat="value in vm.jsondata.skill">
+
+	 <input type="hidden" name="id" ng-model="value.id" ng-init="value.id = $index" class="form-control-static" >
+	
+         <div class="input-group col-md-10" style="float:left;">
+            <input type="text" name="skill" ng-model="value" class="form-control" placeholder="Skill">
+
+	 </div>
+		<div class="social " >
+		   <ul>
+			<li  style="float:right;margin-right:5px;margin-top:0px;position:relative;z-index:99999999;display: inline-block"><a href="" ng-click="removeSkill($index)"><i class="fa fa-lg fa-times remove" ></i></a></li>
+		   </ul>
+		</div>
+        </div>
+		    <span class="">
+			<input type="button" class="addfields btn btn-info form-control" ng-click="addNewSkill()" value="Add Skill">
+		    </span>
+
+		    <span class="">
+		      <input type="submit" class="btn btn-info form-control" value="Save Data">
+		    </span>
+
+      </form>
+	  </div>
+          <div class="tab-pane" id="info"> 
+            <h3>Additional Info</h3>  
+      <form  class="form-horizontal" name="additional_info_form" ng-submit="profileAddlInfoUpdate()">
+		<div class="input-group">
+		    <textarea class="form-control custom-control" rows="3" style="resize:none" ng-model="vm.jsondata.additional_info" ng-list="&#10;" ng-trim="false">></textarea>     
+		    <span class="">
+		      <input type="submit" class="btn btn-info form-control" value="Save Data">
+		    </span>
+		</div>
+	</form>
+
+	  </div>
+          <div class="tab-pane" id="projects">Add projects</div>
+        </div><!-- /tab-content -->
+      </div><!-- /tabbable -->
+    </div><!-- /col -->
+      <div class="col-md-4 col-sm-1 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+          <!--Forum-->
+          <div>
+              <h2>Forum</h2>
+          </div><!--/Forum-->
+          <br>
+          <!--Add sugg.-->
+          <div>
+              <h2>Add Suggstions</h2>
+              <div class="row">
+                <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              
+                  <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+              </div>
+                  
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+            </div><!--/row-->
+              <br>
+              <div class="row">
+                <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
+                  </div>
+            </div><!--/row-->
+          </div><!--/Add sugg.-->
+    </div><!-- /col -->
+  </div><!-- /row -->
+</div><!-- /container -->        
+                           
+			
+<!--/Dashboard-->
+
+
 <div class="container">
   <div class="row">
     
@@ -7,98 +232,11 @@
 
       <h1 class="form-signin-heading">Your profile</h1>
   <a href="{{jsondata.publicProfileUrl}}">{{jsondata.firstName}} {{jsondata.lastName}}</a>
-	<div ng-show="!isVerified">Email Is Verified</div>
+	<div ng-show="isVerified">Email Is Verified</div>
   <form ng-submit="getCommitData()">
     <input type="submit" value="Get Data">
   </form>
 <script type="in/Login"></script>
-      <form  class="form-horizontal" name="profile_name_form" ng-submit="profileNameUpdate()">
-       <div class="form-group">
-          <label class="col-sm-3 control-label">Full Name</label>
-          <input type="text" name="user.name" ng-model="vm.user.name" class="form-control-static" >
-        </div>
-	    <input type="submit" value="Save Data">
-      </form>
-       <div class="form-group">
-          <label class="col-sm-3 control-label">Email</label>
-          <p class="form-control-static" >{{ vm.user.email }}</p>
-        </div>
-       <div class="form-group">
-          <label class="col-sm-3 control-label">Local ID</label>
-          <input type="text" name="user._id" ng-model="vm.user._id" class="form-control-static" >
-        </div>
-      <form  class="form-horizontal" name="profile_headline_form" ng-submit="profileHeadlineUpdate()">
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Headline</label>
-          <input type="text" name="headline" ng-model="jsondata.headline" class="form-control-static" >
-        </div>
-	    <input type="submit" value="Save Data">
-      </form>
-      <form  class="form-horizontal" name="profile_location_form" ng-submit="profileLocationUpdate()">
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Location</label>
-          <input type="text" name="location.name" ng-model="jsondata.location.name" class="form-control-static" >
-        </div>
-	    <input type="submit" value="Save Data">
-      </form>
-      <form  class="form-horizontal" name="profile_country_form" ng-submit="profileCountryUpdate()">
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Country</label>
-          <input type="text" name="location.code" ng-model="jsondata.location.code" class="form-control-static" >
-        </div>
-
-	    <input type="submit" value="Save Data">
-      </form>
-      <form  class="form-horizontal" name="experience_form" ng-submit="profileExperienceUpdate()">
-          <label class="col-sm-3 control-label">Experience  </label><br>
-        <div class="form-group" ng-repeat="value in jsondata.positions.values">
-	 <input type="hidden" name="id" ng-model="value.id" ng-init="value.id = $index" class="form-control-static" >
-         <div class="form-group">
-          <label class="col-sm-3 control-label">Company</label>
-          <input type="text" name="company.name" ng-model="value.company.name" class="form-control-static" >
-	 </div>
-         <div class="form-group">
-          <label class="col-sm-3 control-label">Title</label>
-          <input type="text" name="company.title" ng-model="value.title" class="form-control-static" >
-	 </div>
-	<button class="remove" ng-show="$last" ng-click="removeExperience()">-</button>
-        </div>
-	<input type="button" class="addfields" ng-click="addNewExperience()" value="Add Experience">
-	    <input type="submit" value="Save Data">
-      </form>
-      <form  class="form-horizontal" name="education_form" ng-submit="profileEducationUpdate()">
-        <div class="form-group">
-          <label class="col-sm-3 control-label">Education</label>
-		<div class="form-group">
-		  <label class="col-sm-3 control-label">School</label>
-          	<input type="text" name="education.school" ng-model="jsondata.location.code" class="form-control-static" >
-		</div>
-		<div class="form-group">
-		  <label class="col-sm-3 control-label">Degree</label>
-          	<input type="text" name="education.degree" ng-model="jsondata.location.code" class="form-control-static" >
-		</div>
-		<div class="form-group">
-		  <label class="col-sm-3 control-label">From</label>
-          	<input type="text" name="education.from" ng-model="jsondata.location.code" class="form-control-static" >
-		</div>
-		<div class="form-group">
-		  <label class="col-sm-3 control-label">To</label>
-          	<input type="text" name="education.to" ng-model="jsondata.location.code" class="form-control-static" >
-		</div>
-		<div class="form-group">
-		  <label class="col-sm-3 control-label">Grade</label>
-          	<input type="text" name="education.grade" ng-model="jsondata.location.code" class="form-control-static" >
-		</div>
-        </div>
-	    <input type="submit" value="Save Data">
-      </form>
-      <form  class="form-horizontal" name="skill_form" ng-submit="profileEducationUpdate()">
-		<label class="col-sm-3 control-label">Skills</label>
-		<div class="form-group">
-          	<input type="text" name="skill" ng-model="jsondata.location.code" class="form-control-static" >
-  		<button type="submit" >Add</button>
-		</div>
-      </form>
 <form name="imgForm">
   Single Image with validations
       <input type="file" ngf-select ng-model="picFile" name="file"    

@@ -21,6 +21,7 @@ router.post('/profile/public/connect*',auth, ctrlProfile.connectToUser);
 router.post('/profile/public/acceptconnect*',auth, ctrlProfile.acceptConnect);
 router.get('/profile/public*', ctrlPublicProfile.publicProfileRead);
 router.get('/profile*', auth, ctrlProfile.profileRead);
+router.post('/profile*',auth, ctrlProfile.profileEdit);
 router.get('/forum/profile*', auth, ctrlProfile.forumProfileRead);
 
 //router.get('/login_external', ctrlAuth.login_external);
