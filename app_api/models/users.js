@@ -22,6 +22,9 @@ var userSchema = new mongoose.Schema({
   headline: {
     type: String
   },
+  profilepic: {
+    type: String
+  },
   bio: [],
   experience: [],
   education: [],

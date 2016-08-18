@@ -6,6 +6,10 @@ var Course = mongoose.model('Course');
 var Wishlist = mongoose.model('Wishlist');
 var Mailer = require('./sendmail');
 var crypto = require('crypto');
+var uuid = require('node-uuid'),
+    multiparty = require('multiparty'),
+    fs = require('fs');
+var AWS = require('aws-sdk');
 
 module.exports.profileRead = function(req, res) {
 
@@ -414,15 +418,41 @@ module.exports.profileEdit = function(req, res) {
 
 
 module.exports.uploadImage = function(req, res) {
-console.log(req.files);
+
   if (!req.payload._id) {
     res.status(401).json({
       "message" : "UnauthorizedError: private profile"
     });
   } else {
-	    var file = req.files.file;
-	    console.log(file.name);
-	    console.log(file.type);
+//console.log(req.files.file);
+      var file = req.files.file;
+      var contentType = file.headers['content-type'];
+      var extension = file.path.substring(file.path.lastIndexOf('.'));
+
+      var destPath = 'profilepic/' + uuid.v4() + extension;
+
+      var headers = {
+        'x-amz-acl': 'public-read',
+        'Content-Length': file.size,
+        'Content-Type': contentType
+      };
+
+AWS.config.region = 'ap-south-1';
+AWS.config.accessKeyId = 'AKIAIY2BTOJFMD62ITVQ';
+AWS.config.secretAccessKey = '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';
+
+var s3Bucket = new AWS.S3( { params: {Bucket: 'theorexbucket'} } );
+var data = {Key: destPath, Body: require('fs').createReadStream(file.path), ACL: 'public-read',ContentType:contentType};
+s3Bucket.putObject(data, function(err, data){
+  if (err) 
+    { console.log('Error uploading data: ', err); 
+    } else {
+	User.findOneAndUpdate({ _id : req.payload._id }, {'profilepic':'https://s3.ap-south-1.amazonaws.com/theorexbucket/'+destPath} , {upsert:true}, function(err, doc){
+	    if (err) return res.send(500, { error: err });
+	    return res.send({data:'https://s3.ap-south-1.amazonaws.com/theorexbucket/'+destPath});
+	});
+    }
+});
 
   }
 

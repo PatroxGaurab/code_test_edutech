@@ -27,9 +27,7 @@ var userSchema = new mongoose.Schema({
   education: [],
   skill: [],
   projects: [],
-  additional_info: {
-    type: String
-  },
+  additional_info: [],
     facebook         : {
         id           : String,
         token        : String,

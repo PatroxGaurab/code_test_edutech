@@ -6,6 +6,9 @@ var auth = jwt({
   userProperty: 'payload'
 });
 
+var multipart = require('connect-multiparty');
+var multipartMiddleware = multipart();
+
 var ctrlProfile = require('../controllers/profile');
 var ctrlAuth = require('../controllers/authentication');
 var ctrlCourses = require('../controllers/courses');
@@ -23,6 +26,8 @@ router.get('/profile/public*', ctrlPublicProfile.publicProfileRead);
 router.get('/profile*', auth, ctrlProfile.profileRead);
 router.post('/profile*',auth, ctrlProfile.profileEdit);
 router.get('/forum/profile*', auth, ctrlProfile.forumProfileRead);
+
+router.post('/upload/profilepic', [auth,multipartMiddleware],ctrlProfile.uploadImage);
 
 //router.get('/login_external', ctrlAuth.login_external);
 

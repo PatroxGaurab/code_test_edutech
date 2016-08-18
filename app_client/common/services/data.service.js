@@ -4,8 +4,8 @@
     .module('meanApp')
     .service('meanData', meanData);
 
-  meanData.$inject = ['$http', 'authentication'];
-  function meanData ($http, authentication) {
+  meanData.$inject = ['$http', 'authentication','Upload','$timeout'];
+  function meanData ($http, authentication,Upload,$timeout) {
 
     var getProfile = function (routeParams) {
 	if(routeParams.sso && routeParams.sig){
@@ -128,7 +128,7 @@
       });
     };
 
-   /* var uploadImage = function (file) {
+    var uploadImage = function (file,jsondata,modal) {
       file.upload = Upload.upload({
         url: 'api/upload/profilepic',
         data: {file: file},
@@ -136,7 +136,23 @@
           Authorization: 'Bearer '+ authentication.getToken()
         }
       });
-*/
+
+	    file.upload.then(function (response) {
+	      $timeout(function () {
+		jsondata.profilepic = response.data.data;
+		jsondata.successmsg=true;
+		//return response.data;
+	      });
+	    }, function (response) {
+	      //if (response.status > 0)
+		//$scope.errorMsg = response.status + ': ' + response.data;
+	    }, function (evt) {
+
+	      // Math.min is to fix IE which reports 200% sometimes
+	      //file.progress = Math.min(100, parseInt(100.0 * evt.loaded / evt.total));
+	    });
+    };
+
 
     return {
       getProfile : getProfile,
@@ -152,8 +168,8 @@
       saveEmail : saveEmail,
       getPublicProfile : getPublicProfile,
       updateProfile : updateProfile,
-      isEmailVerified : isEmailVerified
-      //uploadImage : uploadImage
+      isEmailVerified : isEmailVerified,
+      uploadImage : uploadImage
     };
   }
 

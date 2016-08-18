@@ -1,24 +1,24 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
 2 info using npm@1.3.24
 3 info using node@v0.10.25
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart MEAN-stack-authentication@0.0.1
-6 info start MEAN-stack-authentication@0.0.1
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info prebuild MEAN-stack-authentication@0.0.1
+6 info build MEAN-stack-authentication@0.0.1
 7 verbose unsafe-perm in lifecycle true
-8 info MEAN-stack-authentication@0.0.1 Failed to exec start script
-9 error MEAN-stack-authentication@0.0.1 start: `node ./bin/www`
+8 info MEAN-stack-authentication@0.0.1 Failed to exec build script
+9 error MEAN-stack-authentication@0.0.1 build: `gulp`
 9 error Exit status 8
-10 error Failed at the MEAN-stack-authentication@0.0.1 start script.
+10 error Failed at the MEAN-stack-authentication@0.0.1 build script.
 10 error This is most likely a problem with the MEAN-stack-authentication package,
 10 error not with npm itself.
 10 error Tell the author that this fails on your system:
-10 error     node ./bin/www
+10 error     gulp
 10 error You can get their info via:
 10 error     npm owner ls MEAN-stack-authentication
 10 error There is likely additional logging output above.
 11 error System Linux 3.5.0-17-generic
-12 error command "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+12 error command "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
 13 error cwd /home/patrox/Downloads/TheoreX/beta_copy
 14 error node -v v0.10.25
 15 error npm -v 1.3.24

@@ -5,7 +5,13 @@
     <div class="divider">
     <div class=" wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper"><center>
-                                            <img src="/lib/images/theorex_logo.jpg" class="img-responsive" alt=""></center>
+                                            <img src="{{ vm.jsondata.profilepic }}" class="img-responsive" alt="">
+<div class="social" id="myBtn">
+   <ul>
+        <li  style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block"><a href="" ng-click="removeExperience($index)"><i class="fa fa-lg fa-upload remove" style=" background:  #73bfed"></i></a></li>
+   </ul>
+</div>
+</center>
                                     <div class="person-info"><center>
       <form  class="form-horizontal" name="profile_name_form" ng-submit="profileNameUpdate()">
         <div class="input-group col-md-6">
@@ -16,7 +22,7 @@
         </div>
 
       </form>
-<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link &nbsp;&nbsp;&nbsp;http://theorex.tech/x/{{ vm.jsondata.username }}</span>
+<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://theorex.tech/x/{{ vm.jsondata.username }}">http://theorex.tech/x/{{ vm.jsondata.username }}</a></span>
       <form  class="form-horizontal" name="profile_headline_form" ng-submit="profileHeadlineUpdate()">
         <div class="input-group col-md-6">
           <input type="text" name="headline" ng-model="vm.jsondata.headline" class="form-control" placeholder="Your Professional Headline"  style="font-size:18px;">
@@ -229,23 +235,48 @@
   <div class="row">
     
      <div class="col-md-6">
-
+<!--
       <h1 class="form-signin-heading">Your profile</h1>
   <a href="{{jsondata.publicProfileUrl}}">{{jsondata.firstName}} {{jsondata.lastName}}</a>
 	<div ng-show="isVerified">Email Is Verified</div>
   <form ng-submit="getCommitData()">
     <input type="submit" value="Get Data">
   </form>
-<script type="in/Login"></script>
+<script type="in/Login"></script>-->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+
 <form name="imgForm">
-  Single Image with validations
-      <input type="file" ngf-select ng-model="picFile" name="file"    
-             accept="image/*" ngf-max-size="2MB" required
-             ngf-model-invalid="errorFile">
-	<img ng-show="imgForm.file.$valid" ngf-thumbnail="picFile" class="thumb">
-      <button type="button" ng-disabled="!imgForm.$valid" 
-              ng-click="uploadPic(picFile)">Submit</button>
+
+<!-- Image Crop ---->
+  <div>      <button type="button" class="btn btn-info" ng-disabled="!imgForm.$valid" 
+              ng-click="uploadPic(myCroppedImage,fileInput.name)">Submit</button><input type="file" ngf-select id="fileInput" accept="image/*" ngf-max-size="2MB" required
+             ngf-model-invalid="errorFile" ng-model="fileInput"/></div>
+<div class="alert alert-success" ng-show="vm.jsondata.successmsg">
+  <strong>Uploaded</strong>
+</div>
+  <div class="cropArea">
+    <img-crop image="myImage" result-image="myCroppedImage"></img-crop>
+  </div>
+  <div style="display:none;"><img ng-src="{{myCroppedImage}}" /></div>
+
+  </div>
+
 </form>
+
+  </div>
+
+</div>
+
+    </div>
+
+  </div>
+</div>
 
 
     </div>
@@ -262,5 +293,11 @@
     float: none;
     position: relative;
     top: 7px;
+}
+.cropArea {
+  background: #E4E4E4;
+  overflow: hidden;
+  width:500px;
+  height:350px;
 }
 </style>
