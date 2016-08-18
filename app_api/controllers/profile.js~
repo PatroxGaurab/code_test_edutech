@@ -449,7 +449,7 @@ s3Bucket.putObject(data, function(err, data){
     } else {
 	User.findOneAndUpdate({ _id : req.payload._id }, {'profilepic':'https://s3.ap-south-1.amazonaws.com/theorexbucket/'+destPath} , {upsert:true}, function(err, doc){
 	    if (err) return res.send(500, { error: err });
-	    return res.send("succesfully saved");
+	    return res.send({data:'https://s3.ap-south-1.amazonaws.com/theorexbucket/'+destPath});
 	});
     }
 });

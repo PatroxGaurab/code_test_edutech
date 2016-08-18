@@ -169,7 +169,7 @@ module.exports.forumProfileRead = function(req, res) {
 
 	//var sso_payload = req.session.sso; // fetch from incoming request 
 	//var sig = req.session.sig; // fetch from incoming request 
-	var redirect_to_url = 'http://ec2-54-169-87-58.ap-southeast-1.compute.amazonaws.com/session/sso_login?';
+	var redirect_to_url = 'http://forum.theorex.tech/session/sso_login?';
 	if(user){
 	//if(sso.validate(sso_payload, sig)) {
 		var nonce = sso.getNonce(sso_payload);
