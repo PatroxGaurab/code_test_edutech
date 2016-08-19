@@ -179,7 +179,8 @@ module.exports.forumProfileRead = function(req, res) {
 			"external_id": JSON.stringify(user._id),
 			"email": user.email,
 			// Optional 
-			"username": user.name
+			"username": user.name,
+			"avatar_url":user.profilepic
 			//"name": "Gaurab Patra"
 		};
 		var q = sso.buildLoginString(userparams);
