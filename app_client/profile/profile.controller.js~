@@ -43,10 +43,17 @@
 	//var redirect_to=data.redirect_to;
 	//alert(JSON.stringify(data));	
 	//window.location = redirect_to;
+
+$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
+alert(JSON.stringify(data));
+});
+
       })
       .error(function (e) {
         console.log(e);
       });
+
+
 
     meanData.isEmailVerified($routeParams)
       .success(function(data) {
@@ -199,8 +206,8 @@
 	    vm.jsondata.skill.splice(index,1);
 	  };
 
-    $scope.uploadPic = function(dataUrl,name,document.getElementById('myModal')) {
-		var file = Upload.dataUrltoBlob(dataUrl, name)
+    $scope.uploadPic = function(dataUrl,name) {
+		var file = Upload.dataUrltoBlob(dataUrl, name,document.getElementById('myModal'))
 	    meanData.uploadImage(file,vm.jsondata)
 	      .success(function(data) {
 		//alert(JSON.stringify(data));	

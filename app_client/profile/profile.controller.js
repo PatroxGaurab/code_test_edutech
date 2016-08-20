@@ -34,7 +34,9 @@
 
 	window.location='/auth/forum?sso='+local_sso+'&sig='+local_sig;
     }	
-
+$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
+alert(JSON.stringify(data));
+});
     meanData.getProfile($routeParams)
       .success(function(data) {
         vm.jsondata = data;
@@ -43,10 +45,15 @@
 	//var redirect_to=data.redirect_to;
 	//alert(JSON.stringify(data));	
 	//window.location = redirect_to;
+
+
+
       })
       .error(function (e) {
         console.log(e);
       });
+
+
 
     meanData.isEmailVerified($routeParams)
       .success(function(data) {

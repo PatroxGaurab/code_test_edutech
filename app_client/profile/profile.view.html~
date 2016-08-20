@@ -189,8 +189,9 @@
           </div><!--/Forum-->
           <br>
           <!--Add sugg.-->
-          <div>
               <h2>Add Suggstions</h2>
+          <div style="max-height: 100px;overflow-y:auto;">
+
               <div class="row">
                 <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
               
@@ -258,7 +259,7 @@
               ng-click="uploadPic(myCroppedImage,fileInput.name)">Submit</button><input type="file" ngf-select id="fileInput" accept="image/*" ngf-max-size="2MB" required
              ngf-model-invalid="errorFile" ng-model="fileInput"/></div>
 <div class="alert alert-success" ng-show="vm.jsondata.successmsg">
-  <strong>Success!</strong> Indicates a successful or positive action.
+  <strong>Uploaded</strong>
 </div>
   <div class="cropArea">
     <img-crop image="myImage" result-image="myCroppedImage"></img-crop>

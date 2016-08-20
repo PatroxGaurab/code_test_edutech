@@ -152,8 +152,29 @@
 	      //file.progress = Math.min(100, parseInt(100.0 * evt.loaded / evt.total));
 	    });
     };
+    var connectToUser = function (username) {
+	var config = {
+	 params: {username : username},
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.post('/api/profile/public/connect', config,{
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+	}
+        });
+    };
 
-
+    var acceptConnect = function (userId) {
+	var config = {
+	 params: {userId : userId},
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.post('/api/profile/public/acceptconnect', config,{
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+	}
+        });
+    };
     return {
       getProfile : getProfile,
       isUsernameUnique : isUsernameUnique,
@@ -169,7 +190,9 @@
       getPublicProfile : getPublicProfile,
       updateProfile : updateProfile,
       isEmailVerified : isEmailVerified,
-      uploadImage : uploadImage
+      uploadImage : uploadImage,
+      connectToUser : connectToUser,
+      acceptConnect : acceptConnect
     };
   }
 

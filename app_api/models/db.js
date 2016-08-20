@@ -55,3 +55,5 @@ require('./contacts');
 require('./theorexpilot');
 require('./organization');
 require('./workshopreq');
+require('./connections');
+require('./connection_requests');

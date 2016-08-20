@@ -1,5 +1,7 @@
 var mongoose = require('mongoose');
 var User = mongoose.model('User');
+var Connection = mongoose.model('Connection');
+var Connection_request = mongoose.model('Connection_request');
 var discourse_sso = require('discourse-sso');
 var sso = new discourse_sso("MY_SECRET");
 var Course = mongoose.model('Course');
