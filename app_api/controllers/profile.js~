@@ -1,5 +1,7 @@
 var mongoose = require('mongoose');
 var User = mongoose.model('User');
+var Connection = mongoose.model('Connection');
+var Connection_request = mongoose.model('Connection_request');
 var discourse_sso = require('discourse-sso');
 var sso = new discourse_sso("MY_SECRET");
 var Course = mongoose.model('Course');
@@ -454,6 +456,29 @@ s3Bucket.putObject(data, function(err, data){
 	});
     }
 });
+
+  }
+
+};
+
+module.exports.getConnectionRequests= function(req, res) {
+
+  if (!req.payload._id) {
+    res.status(401).json({
+      "message" : "UnauthorizedError: private profile"
+    });
+  } else {	
+	var requests=[];
+		Connection_request.findOne({userId:req.payload._id},function(err, model){
+			if(model){
+				var connection_requests=model.connection_requests;
+				    User.find({'_id': {'$in' : connection_requests}},function(err, items) {
+                   res.status(200).json(items);//Empty
+                		    });
+
+			//res.status(200).json(requests);
+			}
+		});
 
   }
 

@@ -2,6 +2,7 @@
 
   angular.module('meanApp', ['ngRoute','ngFileUpload','ngImgCrop']);
 
+
   function config ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
@@ -305,3 +306,4 @@
     .run(['$rootScope', '$location', 'authentication','$http', run]);
 
 })();
+

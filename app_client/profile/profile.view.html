@@ -189,40 +189,25 @@
           </div><!--/Forum-->
           <br>
           <!--Add sugg.-->
-              <h2>Add Suggstions</h2>
+              <h2>Connection Requests</h2>
           <div>
 
-              <div class="row">
-                <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              
-                  <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-              </div>
-                  
-                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-            </div><!--/row-->
-              <br>
-              <div class="row">
-                <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-                  <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-              <img class="suggestimg" src="/lib/images/campuschamp/icon10.png">
-                  </div>
-            </div><!--/row-->
+  <!--<a href="#" data-toggle="popover" popover-trigger="mouseenter" title="Popover Header"  data-content='<button class="btn btn-info" ng-click="accept_connect()">Accept</button>Some content inside the popover'>-->
+<div class="row" ng-repeat="letter in vm.connection_requests track by $index" ng-if="$index % 4 == 0" >
+
+  <div style="cursor:pointer;" class="col-xs-3 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms"
+       ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" 
+       ng-if="vm.connection_requests[i] != null"  ng-init="vm.onEnd()" data-toggle="popover" popover-trigger="mouseenter" data-content='<div class="row text-center" style="background: #5c9fb5 ;">{{ vm.connection_requests[i].name }}</div><button class="btn btn-info" ng-click="accept_connect()">Accept</button>'>
+
+      <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+          <img class="suggestimg" src="{{ vm.connection_requests[i].profilepic }}">
+      </div>
+
+  </div>
+
+</div>
+ <!--</a>-->
+
           </div><!--/Add sugg.-->
     </div><!-- /col -->
   </div><!-- /row -->

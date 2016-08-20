@@ -175,6 +175,14 @@
 	}
         });
     };
+
+    var getConnectionRequests = function (routeParams) {
+      return $http.get('/api/profile?sso='+routeParams.sso+'&sig='+routeParams.sig, {
+		headers: {
+		  Authorization: 'Bearer '+ authentication.getToken()
+		}
+		});
+    };
     return {
       getProfile : getProfile,
       isUsernameUnique : isUsernameUnique,
@@ -193,6 +201,7 @@
       uploadImage : uploadImage,
       connectToUser : connectToUser,
       acceptConnect : acceptConnect,
+      getConnectionRequests : getConnectionRequests
     };
   }
 

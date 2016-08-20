@@ -34,7 +34,9 @@
 
 	window.location='/auth/forum?sso='+local_sso+'&sig='+local_sig;
     }	
-
+$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
+alert(JSON.stringify(data));
+});
     meanData.getProfile($routeParams)
       .success(function(data) {
         vm.jsondata = data;
@@ -44,16 +46,20 @@
 	//alert(JSON.stringify(data));	
 	//window.location = redirect_to;
 
-$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
-alert(JSON.stringify(data));
-});
+
 
       })
       .error(function (e) {
         console.log(e);
       });
 
-
+    meanData.getConnectionRequests($routeParams)
+      .success(function(data) {
+        vm.connection_requests = data;	
+      })
+      .error(function (e) {
+        console.log(e);
+      });
 
     meanData.isEmailVerified($routeParams)
       .success(function(data) {
@@ -221,6 +227,16 @@ alert(JSON.stringify(data));
 
     };
 
+	$scope.accept_connect = function(userId){
+		meanData.acceptConnect(userId)
+		.success(function(data) {
+	      	})
+	      	.error(function (e) {
+			console.log(e);
+	       	});
+	}
+
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -247,6 +263,18 @@ window.onclick = function(event) {
     }
 }
 
+/*$("[data-toggle=popover]").popover({
+    html: true, 
+
+});
+*/
+
+            vm.onEnd = function(){
+                    alert('all done');
+
+            };
   }
+
+
 
 })();

@@ -53,7 +53,13 @@ alert(JSON.stringify(data));
         console.log(e);
       });
 
-
+    meanData.getConnectionRequests($routeParams)
+      .success(function(data) {
+        vm.connection_requests = data;	
+      })
+      .error(function (e) {
+        console.log(e);
+      });
 
     meanData.isEmailVerified($routeParams)
       .success(function(data) {
@@ -221,6 +227,16 @@ alert(JSON.stringify(data));
 
     };
 
+	$scope.accept_connect = function(userId){
+		meanData.acceptConnect(userId)
+		.success(function(data) {
+	      	})
+	      	.error(function (e) {
+			console.log(e);
+	       	});
+	}
+
+
 // Get the modal
 var modal = document.getElementById('myModal');
 
@@ -247,6 +263,20 @@ window.onclick = function(event) {
     }
 }
 
+/*$("[data-toggle=popover]").popover({
+    html: true, 
+
+});
+*/
+
+            vm.onEnd = function(){
+		$("[data-toggle=popover]").popover({
+		    html: true, 
+
+		});
+            };
   }
+
+
 
 })();
