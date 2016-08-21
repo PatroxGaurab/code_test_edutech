@@ -34,9 +34,23 @@
 
 	window.location='/auth/forum?sso='+local_sso+'&sig='+local_sig;
     }	
-$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
+/*$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
 alert(JSON.stringify(data));
 });
+*/
+ $.ajax({
+           // url: "http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7",
+	    url: "http://ec2-54-179-187-62.ap-southeast-1.compute.amazonaws.com/user_actions.json?username=pat123&filter=2,4,5,7",
+            type: "POST",
+            crossDomain: true,
+            dataType: "json",
+            success: function (response) {
+                //alert("hi");
+            },
+            error: function (xhr, status) {
+                //alert(JSON.stringify(xhr));
+            }
+        });
     meanData.getProfile($routeParams)
       .success(function(data) {
         vm.jsondata = data;
@@ -56,6 +70,14 @@ alert(JSON.stringify(data));
     meanData.getConnectionRequests($routeParams)
       .success(function(data) {
         vm.connection_requests = data;	
+      })
+      .error(function (e) {
+        console.log(e);
+      });
+
+    meanData.getConnections($routeParams)
+      .success(function(data) {
+        vm.connections = data;	
       })
       .error(function (e) {
         console.log(e);
@@ -89,6 +111,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.nameUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -101,6 +124,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.headlineUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -113,6 +137,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.bioUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -125,6 +150,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.locationUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -137,6 +163,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.expUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -149,6 +176,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.eduUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -161,6 +189,7 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.skillUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
@@ -173,12 +202,40 @@ alert(JSON.stringify(data));
 		      .success(function(data) {
 			//vm.user = data;
 			//alert(JSON.stringify(data));
+			$scope.addlinfoUpdateSuccess = true;
 		      })
 		      .error(function (e) {
 			console.log(e);
 		      });
 
 	    };
+
+	    $scope.profileProjectUpdate = function() {
+		    meanData.updateProfile({ "updateParam" : {"projects":vm.jsondata.projects} })
+		      .success(function(data) {
+			//vm.user = data;
+			//alert(JSON.stringify(data));
+			$scope.projUpdateSuccess = true;
+		      })
+		      .error(function (e) {
+			console.log(e);
+		      });
+
+	    };
+
+	    $scope.profileSocialFbUpdate = function() {
+		    meanData.updateProfile({ "updateParam" : {"facebook.public_profile":vm.jsondata.facebook.public_profile} })
+		      .success(function(data) {
+			//vm.user = data;
+			//alert(JSON.stringify(data));
+			$scope.socialfbUpdateSuccess = true;
+		      })
+		      .error(function (e) {
+			console.log(e);
+		      });
+
+	    };
+
 
 	  $scope.addNewExperience = function() {
 	    var newItemNo = vm.jsondata.experience.length+1;
@@ -212,6 +269,17 @@ alert(JSON.stringify(data));
 	    vm.jsondata.skill.splice(index,1);
 	  };
 
+	  $scope.addNewProject = function() {
+	    var newItemNo = vm.jsondata.skill.length+1;
+	    vm.jsondata.projects.push({'id':newItemNo});
+	//alert(newItemNo);
+	  };
+
+	  $scope.removeProject = function(index) {
+	    var lastItem = vm.jsondata.skill.length-1;
+	    vm.jsondata.projects.splice(index,1);
+	  };
+
     $scope.uploadPic = function(dataUrl,name) {
 		var file = Upload.dataUrltoBlob(dataUrl, name,document.getElementById('myModal'))
 	    meanData.uploadImage(file,vm.jsondata)
@@ -230,6 +298,13 @@ alert(JSON.stringify(data));
 	$scope.accept_connect = function(userId){
 		meanData.acceptConnect(userId)
 		.success(function(data) {
+		    meanData.getConnectionRequests($routeParams)
+		      .success(function(data) {
+			vm.connection_requests = data;	
+		      })
+		      .error(function (e) {
+			console.log(e);
+		      });
 	      	})
 	      	.error(function (e) {
 			console.log(e);
@@ -260,6 +335,8 @@ span.onclick = function() {
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
+    }else if (event.target==document.getElementById('form_wrapper')){
+
     }
 }
 
@@ -268,10 +345,14 @@ window.onclick = function(event) {
 
 });
 */
-
+document.getElementById('showform').onclick= function() {
+    document.getElementById('form_wrapper').style.display="block";
+};​​​​​
             vm.onEnd = function(){
-                    alert('all done');
+		$("[data-toggle=popover]").popover({
+		    html: true, 
 
+		});
             };
   }
 

@@ -317,7 +317,7 @@ module.exports.acceptConnect= function(req, res) {
 			if(model && model.connection_requests.indexOf(requested_id)!=-1){
 
 			    Connection.findOne({userId:req.payload._id},function(err, user){
-				if(user && user.connection.indexOf(requested_id)!=-1){
+				if(user && user.connections.indexOf(requested_id)!=-1){
 			    		res.status(200).json({"message":"Already A Connection"});
 				}else{
 				    Connection_request.findOneAndUpdate(
@@ -473,10 +473,9 @@ module.exports.getConnectionRequests= function(req, res) {
 			if(model){
 				var connection_requests=model.connection_requests;
 				    User.find({'_id': {'$in' : connection_requests}},function(err, items) {
-                	              res.status(200).json(items);//Empty
+                	              res.status(200).json(items);
                 		    });
 
-			//res.status(200).json(requests);
 			}
 		});
 
@@ -484,3 +483,24 @@ module.exports.getConnectionRequests= function(req, res) {
 
 };
 
+module.exports.getConnections= function(req, res) {
+
+  if (!req.payload._id) {
+    res.status(401).json({
+      "message" : "UnauthorizedError: private profile"
+    });
+  } else {	
+	var requests=[];
+		Connection.findOne({userId:req.payload._id},function(err, model){
+			if(model){
+				var connections=model.connections;
+				    User.find({'_id': {'$in' : connections}},function(err, items) {
+                	              res.status(200).json(items);
+                		    });
+
+			}
+		});
+
+  }
+
+};

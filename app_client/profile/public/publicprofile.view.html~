@@ -9,8 +9,9 @@
                                     <div class="person-info"><center>
                                         <h2>{{ vm.jsondata.name }}</h2>
                                         <p>{{ vm.jsondata.headline }}</p>
+<button type="button" class="btn btn-info" id="connect_btn" ng-click="vm.connect_user()">Connect</button>
                                     </div>
-  <button type="button" class="btn btn-info" id="connect_btn" ng-click="vm.connect_user()">Connect</button></center>
+  </center>
                                     
                                     <div class="social-icons text-center" style="padding: 50px;">
                                             <ul class="nav nav-pills text-center" >
@@ -106,7 +107,16 @@
    </p>
 </section>
 	  </div>
-          <div class="tab-pane" id="projects">Add projects</div>
+          <div class="tab-pane" id="projects">
+            <h3>Projects</h3> 
+		<section id="cd-box" ng-repeat="projects in vm.jsondata.projects">
+			<div class="ribbon"><h2>{{ projects.completion_year }}</h2></div>
+			<h2>{{ projects.title }}</h2>
+			   <p ng-repeat="values in projects.description">
+				{{ values }}
+			   </p>
+		</section>
+          </div>
         </div><!-- /tab-content -->
       </div><!-- /tabbable -->
     </div><!-- /col -->

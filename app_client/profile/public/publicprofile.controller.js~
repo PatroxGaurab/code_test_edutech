@@ -12,7 +12,7 @@
 	var username = $routeParams.username;
     meanData.getPublicProfile(username)
       .success(function(data) {
-        vm.user = data;
+        vm.jsondata = data;
 	//var json_res=data;
 	//alert();
 	//var redirect_to=data.redirect_to;
@@ -21,7 +21,7 @@
 	if(!data){
 		$location.path('/');
 	}
-	if(authentication.isLoggedIn()){
+	if(authentication.isLoggedIn() && authentication.currentUser().email == data.email){
 		document.getElementById("connect_btn").style.display = 'block';
 	}else{
 		document.getElementById("connect_btn").style.display = 'none';

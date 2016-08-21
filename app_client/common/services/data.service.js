@@ -183,6 +183,14 @@
 		}
 		});
     };
+
+    var getConnections = function (routeParams) {
+      return $http.get('/api/get/connections', {
+		headers: {
+		  Authorization: 'Bearer '+ authentication.getToken()
+		}
+		});
+    };
     return {
       getProfile : getProfile,
       isUsernameUnique : isUsernameUnique,
@@ -201,7 +209,8 @@
       uploadImage : uploadImage,
       connectToUser : connectToUser,
       acceptConnect : acceptConnect,
-      getConnectionRequests : getConnectionRequests
+      getConnectionRequests : getConnectionRequests,
+      getConnections : getConnections
     };
   }
 

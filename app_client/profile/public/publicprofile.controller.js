@@ -21,7 +21,7 @@
 	if(!data){
 		$location.path('/');
 	}
-	if(authentication.isLoggedIn()){
+	if(authentication.isLoggedIn() && authentication.currentUser().email != data.email){
 		document.getElementById("connect_btn").style.display = 'block';
 	}else{
 		document.getElementById("connect_btn").style.display = 'none';

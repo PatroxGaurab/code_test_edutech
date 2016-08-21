@@ -28,6 +28,7 @@ router.post('/profile*',auth, ctrlProfile.profileEdit);
 router.get('/forum/profile*', auth, ctrlProfile.forumProfileRead);
 
 router.get('/get/connectionrequests*',auth, ctrlProfile.getConnectionRequests);
+router.get('/get/connections*',auth, ctrlProfile.getConnections);
 
 router.post('/upload/profilepic', [auth,multipartMiddleware],ctrlProfile.uploadImage);
 

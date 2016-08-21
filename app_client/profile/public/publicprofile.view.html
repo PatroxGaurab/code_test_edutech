@@ -107,7 +107,16 @@
    </p>
 </section>
 	  </div>
-          <div class="tab-pane" id="projects">Add projects</div>
+          <div class="tab-pane" id="projects">
+            <h3>Projects</h3> 
+		<section id="cd-box" ng-repeat="projects in vm.jsondata.projects">
+			<div class="ribbon">{{ projects.completion_year }}</div>
+			<h2>{{ projects.title }}</h2>
+			   <p ng-repeat="values in projects.description">
+				{{ values }}
+			   </p>
+		</section>
+          </div>
         </div><!-- /tab-content -->
       </div><!-- /tabbable -->
     </div><!-- /col -->

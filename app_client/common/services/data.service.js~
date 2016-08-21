@@ -177,7 +177,15 @@
     };
 
     var getConnectionRequests = function (routeParams) {
-      return $http.get('/api/profile?sso='+routeParams.sso+'&sig='+routeParams.sig, {
+      return $http.get('/api/get/connectionrequests', {
+		headers: {
+		  Authorization: 'Bearer '+ authentication.getToken()
+		}
+		});
+    };
+
+    var getConnections = function (routeParams) {
+      return $http.get('/api/get/connections', {
 		headers: {
 		  Authorization: 'Bearer '+ authentication.getToken()
 		}
