@@ -28,6 +28,7 @@ module.exports.register = function(req, res) {
   user.save(function(err) {
     User.findOne({ email : user.email }, function(err, user2){
   	var emailHash = crypto.randomBytes(20).toString('hex').concat(user2._id);
+        console.log(emailHash);
     });
     var token;
     token = user.generateJwt();
