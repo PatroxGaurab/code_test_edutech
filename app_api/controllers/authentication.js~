@@ -127,7 +127,7 @@ console.log(req.query);
     if(user){
 
 	var emailHash = crypto.randomBytes(20).toString('hex').concat(user._id);
-	  if(!user.emailVerified){
+	if(!user.emailVerified){
 	User.findOneAndUpdate({ _id : user._id }, { 'emailVerificationHash':emailHash  }, {upsert:true}, function(err, doc){
 	    if (err) return res.send(500, { error: err });
 
