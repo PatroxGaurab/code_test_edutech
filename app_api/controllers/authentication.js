@@ -26,6 +26,10 @@ module.exports.register = function(req, res) {
   user.setPassword(req.body.password);
 
   user.save(function(err) {
+    User.findOne({ email : user.email }, function(err, user2){
+  	var emailHash = crypto.randomBytes(20).toString('hex').concat(user2._id);
+        console.log(emailHash);
+    });
     var token;
     token = user.generateJwt();
     res.status(200);
@@ -33,9 +37,8 @@ module.exports.register = function(req, res) {
       "token" : token
     });
   });
-  User.findOneAndUpdate({ email : user.email }, function(err, user2){
-  	var emailHash = crypto.randomBytes(20).toString('hex').concat(user2._id);
-  });
+
+
 	
 	User.findOneAndUpdate({ email : user.email }, { 'emailVerificationHash':emailHash  }, {upsert:true}, function(err, doc){
 	   if (err) return res.send(500, { error: err });
