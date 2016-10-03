@@ -15,7 +15,7 @@
     meanData.getProfile($routeParams)
       .success(function(data) {
        vm.profilepic=data.profilepic;
-    });
+    })
   }
 
 })();

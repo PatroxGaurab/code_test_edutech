@@ -1,6 +1,6 @@
 (function () {
 
-  angular.module('meanApp', ['ngRoute','ngFileUpload','ngImgCrop','ui.bootstrap']);
+  angular.module('meanApp', ['ngRoute','ngFileUpload','ngImgCrop']);
 
 
   function config ($routeProvider, $locationProvider) {
@@ -13,6 +13,11 @@
       .when('/register', {
         templateUrl: '/auth/register/register.view.html',
         controller: 'registerCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/login', {
+        templateUrl: '/auth/login/login.view.html',
+        controller: 'loginCtrl',
         controllerAs: 'vm'
       })
       .when('/login', {

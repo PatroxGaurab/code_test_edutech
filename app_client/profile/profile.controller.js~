@@ -54,6 +54,12 @@ alert(JSON.stringify(data));
     meanData.getProfile($routeParams)
       .success(function(data) {
         vm.jsondata = data;
+        if(data.emailVerified){
+          $scope.email_notverified = !data.emailVerified;
+        }else{
+          $scope.email_notverified=false;
+        }
+
 	//var json_res=data;
 	//alert();
 	//var redirect_to=data.redirect_to;
@@ -336,7 +342,7 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }else if (event.target==document.getElementById('form_wrapper')){
-
+	document.getElementById('form_wrapper').style.display="none";
     }
 }
 

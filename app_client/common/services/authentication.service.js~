@@ -85,8 +85,8 @@
       });
     };
 
-    logout = function() {
-      $window.localStorage.removeItem('mean-token');
+    var logout = function() {
+      return function(){ $window.localStorage.removeItem('mean-token');};
     };
 
     applyCampuschamp = function(campuschamp) {
@@ -126,6 +126,7 @@
       return $http.post('/api/verifyemail', config, {
       });
     };
+
     return {
       currentUser : currentUser,
       saveToken : saveToken,

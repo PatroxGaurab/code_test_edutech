@@ -23,7 +23,7 @@
         })
         .then(function(){
           $location.path('username');
-          //$location.path('profile');
+          $location.path('profile');
         });
     };
 

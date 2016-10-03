@@ -9,8 +9,10 @@
 <div class="social" id="myBtn">
    <ul>
         <li  style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block"><a href="" ng-click="removeExperience($index)"><i class="fa fa-lg fa-upload remove" style=" background:  #73bfed"></i></a></li>
+        <li ng-show="email_notverified" style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block; margin-left:18px;" ><a href="#" title="Please Verify Email"><i class="fa" style=" background:   #e74c3c;height:15px;width:15px;" ></i></a></li>
    </ul>
 </div>
+
 </center>
                                     <div class="person-info"><center>
       <form  class="form-horizontal" name="profile_name_form" ng-submit="profileNameUpdate()">

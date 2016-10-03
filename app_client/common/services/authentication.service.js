@@ -85,7 +85,7 @@
       });
     };
 
-    logout = function() {
+    var logout = function() {
       $window.localStorage.removeItem('mean-token');
     };
 

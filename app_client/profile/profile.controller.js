@@ -54,6 +54,12 @@ alert(JSON.stringify(data));
     meanData.getProfile($routeParams)
       .success(function(data) {
         vm.jsondata = data;
+        if(data.emailVerified){
+          $scope.email_notverified = !data.emailVerified;
+        }else{
+          $scope.email_notverified=true;
+        }
+
 	//var json_res=data;
 	//alert();
 	//var redirect_to=data.redirect_to;
