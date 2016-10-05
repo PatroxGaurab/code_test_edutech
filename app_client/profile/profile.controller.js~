@@ -39,8 +39,8 @@ alert(JSON.stringify(data));
 });
 */
  $.ajax({
-           // url: "http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7",
-	    url: "http://ec2-54-179-187-62.ap-southeast-1.compute.amazonaws.com/user_actions.json?username=pat123&filter=2,4,5,7",
+            url: "http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7",
+	    //url: "http://ec2-54-179-187-62.ap-southeast-1.compute.amazonaws.com/user_actions.json?username=pat123&filter=2,4,5,7",
             type: "POST",
             crossDomain: true,
             dataType: "json",
@@ -57,7 +57,7 @@ alert(JSON.stringify(data));
         if(data.emailVerified){
           $scope.email_notverified = !data.emailVerified;
         }else{
-          $scope.email_notverified=false;
+          $scope.email_notverified=true;
         }
 
 	//var json_res=data;
@@ -301,6 +301,17 @@ alert(JSON.stringify(data));
 
     };
 
+    $scope.resendMail = function() {
+	    meanData.resendMail()
+	      .success(function(data) {
+		vm.jsondata.successmsg=data;
+	      })
+	      .error(function (e) {
+		console.log(e);
+	      });
+
+    };
+
 	$scope.accept_connect = function(userId){
 		meanData.acceptConnect(userId)
 		.success(function(data) {
@@ -325,7 +336,7 @@ var modal = document.getElementById('myModal');
 var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementById("imgclose");
 
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
@@ -337,6 +348,27 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 
+// Resend mail modal
+
+// Get the modal
+var resendmailmodal = document.getElementById('resendMailModal');
+
+// Get the button that opens the modal
+var resendmailbtn = document.getElementById("notverified_btn");
+
+// Get the <span> element that closes the modal
+var resendmailspan = document.getElementById("resendmailclose");
+
+// When the user clicks on the button, open the modal
+resendmailbtn.onclick = function() {
+    resendmailmodal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+resendmailspan.onclick = function() {
+    resendmailmodal.style.display = "none";
+}
+
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -344,6 +376,13 @@ window.onclick = function(event) {
     }else if (event.target==document.getElementById('form_wrapper')){
 	document.getElementById('form_wrapper').style.display="none";
     }
+
+    if (event.target == resendmailmodal) {
+        resendmailmodal.style.display = "none";
+    }else if (event.target==document.getElementById('form_wrapper')){
+	document.getElementById('form_wrapper').style.display="none";
+    }
+
 }
 
 /*$("[data-toggle=popover]").popover({

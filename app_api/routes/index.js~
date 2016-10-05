@@ -28,7 +28,7 @@ router.post('/profile*',auth, ctrlProfile.profileEdit);
 router.get('/forum/profile*', auth, ctrlProfile.forumProfileRead);
 
 router.get('/get/connectionrequests*',auth, ctrlProfile.getConnectionRequests);
-router.get('/get/connections*',auth, ctrlProfile.getConnectionRequests);
+router.get('/get/connections*',auth, ctrlProfile.getConnections);
 
 router.post('/upload/profilepic', [auth,multipartMiddleware],ctrlProfile.uploadImage);
 
@@ -62,6 +62,7 @@ router.get('/username*', auth, ctrlProfile.isUsernameUnique);
 // Check unique email
 router.post('/email/save', auth, ctrlProfile.saveEmail);
 router.get('/email/isverified*', auth, ctrlProfile.isEmailVerified);
+router.post('/email/send', auth, ctrlProfile.resendEmail);
 router.get('/email*', auth, ctrlProfile.isEmailUnique);
 
 // course

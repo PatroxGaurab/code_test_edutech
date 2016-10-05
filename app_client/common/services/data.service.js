@@ -191,6 +191,15 @@
 		}
 		});
     };
+
+    var resendMail = function () {
+      return $http.get('/api/email/resend', {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+
     return {
       getProfile : getProfile,
       isUsernameUnique : isUsernameUnique,
@@ -210,7 +219,8 @@
       connectToUser : connectToUser,
       acceptConnect : acceptConnect,
       getConnectionRequests : getConnectionRequests,
-      getConnections : getConnections
+      getConnections : getConnections,
+      resendMail : resendMail
     };
   }
 

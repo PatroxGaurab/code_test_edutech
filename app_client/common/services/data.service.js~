@@ -191,6 +191,15 @@
 		}
 		});
     };
+
+    var resendMail = function (routeParams) {
+      return $http.get('/api/email/isverified', {
+        headers: {
+          Authorization: 'Bearer '+ authentication.getToken()
+        }
+      });
+    };
+
     return {
       getProfile : getProfile,
       isUsernameUnique : isUsernameUnique,
@@ -209,7 +218,8 @@
       uploadImage : uploadImage,
       connectToUser : connectToUser,
       acceptConnect : acceptConnect,
-      getConnectionRequests : getConnectionRequests
+      getConnectionRequests : getConnectionRequests,
+      getConnections : getConnections
     };
   }
 

@@ -33,7 +33,7 @@
                                 <div class="post-content overflow">
                                     <h2 class="post-title bold"><a href="/courses/{{ course._id }}">{{ course.title }}</h2>
                                     <!--<h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
-                                    <p>{{ course.description }} [...]</p>
+                                    <p class="white-space-pre-line">{{ course.description | limitTo: 500}} [...]</p>
                                     <a href="/courses/{{ course._id }}" class="read-more">View More</a>
                                     <div class="post-bottom overflow">
                                         <ul class="nav nav-justified post-nav">

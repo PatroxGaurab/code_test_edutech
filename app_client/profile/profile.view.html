@@ -6,13 +6,12 @@
     <div class=" wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                                 <div class="team-single-wrapper"><center>
                                             <img src="{{ vm.jsondata.profilepic }}" class="img-responsive" alt="">
-<div class="social" id="myBtn">
+<div class="social">
    <ul>
-        <li  style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block"><a href="" ng-click="removeExperience($index)"><i class="fa fa-lg fa-upload remove" style=" background:  #73bfed"></i></a></li>
-        <li ng-show="email_notverified" style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block; margin-left:18px;" ><a href="#" title="Please Verify Email"><i class="fa" style=" background:   #e74c3c;height:15px;width:15px;" ></i></a></li>
+        <li  id="myBtn" style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block"><a href="" ng-click="removeExperience($index)"><i class="fa fa-lg fa-upload remove" style=" background:  #73bfed"></i></a></li>
+        <li ng-show="email_notverified" id="notverified_btn" style="position:relative;margin-top:-18px;margin-right:-18px;z-index:99999999;display: inline-block; margin-left:18px;" ><a href="#" title="Please Verify Email"><i class="fa" style=" background:   #e74c3c;height:15px;width:15px;" ></i></a></li>
    </ul>
 </div>
-
 </center>
                                     <div class="person-info"><center>
       <form  class="form-horizontal" name="profile_name_form" ng-submit="profileNameUpdate()">
@@ -303,12 +302,36 @@
   </form>
 <script type="in/Login"></script>-->
 
+<!-- The Resend Mail Modal -->
+<div id="resendMailModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content"  style="width:350px;">
+    <span class="close" id="resendmailclose">x</span>
+
+<form name="resendMailForm">
+
+<!-- Image Crop ---->
+  <div>      <button type="button" class="btn btn-info"  
+              ng-click="resendMail()">Resend Verification Mail</button></div>
+<div class="alert alert-success" ng-show="vm.jsondata.successmsg">
+  <strong>Mail Resent</strong>
+</div>
+
+
+</form>
+
+  </div>
+
+</div>
+
+
 <!-- The Modal -->
-<div id="myModal" class="modal">
+<div id="myModal" class="modal" >
 
   <!-- Modal content -->
   <div class="modal-content">
-    <span class="close">x</span>
+    <span class="close" id="imgclose">x</span>
 
 <form name="imgForm">
 

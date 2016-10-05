@@ -1,37 +1,100 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'run', 'build' ]
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ng-bind-html-unsafe' ]
 2 info using npm@2.14.2
 3 info using node@v4.0.0
-4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
-5 info prebuild MEAN-stack-authentication@0.0.1
-6 info build MEAN-stack-authentication@0.0.1
-7 verbose unsafe-perm in lifecycle true
-8 info MEAN-stack-authentication@0.0.1 Failed to exec build script
-9 verbose stack Error: MEAN-stack-authentication@0.0.1 build: `gulp`
-9 verbose stack Exit status 1
-9 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
-9 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:817:16)
-9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid MEAN-stack-authentication@0.0.1
-11 verbose cwd /home/gaurab/Documents/Theorex/code_test_beta
-12 error Linux 3.19.0-31-generic
-13 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "run" "build"
-14 error node v4.0.0
-15 error npm  v2.14.2
-16 error code ELIFECYCLE
-17 error MEAN-stack-authentication@0.0.1 build: `gulp`
-17 error Exit status 1
-18 error Failed at the MEAN-stack-authentication@0.0.1 build script 'gulp'.
-18 error This is most likely a problem with the MEAN-stack-authentication package,
-18 error not with npm itself.
-18 error Tell the author that this fails on your system:
-18 error     gulp
-18 error You can get their info via:
-18 error     npm owner ls MEAN-stack-authentication
-18 error There is likely additional logging output above.
-19 verbose exit [ 1, true ]
+4 verbose install initial load of /home/gaurab/Documents/Theorex/code_test_beta/package.json
+5 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/aws-sdk/package.json
+6 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/body-parser/package.json
+7 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/connect-multiparty/package.json
+8 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/cookie-parser/package.json
+9 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/debug/package.json
+10 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/discourse-sso/package.json
+11 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/express/package.json
+12 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/express-jwt/package.json
+13 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/express-session/package.json
+14 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp/package.json
+15 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp-concat/package.json
+16 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp-ng-annotate/package.json
+17 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp-ng-html2js/package.json
+18 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp-sourcemaps/package.json
+19 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp-uglify/package.json
+20 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/gulp-watch/package.json
+21 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/jade/package.json
+22 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/jsonwebtoken/package.json
+23 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/mongoose/package.json
+24 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/morgan/package.json
+25 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/multiparty/package.json
+26 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/ng-file-upload/package.json
+27 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/node-uuid/package.json
+28 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/nodemailer/package.json
+29 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/passport/package.json
+30 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/passport-facebook/package.json
+31 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/passport-google-oauth/package.json
+32 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/passport-linkedin/package.json
+33 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/passport-local/package.json
+34 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/passport-twitter/package.json
+35 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/s3/package.json
+36 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/s3-uploader/package.json
+37 verbose installManyTop reading scoped package data from /home/gaurab/Documents/Theorex/code_test_beta/node_modules/serve-favicon/package.json
+38 info package.json express-jwt@3.4.0 No license field.
+39 info package.json gulp-ng-html2js@0.2.2 No license field.
+40 info package.json node-uuid@1.4.7 No license field.
+41 info package.json passport-linkedin@1.0.0 No license field.
+42 info package.json passport-local@1.0.0 No license field.
+43 verbose readDependencies loading dependencies from /home/gaurab/Documents/Theorex/code_test_beta/package.json
+44 silly cache add args [ 'ng-bind-html-unsafe', null ]
+45 verbose cache add spec ng-bind-html-unsafe
+46 silly cache add parsed spec Result {
+46 silly cache add   raw: 'ng-bind-html-unsafe',
+46 silly cache add   scope: null,
+46 silly cache add   name: 'ng-bind-html-unsafe',
+46 silly cache add   rawSpec: '',
+46 silly cache add   spec: '*',
+46 silly cache add   type: 'range' }
+47 silly addNamed ng-bind-html-unsafe@*
+48 verbose addNamed "*" is a valid semver range for ng-bind-html-unsafe
+49 silly addNameRange { name: 'ng-bind-html-unsafe', range: '*', hasData: false }
+50 silly mapToRegistry name ng-bind-html-unsafe
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/ng-bind-html-unsafe
+54 verbose addNameRange registry:https://registry.npmjs.org/ng-bind-html-unsafe not in flight; fetching
+55 verbose request uri https://registry.npmjs.org/ng-bind-html-unsafe
+56 verbose request no auth needed
+57 info attempt registry request try #1 at 5:18:52 PM
+58 verbose request id fbf41682a7090a05
+59 http request GET https://registry.npmjs.org/ng-bind-html-unsafe
+60 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 10.50.2.51:3128
+61 info attempt registry request try #2 at 5:21:09 PM
+62 http request GET https://registry.npmjs.org/ng-bind-html-unsafe
+63 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=connect ETIMEDOUT 10.50.2.51:3128
+64 info attempt registry request try #3 at 5:24:17 PM
+65 http request GET https://registry.npmjs.org/ng-bind-html-unsafe
+66 verbose stack Error: tunneling socket could not be established, cause=connect ETIMEDOUT 10.50.2.51:3128
+66 verbose stack     at ClientRequest.onError (/usr/local/lib/node_modules/npm/node_modules/request/node_modules/tunnel-agent/index.js:174:17)
+66 verbose stack     at ClientRequest.g (events.js:260:16)
+66 verbose stack     at emitOne (events.js:77:13)
+66 verbose stack     at ClientRequest.emit (events.js:169:7)
+66 verbose stack     at Socket.socketErrorListener (_http_client.js:259:9)
+66 verbose stack     at emitOne (events.js:77:13)
+66 verbose stack     at Socket.emit (events.js:169:7)
+66 verbose stack     at emitErrorNT (net.js:1250:8)
+66 verbose stack     at doNTCallback2 (node.js:429:9)
+66 verbose stack     at process._tickCallback (node.js:343:17)
+67 verbose cwd /home/gaurab/Documents/Theorex/code_test_beta
+68 error Linux 3.19.0-31-generic
+69 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "ng-bind-html-unsafe"
+70 error node v4.0.0
+71 error npm  v2.14.2
+72 error code ECONNRESET
+73 error network tunneling socket could not be established, cause=connect ETIMEDOUT 10.50.2.51:3128
+73 error network This is most likely not a problem with npm itself
+73 error network and is related to network connectivity.
+73 error network In most cases you are behind a proxy or have bad network settings.
+73 error network
+73 error network If you are behind a proxy, please make sure that the
+73 error network 'proxy' config is set properly.  See: 'npm help config'
+74 verbose exit [ 1, true ]
