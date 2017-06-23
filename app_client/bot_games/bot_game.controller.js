@@ -54,7 +54,7 @@ var test_cases=[
   ['Johnny.depp@hayeee.com', 'L'],
   ['email@domain.web', 'R'],
   ['email@111.222.333.44444', 'R'],
-  ['patrox@theorex.tech', 'L'],
+  ['patrox@theorexedutech.com', 'L'],
   ['xer@@@@kzs.com', 'R'],
 ];
 

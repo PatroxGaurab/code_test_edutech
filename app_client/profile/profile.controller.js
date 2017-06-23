@@ -34,12 +34,12 @@
 
 	window.location='/auth/forum?sso='+local_sso+'&sig='+local_sig;
     }	
-/*$.getJSON( 'http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
+/*$.getJSON( 'http://forum.theorexedutech.com/user_actions.json?username=pat123&filter=2,4,5,7', function( data ) {
 alert(JSON.stringify(data));
 });
 */
  $.ajax({
-            url: "http://forum.theorex.tech/user_actions.json?username=pat123&filter=2,4,5,7",
+            url: "http://forum.theorexedutech.com/user_actions.json?username=pat123&filter=2,4,5,7",
 	    //url: "http://ec2-54-179-187-62.ap-southeast-1.compute.amazonaws.com/user_actions.json?username=pat123&filter=2,4,5,7",
             type: "POST",
             crossDomain: true,

@@ -24,7 +24,7 @@
         </div>
 
       </form>
-<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://theorex.tech/x/{{ vm.jsondata.username }}">http://theorex.tech/x/{{ vm.jsondata.username }}</a></span>
+<span class="lead input-group-addon" style="font-size:18px;" >Your Sharable Link &nbsp;&nbsp;&nbsp;<a target="_blank" href="http://theorexedutech.com/x/{{ vm.jsondata.username }}">http://theorexedutech.com/x/{{ vm.jsondata.username }}</a></span>
       <form  class="form-horizontal" name="profile_headline_form" ng-submit="profileHeadlineUpdate()">
         <div class="input-group col-md-6">
           <input type="text" name="headline" ng-model="vm.jsondata.headline" class="form-control" placeholder="Your Professional Headline"  style="font-size:18px;">
@@ -241,7 +241,7 @@
 
   <div style="cursor:pointer;" class="col-xs-3 wow fadeInRight ng-scope ng-binding" data-wow-duration="500ms" data-wow-delay="300ms"
        ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" 
-       ng-if="vm.connection_requests[i] != null"  ng-init="vm.onEnd()" data-toggle="popover" data-trigger="hover" data-content='<div class="row text-center" style="background:  #556663  ;padding: 2px 16px;color:#fff; font-size:16px;font-weight:bold;"><a href="http://theorex.tech/x/{{ vm.connection_requests[i].username }}" target="_blank" style="color:#fff;">{{ vm.connection_requests[i].name }}<a/></div><div class="row text-center" style="background:   #d3e3e0   ;padding: 2px 16px;color:  #324844  ; font-size:16px;font-weight:bold;">{{ vm.connection_requests[i].headline }}</div><div class="row"></div>'>
+       ng-if="vm.connection_requests[i] != null"  ng-init="vm.onEnd()" data-toggle="popover" data-trigger="hover" data-content='<div class="row text-center" style="background:  #556663  ;padding: 2px 16px;color:#fff; font-size:16px;font-weight:bold;"><a href="http://theorexedutech.com/x/{{ vm.connection_requests[i].username }}" target="_blank" style="color:#fff;">{{ vm.connection_requests[i].name }}<a/></div><div class="row text-center" style="background:   #d3e3e0   ;padding: 2px 16px;color:  #324844  ; font-size:16px;font-weight:bold;">{{ vm.connection_requests[i].headline }}</div><div class="row"></div>'>
 
       <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
           <img class="suggestimg" src="{{ vm.connection_requests[i].profilepic }}">
@@ -268,7 +268,7 @@
 
   <div style="cursor:pointer;" class="col-xs-3 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms"
        ng-repeat="i in [$index, $index + 1, $index + 2, $index + 3]" 
-       ng-if="vm.connections[i] != null"  ng-init="vm.onEnd()" data-toggle="popover" data-trigger="hover" data-content='<div class="row text-center" style="background:  #556663  ;padding: 2px 16px;color:#fff; font-size:16px;font-weight:bold;"><a href="http://theorex.tech/x/{{ vm.connection_requests[i].username }}" target="_blank" style="color:#fff;">{{ vm.connections[i].name }}<a/></div><div class="row text-center" style="background:   #d3e3e0   ;padding: 2px 16px;color:  #324844  ; font-size:16px;font-weight:bold;">{{ vm.connections[i].headline }}</div><div class="row"></div>'>
+       ng-if="vm.connections[i] != null"  ng-init="vm.onEnd()" data-toggle="popover" data-trigger="hover" data-content='<div class="row text-center" style="background:  #556663  ;padding: 2px 16px;color:#fff; font-size:16px;font-weight:bold;"><a href="http://theorexedutech.com/x/{{ vm.connection_requests[i].username }}" target="_blank" style="color:#fff;">{{ vm.connections[i].name }}<a/></div><div class="row text-center" style="background:   #d3e3e0   ;padding: 2px 16px;color:  #324844  ; font-size:16px;font-weight:bold;">{{ vm.connections[i].headline }}</div><div class="row"></div>'>
 
       <div class="col-sm-2 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
           <img class="suggestimg" src="{{ vm.connections[i].profilepic }}">
@@ -306,14 +306,14 @@
 <div id="resendMailModal" class="modal">
 
   <!-- Modal content -->
-  <div class="modal-content"  style="width:250px;">
+  <div class="modal-content"  style="width:350px;">
     <span class="close" id="resendmailclose">x</span>
 
 <form name="resendMailForm">
 
 <!-- Image Crop ---->
   <div>      <button type="button" class="btn btn-info"  
-              ng-click="resendMail()">Resend</button></div>
+              ng-click="resendMail()">Resend Verification Mail</button></div>
 <div class="alert alert-success" ng-show="vm.jsondata.successmsg">
   <strong>Mail Resent</strong>
 </div>
