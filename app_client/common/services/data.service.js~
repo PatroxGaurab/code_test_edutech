@@ -33,6 +33,20 @@
 	};
       return $http.get('/api/courses',config);
     };
+    var getBotgames = function (params) {
+	var config = {
+	 params: params,
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.get('/api/courses',config);
+    };
+    var getCourseVideo = function (params) {
+	var config = {
+	 //params: params,
+	 headers : {'Accept' : 'application/json'}
+	};
+      return $http.get('/api/courses/videos/1234',config);
+    };
     var getTags = function () {
 	var config = {
 	 headers : {'Accept' : 'application/json'}
@@ -192,8 +206,8 @@
 		});
     };
 
-    var resendMail = function (routeParams) {
-      return $http.get('/api/email/isverified', {
+    var resendMail = function () {
+      return $http.get('/api/email/resend', {
         headers: {
           Authorization: 'Bearer '+ authentication.getToken()
         }
@@ -206,6 +220,7 @@
       saveUsername : saveUsername,
       googleCallback : googleCallback,
       getCourses : getCourses,
+      getCourseVideo : getCourseVideo,
       getTags : getTags,
       toggleWishlist : toggleWishlist,
       isWishlisted : isWishlisted,
@@ -219,7 +234,9 @@
       connectToUser : connectToUser,
       acceptConnect : acceptConnect,
       getConnectionRequests : getConnectionRequests,
-      getConnections : getConnections
+      getConnections : getConnections,
+      resendMail : resendMail,
+      getBotgames : getBotgames
     };
   }
 

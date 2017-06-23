@@ -32,7 +32,20 @@
     "connect-multiparty": "~2.0.0",
     "s3": "~4.4.0",
     "s3-uploader": "~2.0.1",
-    "aws-sdk": "~2.5.1"
+    "aws-sdk": "~2.5.1",
+    "videogular": "~1.4.4",
+    "videogular-themes-default": "~1.4.4",
+    "videogular-controls": "~1.4.4",
+    "videogular-buffering": "~1.4.4",
+    "videogular-overlay-play": "~1.4.4",
+    "videogular-poster": "~1.4.4",
+    "videogular-angulartics": "~1.4.4",
+    "videogular-dash": "~1.4.4",
+    "angular-sanitize": "~1.5.8",
+    "path": "~0.12.7",
+    "fs": "0.0.1-security",
+    "url": "~0.11.0",
+    "request": "~2.75.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",

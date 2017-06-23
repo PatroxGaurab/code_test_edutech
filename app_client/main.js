@@ -160,6 +160,11 @@
         controller: 'verifyEmailCtrl',
         controllerAs: 'vm'
       })
+      .when('/bot_games/:id', {
+        templateUrl: '/bot_games/bot_game.view.html',
+        controller: 'bot_gameCtrl',
+        controllerAs: 'vm'
+      })
       .otherwise({redirectTo: '/'});
 
     // use the HTML5 History API

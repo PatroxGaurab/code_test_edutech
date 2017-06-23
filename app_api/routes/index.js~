@@ -18,6 +18,7 @@ var ctrlPilot = require('../controllers/pilot');
 var ctrlOrganization = require('../controllers/organization');
 var ctrlWorkshopreq = require('../controllers/workshopreq');
 var ctrlPublicProfile = require('../controllers/publicprofile');
+var ctrlBotgames = require('../controllers/botgames');
 
 // profile
 router.post('/profile/public/connect*',auth, ctrlProfile.connectToUser);
@@ -62,10 +63,11 @@ router.get('/username*', auth, ctrlProfile.isUsernameUnique);
 // Check unique email
 router.post('/email/save', auth, ctrlProfile.saveEmail);
 router.get('/email/isverified*', auth, ctrlProfile.isEmailVerified);
-router.post('/email/send', auth, ctrlProfile.resendEmail);
+router.get('/email/resend', auth, ctrlProfile.resendEmail);
 router.get('/email*', auth, ctrlProfile.isEmailUnique);
 
 // course
+router.get('/courses/videos*', ctrlCourses.getCourseVideos);
 router.get('/courses*', ctrlCourses.getCourses);
 router.get('/tags*', ctrlCourses.getTags);
 
@@ -91,4 +93,6 @@ router.post('/workshopreq/apply*', ctrlWorkshopreq.workshopreqApply);
 // contact message
 router.post('/sendcontact/message*', ctrlContact.sendMessage);
 
+// assignments
+router.get('/botgames*', ctrlBotgames.getBotgames);
 module.exports = router;

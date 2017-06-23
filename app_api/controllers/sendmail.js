@@ -9,7 +9,7 @@ module.exports = function sendMailer(mailoptions) {
 	    secure:true,
             tls: {rejectUnauthorized: false},
 	    auth: {
-		user: 'info@theorex.tech',
+		user: 'info@theorexedutech.com',
 		pass: 'ayanlovesmozilla'
 	    }
 	});*/
@@ -22,7 +22,7 @@ module.exports = function sendMailer(mailoptions) {
 	});
 // setup e-mail data with unicode symbols 
 	var mailOptions = {
-	    from: '"Theorex Labs " <info@theorex.tech>', // sender address 
+	    from: '"Theorex Labs " <info@theorexedutech.com>', // sender address 
 	    to: mailoptions.to, // list of receivers 
 	    subject: mailoptions.subject, // Subject line 
 	    text: mailoptions.text, // plaintext body 

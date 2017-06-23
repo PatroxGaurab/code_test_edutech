@@ -1,0 +1,98 @@
+<navigation></navigation>
+
+    <section id="page-breadcrumb">
+        <div class="vertical-center sun">
+             <div class="container">
+                <div class="row">
+                    <div class="action">
+                        <div class="col-sm-12">
+                            <h1 class="title">{{ vm.botgame_json.title }}</h1>
+                            <p>{{ vm.botgame_json.about }}</p>
+				<div class="alert alert-success" ng-show="!vm.isFailed && vm.isFinished">
+				  <strong>Congratulations!</strong> You Seem To Be A Pro.. You Can Sign Up For The Next Learning Revolution ;) Happy Learning
+				</div>
+				<div class="alert alert-danger" ng-show="vm.isFailed  && vm.isFinished">
+				  <strong>You Are Lucky To Learn From Your Mistakes! Run Again >></strong>
+				</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#page-breadcrumb-->
+
+    <section id="blog-details" class="padding-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 col-sm-7">
+                    <div class="row">
+                         <div class="col-md-12 col-sm-12">
+                            <div class="single-blog blog-details two-column">
+                                <div class="post-thumb" >
+					<textarea id="editor"></textarea>
+                                </div>
+                                <div class="post-content overflow">
+                                    <!--<h2 class="post-title bold"><a href="#">Advanced business cards design</a></h2>
+                                    <h3 class="post-author"><a href="#">Posted by micron News</a></h3>-->
+                                    <p class="white-space-pre-line">{{ vm.botgame_json.description }}</p>
+                                    <!--<div class="post-bottom overflow">
+                                        <ul class="nav navbar-nav post-nav">
+                                            <li><a href="#"><i class="fa fa-tag"></i>{{ vm.course_json.tags }}</a></li>
+                                            <li><a href="#"><i class="fa fa-heart"></i>{{ vm.course_json.wishlisted }} Wishlist</a></li>
+                                            <li><a href="#"><i class="fa fa-comments"></i>3 Comments</a></li>
+                                        </ul>
+                                    </div>-->
+                                    <div class="blog-share">
+                                        <span class='st_facebook_hcount'></span>
+                                        <span class='st_twitter_hcount'></span>
+                                        <span class='st_linkedin_hcount'></span>
+                                        <span class='st_pinterest_hcount'></span>
+                                        <span class='st_email_hcount'></span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+                <div class="col-md-3 col-sm-5">
+                    <div class="sidebar blog-sidebar">
+
+                        <div class="sidebar-item ">
+                                <button type="button" class="btn btn-info btn-block" ng-hide="vm.isUserLoggedIn()" onClick="javascript:window.location='login_external'">SIGN UP</button>
+
+
+				<div id="game_div">
+					<canvas id="canvas" style="background-color:#f1f1f1;"></canvas>
+				</div>
+                                <button type="button" id="run_bot_bt" class="btn btn-primary btn-block" ng-click="vm.cjs_init();vm.loaded();vm.run_bot();">RUN CODE >></button>
+
+                        </div>
+
+                        <div class="sidebar-item ">
+				<h4>
+				  <ul class="nav navbar-stacked" style="color:#39e600;font-weight:bold;" ng-repeat="testcaseresult in vm.testCaseResults">
+					<li>{{ testcaseresult }}</li>
+				  </ul>
+				</h4>
+			</div>
+                        <div class="sidebar-item ">
+				<h4>
+				  <ul class="nav navbar-stacked" style="color:#ff4d4d;font-weight:bold;" ng-repeat="testcaseun in vm.testCaseUnsuccess">
+					<li>Failed At: {{ testcaseun }}</li>
+				  </ul>
+				</h4>
+			</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--/#blog-->
+<style>
+p.white-space-pre-line {
+    white-space: pre-line;
+}
+</style>

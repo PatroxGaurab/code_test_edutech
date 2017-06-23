@@ -58,3 +58,4 @@ require('./organization');
 require('./workshopreq');
 require('./connections');
 require('./connection_requests');
+require('./bot_games');
