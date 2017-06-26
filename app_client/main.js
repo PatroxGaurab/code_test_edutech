@@ -165,6 +165,16 @@
         controller: 'bot_gameCtrl',
         controllerAs: 'vm'
       })
+      .when('/schoolworkshop', {
+        templateUrl: '/event/schoolworkshop.view.html',
+        controller: 'schoolWorkshopCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/instructor', {
+        templateUrl: '/event/instructor.view.html',
+        controller: 'instructorCtrl',
+        controllerAs: 'vm'
+      })
       .otherwise({redirectTo: '/'});
 
     // use the HTML5 History API

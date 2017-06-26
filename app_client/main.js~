@@ -20,9 +20,9 @@
         controller: 'loginCtrl',
         controllerAs: 'vm'
       })
-      .when('/login', {
-        templateUrl: '/auth/login/login.view.html',
-        controller: 'loginCtrl',
+      .when('/logout', {
+        templateUrl: '/auth/logout/logout.view.html',
+        controller: 'logoutCtrl',
         controllerAs: 'vm'
       })
       .when('/profile', {
@@ -158,6 +158,16 @@
       .when('/emailverify/:emailHash', {
 	templateUrl: '/auth/setemail/verifyemail.view.html',
         controller: 'verifyEmailCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/bot_games/:id', {
+        templateUrl: '/bot_games/bot_game.view.html',
+        controller: 'bot_gameCtrl',
+        controllerAs: 'vm'
+      })
+      .when('/schoolworkshop', {
+        templateUrl: '/event/schoolworkshop.view.html',
+        controller: 'schoolWorkshopCtrl',
         controllerAs: 'vm'
       })
       .otherwise({redirectTo: '/'});

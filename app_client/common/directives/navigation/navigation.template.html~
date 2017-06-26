@@ -58,15 +58,16 @@
                             </ul>-->
                         </li>
                         <li><a href="organizations">Organizations</a></li>
-                        <li><a href="pricing">Pricing</a></li>  
+                        <li><a href="instructor">instructor</a></li>  
                         <li><a target="_blank" href="http://forum.theorexedutech.com">Forum</a></li>             
                         <li class="dropdown"><a href="#">More<i class="fa fa-angle-down"></i></a>
                                 <ul role="menu" class="sub-menu">
                                 <li><a href="campuschamp">Campus Champ</a></li>
                                 <li><a href="theorexpilot">TheoreX Pilot Program</a></li>
                                 <li><a href="event">Events & Workshops</a></li> 
+                        <li><a href="pricing">Pricing</a></li>  
                                 <li><a href="team">About Us</a></li>  
-                                <li><a href="http://blog.theorexedutech.com">Blog</a></li>
+                                <li><a target="_blank" href="http://blog.theorexedutech.com">Blog</a></li>
                                 <!--<li><a href="blogone.html">TheoreX Campus Champ Blog</a></li>-->
                             </ul>
                         </li>

@@ -24,11 +24,29 @@
         <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
     </section>
     <!--/#home-slider-->
-
+    <section id="workshop">
+        <div class="container">
+            <br/><br/>
+            <center><h1 style=>Workshop</h1></center>
+            <div class="row">
+                <div class="single-features">
+                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <a href="schoolworkshop.html"><img src="/lib/images/workshop/school05.png" class="img-responsive" alt=""></a>
+                        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;School</h1>
+                    </div>
+                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <img src="/lib/images/workshop/college03.png" class="img-responsive" alt="">
+                        <br/><br/><br/><br/>
+                        <center><h1 style=>College</h1></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="services">
         <div class="container">
             <br/><br/>
-            <center><h1 style=>Starter Courses</h1></center>
+            <center><h1 style=>Starter Courses (Coming Soon...)</h1></center>
             <div class="row">
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
 
@@ -90,7 +108,7 @@
                     </div>
                 </div>
             </div>
-            <center><a href="course" class="btn btn-common">See All</a></center>
+            <center><a href="courses" class="btn btn-common">See All</a></center>
         </div>
     </section>
 
@@ -163,7 +181,7 @@
                 </div>
             </div>
         </div>
-        <center><a href="course" class="btn btn-common">See All</a></center>
+        <center><a href="courses" class="btn btn-common">See All</a></center>
     </section>
     <br/>
     <br/>

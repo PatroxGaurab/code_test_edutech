@@ -1,0 +1,126 @@
+<navigation></navigation>
+    <section id="instructor">
+        <div class="container">
+            <br/><br/>
+            <center><h1 style=>Our Top Instructors</h1></center></div></section></br>
+            <div class="row">
+                <div class="single-features" style="padding-left: 50px;">
+                    <div class="col-sm-4 text-center bottom-separator" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="inscontainer">
+                            <a href="#myModal1"><img src="/lib/images/profile/abhisheksur01.jpg" class="insimage" alt=""></a>
+                                <div class="insoverlay" id="myBtn1">
+                                    <div class="instext">Abhishek Sur<p>(Click to know more)</p></div>
+                                </div>
+                        </div>
+                        <div id="myModal1" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content" style="width: 35%;">
+                                    <!--<div class="modal-header">
+                                        <span class="close">&times;</span>
+                                        <h2>Vishal Dev</h2>
+                                    </div>-->
+                                    <div class="modal-body">
+                                        <img src="/lib/images/profile/01.PNG"><span class="close">&times;</span>          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center bottom-separator" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="inscontainer">
+                            <a href="#myModal2"><img src="/lib/images/profile/niteshluharuka01.jpg" class="insimage" alt=""></a>
+                                <div class="insoverlay" id="myBtn2">
+                                    <div class="instext">Nitesh Luharuka<p>(Click to know more)</p></div>
+                                </div>
+                        </div>
+                        <div id="myModal2" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content" style="width: 35%;">
+                                    <!--<div class="modal-header">
+                                        <span class="close">&times;</span>
+                                        <h2>Vishal Dev</h2>
+                                    </div>-->
+                                    <div class="modal-body">
+                                        <img src="/lib/images/profile/02.PNG"><span class="close">&times;</span>          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center bottom-separator" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="inscontainer">
+                            <a href="#myModal3"><img src="/lib/images/profile/rahulverma01.jpg" class="insimage" alt=""></a>
+                                <div class="insoverlay" id="myBtn3">
+                                    <div class="instext">Rahul Verma<p>(Click to know more)</p></div>
+                                </div>
+                        </div>
+                        <div id="myModal3" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content" style="width: 35%;">
+                                    <!--<div class="modal-header">
+                                        <span class="close">&times;</span>
+                                        <h2>Vishal Dev</h2>
+                                    </div>-->
+                                    <div class="modal-body">
+                                        <img src="/lib/images/profile/04.PNG"><span class="close">&times;</span>          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="single-features" style="padding-left: 50px;">
+                    <div class="col-sm-4 text-center bottom-separator" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="inscontainer">
+                            <a href="#myModal4"><img src="/lib/images/profile/somnathroychoudhury01.jpg" class="insimage" alt=""></a>
+                                <div class="insoverlay" id="myBtn4">
+                                    <div class="instext">Somnath Roychoudhury<p>(Click to know more)</p></div>
+                                </div>
+                        </div>
+                        <div id="myModal4" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content" style="width: 35%;">
+                                    <div class="modal-header">
+                                        <span class="close">&times;</span>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="/lib/images/profile/05.PNG"><span class="close">&times;</span>          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 text-center bottom-separator" data-wow-duration="500ms" data-wow-delay="300ms">
+                        <div class="inscontainer">
+                            <a href="#myModal5"><img src="/lib/images/profile/vishaldev01.jpg" class="insimage" alt=""></a>
+                                <div class="insoverlay" id="myBtn5">
+                                    <div class="instext">Vishal Dev<p>(Click to know more)</p></div>
+                                </div>
+                        </div>
+                        <div id="myModal5" class="modal">
+
+                            <!-- Modal content -->
+                                <div class="modal-content" style="width: 35%;">
+                                    <!--<div class="modal-header">
+                                        <span class="close">&times;</span>
+                                        <h2>Vishal Dev</h2>
+                                    </div>-->
+                                    <div class="modal-body">
+                                        <img src="/lib/images/profile/03.PNG"><span class="close">&times;</span>          
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<footer></footer>
+	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>
+    <script type="text/javascript" src="/lib/js/main.js"></script> 
