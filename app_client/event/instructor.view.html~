@@ -83,9 +83,10 @@
 
                             <!-- Modal content -->
                                 <div class="modal-content" style="width: 35%;">
-                                    <div class="modal-header">
+                                    <!--<div class="modal-header">
                                         <span class="close">&times;</span>
-                                    </div>
+                                        <h2>Vishal Dev</h2>
+                                    </div>-->
                                     <div class="modal-body">
                                         <img src="/lib/images/profile/05.PNG"><span class="close">&times;</span>          
                                     </div>
