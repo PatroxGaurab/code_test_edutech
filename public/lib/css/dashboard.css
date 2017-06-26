@@ -40,8 +40,8 @@ h3 {
 }
 
 .team-single-wrapper img{
-    width: 150px;
-	height: 150px;
+    width: 100%;
+	height: 100%;
 	-moz-border-radius: 75px;
 	-webkit-border-radius: 75px;
 	border-radius: 75px;

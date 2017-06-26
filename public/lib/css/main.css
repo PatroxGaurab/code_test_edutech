@@ -795,6 +795,7 @@ ul.sub-menu {
 
 .person-thumb {
   position: relative;
+  padding: 20px;
 }
 
 .person-thumb img {
