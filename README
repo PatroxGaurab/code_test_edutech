@@ -1,0 +1,22 @@
+A fork from PatroxGaurab/code_test_edutech
+
+Git Commands~
+git config --global user.name "user_name"
+git config --global user.email "user_email"
+
+git init File_name
+to add:
+git add sample.c
+git add README
+
+commit:
+git commit -m "some_message"
+
+at web github.com:
+create same repository of folder_name
+
+git remote add origin https://github.com/user_name/folder_name.git
+
+git push origin master
+
+
