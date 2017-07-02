@@ -33,10 +33,10 @@ if(btn5){
 }
 }
 // When the user clicks on <span> (x), close the modal
-span.click(function() {
+/*span.click(function() {
     modal1.style.display = "none";
     modal2.style.display = "none";
     modal3.style.display = "none";
     modal4.style.display = "none";
     modal5.style.display = "none";
-});
+});*/
