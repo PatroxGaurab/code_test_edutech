@@ -32,6 +32,26 @@ if(btn5){
 	    $("#myModal5").css('display','block');
 	});
 }
+
+if($(".close")){
+	$(document).on('click','.close',function() {
+	    $("#myModal1").css('display','none');
+	    $("#myModal2").css('display','none');
+	    $("#myModal3").css('display','none');
+	    $("#myModal4").css('display','none');
+	    $("#myModal5").css('display','none');
+	});
+}
+if($(".sclose")){
+	$(document).on('click','.sclose',function() {
+	    $("#myModal1").css('display','none');
+	    $("#myModal2").css('display','none');
+	    $("#myModal3").css('display','none');
+	    $("#myModal4").css('display','none');
+	    $("#myModal5").css('display','none');
+	});
+}
+
 // When the user clicks on <span> (x), close the modal
 /*span.click(function() {
     modal1.style.display = "none";
