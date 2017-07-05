@@ -26,7 +26,7 @@ $(document).on('click','#myBtn3',function() {
 $(document).on('click','#myBtn4',function() {
     $("#myModal4").css('display','block');
 });
-<<<<<<< HEAD
+//////////////// HEAD
 
 	$(document).on('click','#myBtn5',function() {
 	    $("#myModal5").css('display','block');
@@ -41,7 +41,7 @@ if($(".close")){
 	    $("#myModal5").css('display','none');
 	});
 }
-=======
+////////////////
 
 if(btn5){
 	$(document).on('click','#myBtn5',function() {
@@ -58,7 +58,7 @@ if($(".close")){
 	    $("#myModal5").css('display','none');
 	});
 }
->>>>>>> a2eff56d9a7dfc521add7b8869af7353c7a1c0c7
+////////////// a2eff56d9a7dfc521add7b8869af7353c7a1c0c7
 if($(".sclose")){
 	$(document).on('click','.sclose',function() {
 	    $("#myModal1").css('display','none');
