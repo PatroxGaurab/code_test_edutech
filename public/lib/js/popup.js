@@ -10,6 +10,7 @@ var btn2 = document.getElementById("myBtn2");
 var btn3 = document.getElementById("myBtn3");
 var btn4 = document.getElementById("myBtn4");
 var btn5 = document.getElementById("myBtn5");
+var btn6 = document.getElementById("myBtn6");
 // Get the <span> element that closes the modal
 var span = $(".close");
 var span = $(".sclose");
