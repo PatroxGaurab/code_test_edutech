@@ -7,8 +7,8 @@
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12">
-                            <h1 class="title">Details about Workshop/Events by <span style="color:#00a0e3;">TheoreX</span></h1>
-                            <p>The Next Era of E-Learning! Learn, Share & Execute.</p>
+                            <h1 class="title">Workshops by <span style="color:#00a0e3;">TheoreX</span></h1>
+                            <p>TheoreX provides next level of Smart Workshops on Latest Technologies and Innovations by the best veterans in Industry.</p>
                         </div>
                      </div>
                 </div>
@@ -21,8 +21,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2>Why you should us for conducting offline workshops!</h2>
-                    <p>TheoreX brings up the world's first E-Learning Portal, where one will not only learn but also can showcase his or her expertise,<br/> he or she can connect with other professionals and also can choose the right job for himself or herself choosing the right <br/> company where he or she can suits perfectly according to his or her culture, experience, knowledge and expertise.</p>
+                <center><img src="/lib/images/workshop/laptop.jpg" style="height: 30%; width: 60%;"></center>
+                    <h2>Why You Should Choose Us For Conducting Workshops!</h2>
+                    <p>TheoreX brings up the Smart Workshops for your College, where you will not only learn but also can showcase your expertise,<br/> You can connect with our professionals and also can choose the right way to build your career.<br/> As we believe in hands-on experience you can give shape to your own innovation with help of us.</p>
                 </div>
             </div>
         </div>
@@ -36,8 +37,8 @@
                 <div class="row">
                     <div class="action">
                         <div class="col-sm-12">
-                            <h1 class="title">Event Categories</span></h1>
-                            <p>TheoreX brings you the following events</p>
+                            <h1 class="title">Our List of Workshop Topics</span></h1>
+                            <p>TheoreX brings you the following latest topics for your smart workshop</p>
                         </div>
                      </div>
                 </div>
@@ -49,70 +50,596 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                    <div class="single-service">
 
+                    <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/home/icon1.png" alt="">
+                            <img src="/lib/images/home/icon7.png" alt="">
                         </div>
-                        <h2>Offline Workshops</h2>
-                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+                        <h2>All About Entrepreneurship</h2>
+                        <p>Do you have any business Idea? Let's Start!</p>
+                        <br/><a target="_blank" href="/lib/workshop/All About Entrepreneurship.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/home/icon2.png" alt="">
+                            <img src="/lib/images/home/icon8.png" alt="">
                         </div>
-                        <h2>Online Webinars</h2>
-                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+                        <h2>Want to start Investing</h2>
+                        <p>Learn about share market and investment</p>
+                        <br/><a target="_blank" href="/lib/workshop/Investment & Share Market Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/home/icon3.png" alt="">
+                            <img src="/lib/images/home/icon9.png" alt="">
                         </div>
-                        <h2>Hackathons</h2>
-                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+                        <h2>Brand Management</h2>
+                        <p>Build and Manage Your Brand</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/icon10.png" alt="">
+                        </div>
+                        <h2>Game Development</h2>
+                        <p>Are you an in-born Gamer? Lets build Game!</p>
+                        <br/><a target="_blank" href="/lib/workshop/Game Development Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/icon11.png" alt="">
+                        </div>
+                        <h2>Artificial Intelligence</h2>
+                        <p>Learn about an aritificial human being!</p>
+                        <br/><a target="_blank" href="/lib/workshop/Artificial Intelligence Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/icon12.png" alt="">
+                        </div>
+                        <h2>Virtual Reality</h2>
+                        <p>Ready to be part of the Virtual World?</p>
+                        <br/><a target="_blank" href="/lib/workshop/Virtual Reality Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
             </div>
         </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
 
-        <div class="container">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/money.png" alt="">
+                        </div>
+                        <h2>Blockchain & Cryptocurrency</h2>
+                        <p>Wanna know about Bitcoin and Blockchain?</p>
+                        <br/><a target="_blank" href="/lib/workshop/Blockchain & Cryptocurrency Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/android.png" alt="">
+                        </div>
+                        <h2>Android App Development</h2>
+                        <p>Using Android, how about bulding an app?</p>
+                        <br/><a target="_blank" href="/lib/workshop/Android App Development Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/big-data.png" alt="">
+                        </div>
+                        <h2>Big Data & Hadoop</h2>
+                        <p>The world is dependent upon Data!</p>
+                        <br/><a target="_blank" href="/lib/workshop/Big Data & Hadoop Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/key.png" alt="">
+                        </div>
+                        <h2>Cloud Computing</h2>
+                        <p>Let's understand cloud together!</p>
+                        <br/><a target="_blank" href="/lib/workshop/Cloud Computing Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/cordova.png" alt="">
+                        </div>
+                        <h2>Cross Platform App Dev</h2>
+                        <p>Build one for all platform!</p>
+                        <br/><a target="_blank" href="/lib/workshop/Cross Platform Application Development Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/internet.png" alt="">
+                        </div>
+                        <h2>PHP with MySQL</h2>
+                        <p>Learning PHP and MySQL together!</p>
+                        <br/><a href="/lib/workshop/PHP with MySQL Workshop.pdf" target="_blank"><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="container">
             <div class="row">
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
-
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="images/home/icon1.png" alt="">
+                            <img src="/lib/images/home/computer.png" alt="">
                         </div>
-                        <h2>Promotional Events</h2>
-                        <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+                        <h2>Internet of Things</h2>
+                        <p>Heard latest about IOT? Let's Start!</p>
+                        <br/><a href="/lib/workshop/Internet of Things Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="images/home/icon2.png" alt="">
+                            <img src="/lib/images/home/chart.png" alt="">
                         </div>
-                        <h2>Tech Talks</h2>
-                        <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+                        <h2>Big Data Analytics with R</h2>
+                        <p>Data is everything in the world. Lets Learn!</p>
+                        <br/><a href="/lib/workshop/Big Data Analytics with R Programming Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="images/home/icon3.png" alt="">
+                            <img src="/lib/images/home/data.png" alt="">
                         </div>
-                        <h2>Free Seminars</h2>
-                        <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+                        <h2>Data Warehousing & Mining</h2>
+                        <p>Integrate data from multiple databases!</p>
+                        <br/><a href="/lib/workshop/Data Analytics & Data Mining Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/matlab-icon.png" alt="">
+                        </div>
+                        <h2>MATLAB Neural Network</h2>
+                        <p>MATLAB for Artificial Neural Network!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/brain.png" alt="">
+                        </div>
+                        <h2>Deep Learning</h2>
+                        <p>Learn about NLP and Deep learning!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/augmented-reality.png" alt="">
+                        </div>
+                        <h2>Augmented Reality</h2>
+                        <p>Experience Augmented World with us!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
             </div>
         </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/icon5.png" alt="">
+                        </div>
+                        <h2>Aurdino & Raspberry Pi</h2>
+                        <p>Ready to build your own desktop?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/robot.png" alt="">
+                        </div>
+                        <h2>Manual Robotics</h2>
+                        <p>Wanna build your own Robot Friend?</p>
+                      <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/workshop/9.ico" alt="">
+                        </div>
+                        <h2>Hacking Forensic Investigator</h2>
+                        <p>How about diving deep into Hacking?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>       
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/electric-car.png" alt="">
+                        </div>
+                        <h2>Autonomous Robotics</h2>
+                        <p>Ready to Learn about automatic robots?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/ml.png" alt="">
+                        </div>
+                        <h2>Mechine Learning</h2>
+                        <p>Algorithms of Machines. Lets Learn!</p>
+                      <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/workshop/12.png" alt="">
+                        </div>
+                        <h2>Azure Cloud Platform</h2>
+                        <p>World's most used Cloud Service by Microsoft!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                        </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/workshop/13.png" alt="">
+                        </div>
+                        <h2>Python Development</h2>
+                        <p>Heard about it? World is depending on it!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/workshop/14.png" alt="">
+                        </div>
+                        <h2>Ethical Hacking Basics</h2>
+                        <p>Start your career with Hacking?</p>
+                      <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/workshop/15.png" alt="">
+                        </div>
+                        <h2>Hacking Essentials</h2>
+                        <p>Ready to make career as an Ethical Hacker?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>        
+                        </div>
+                </div>
+            </div>
+        </div>
+<div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/analytics.png" alt="">
+                        </div>
+                        <h2>Web Master</h2>
+                        <p>Do you want to be a master in WEB?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/seo.png" alt="">
+                        </div>
+                        <h2>Joomla CMS, SEO, SMO</h2>
+                        <p>Want to become a SEO and Joomla Expert?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/online-shop.png" alt="">
+                        </div>
+                        <h2>Web Designing Using HTML & CSS</h2>
+                        <p>Build Your own Website, increasing exposure!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/cyber-security.png" alt="">
+                        </div>
+                        <h2>Cyber Forensic</h2>
+                        <p>How about learning about own cyber security?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/sharing.png" alt="">
+                        </div>
+                        <h2>Network Security</h2>
+                        <p>Learn about Network Security and Details!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/meeting.png" alt="">
+                        </div>
+                        <h2>Cracking Interview</h2>
+                        <p>Crack your Job Interview with help from us?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/linux.png" alt="">
+                        </div>
+                        <h2>Learn about Linux</h2>
+                        <p>Have you heard about Ubuntu? Fedora?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/hashtag.png" alt="">
+                        </div>
+                        <h2>C# .NET Fundamental</h2>
+                        <p>Learn about C# in .NET Framework</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/java.png" alt="">
+                        </div>
+                        <h2>Detailed Core Java</h2>
+                        <p>Lets have a Cup of Java in details</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/Cplus.png" alt="">
+                        </div>
+                        <h2>Fundamentals of C++</h2>
+                        <p>The big brother of Java, lets learn!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/c.png" alt="">
+                        </div>
+                        <h2>Diving Deep into Basic C</h2>
+                        <p>The Godfather of all programming language!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/asp.png" alt="">
+                        </div>
+                        <h2>ASP.NET Fundamentals</h2>
+                        <p>Do you know this technology by Microsoft?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/browser.png" alt="">
+                        </div>
+                        <h2>Java Enterprise</h2>
+                        <p>After Core Java here comes the big boy!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/sql.png" alt="">
+                        </div>
+                        <h2>SQL Server Fundamental</h2>
+                        <p>Learn about SQL Server in details.</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/database.png" alt="">
+                        </div>
+                        <h2>Database Management System</h2>
+                        <p>Baby steps towards Database Career!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/owl.png" alt="">
+                        </div>
+                        <h2>3D Animation Workshop</h2>
+                        <p>Are you Creative? Lets build Something!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/pay-per-click.png" alt="">
+                        </div>
+                        <h2>Digital Marketing & SEO</h2>
+                        <p>Interested in Marketing Digitally?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/app-store.png" alt="">
+                        </div>
+                        <h2>iOS or iPhone Application</h2>
+                        <p>How about making something for Apple?</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
+                            <img src="/lib/images/home/circuit.png" alt="">
+                        </div>
+                        <h2>Circuit Designing</h2>
+                        <p>Do you love circuit? Lets build one!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
+                            <img src="/lib/images/home/drone.png" alt="">
+                        </div>
+                        <h2>Aeromodelling & Drone</h2>
+                        <p>Want to fly high? Lets build some plane!</p>
+                        <br/><a href="" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
+                    </div>
+                </div>
+                <!--<div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
+                    <div class="single-service">
+                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
+                            <img src="/lib/images/home/promotion.png" alt="">
+                        </div>
+                        <h2>Career Planing for Future</h2>
+                        <p>Your future depends upon your right career!</p>
+                        <br><a href="" target=" " class="btn btn-common">Explore Details</a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
     </section>
-    <!--/#services-->
 
     <section id="action">
         <div class="vertical-center">
@@ -120,19 +647,19 @@
                 <div class="row">
                     <div class="action count">
                         <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <h1 class="timer bold" data-to="500" data-speed="3000" data-from="0"></h1>   
+                            <h1 class="timer bold" data-to="10" data-speed="3000" data-from="0"></h1>   
                             <h3>Workshops</h3>
                         </div>
                         <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <h1 class="timer bold" data-to="100" data-speed="3000" data-from="0"></h1>   
+                            <h1 class="timer bold" data-to="5" data-speed="3000" data-from="0"></h1>   
                             <h3>Hackathons</h3> 
                         </div>
                         <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <h1 class="timer bold" data-to="400" data-speed="3000" data-from="0"></h1> 
+                            <h1 class="timer bold" data-to="20" data-speed="3000" data-from="0"></h1> 
                             <h3>Seminars</h3>
                         </div>
                         <div class="col-sm-3 text-center wow bounceIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                            <h1 class="timer bold" data-to="200" data-speed="3000" data-from="0"></h1> 
+                            <h1 class="timer bold" data-to="10" data-speed="3000" data-from="0"></h1> 
                             <h3>Webinars</h3>
                         </div>
                     </div>
@@ -141,63 +668,41 @@
         </div>
    </section>
     <!--/#action-->
-
-
  
     
 
-    <section id="team">
+    <!--<section id="team">
         <div class="container">
             <div class="row">
                 <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Our Workshop Coordinator</h1>
                 <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Workshops/Events can never be successful without this awesome team! Take a bow team.<br>
                 Meet them, they are always ready to help you!</p>
                 <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms" data-wow-delay="400ms">
-                    <!-- Indicators -->
+                
                     <ol class="carousel-indicators visible-xs">
                         <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#team-carousel" data-slide-to="1"></li>
                     </ol>
-                    <!-- Wrapper for slides -->
+                    
                     <div class="carousel-inner">
                         <div class="item active">
                             <div class="col-sm-3 col-xs-6">
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="images/aboutus/7.jpg" class="img-responsive" alt="">
+                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="social-profile">
                                             <ul class="nav nav-pills">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="person-info"><center>
-                                        <h2>Bharti Lala</h2>
-                                        <p>IOT Leader</p></center>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-xs-6">
-                                <div class="team-single-wrapper">
-                                    <div class="team-single">
-                                        <div class="person-thumb">
-                                            <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
-                                        </div>
-                                        <div class="social-profile">
-                                            <ul class="nav nav-pills">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/gaurab.patra"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/in/gaurab-patra-41597960/"><i class="fa fa-linkedin"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="person-info"><center>
                                         <h2>Gaurab Patra</h2>
-                                        <p>Chief Technical Officer</p></center>
+                                        <p>Co-Founder & Chief Technical Officer</p></center>
                                     </div>
                                 </div>
                             </div>
@@ -205,19 +710,19 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
+                                            <img src="/lib/images/aboutus/3.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="social-profile">
                                             <ul class="nav nav-pills">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/gaurab.patra"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/in/gaurab-patra-41597960/"><i class="fa fa-linkedin"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="person-info"><center>
-                                        <h2>Sumantro Mukherjee</h2>
-                                        <p>Workshop Coordinator</p></center>
+                                        <h2>Gaurab Patra</h2>
+                                        <p>Co-Founder & Chief Technical Officer</p></center>
                                     </div>
                                 </div>
                             </div>
@@ -225,19 +730,39 @@
                                 <div class="team-single-wrapper">
                                     <div class="team-single">
                                         <div class="person-thumb">
-                                            <img src="images/aboutus/5.jpg" class="img-responsive" alt="">
+                                            <img src="/lib/images/aboutus/9.jpg" class="img-responsive" alt="">
                                         </div>
                                         <div class="social-profile">
                                             <ul class="nav nav-pills">
-                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="https://www.facebook.com/joy.ghosh.330"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/in/joy-ghosh-4ba973119/"><i class="fa fa-linkedin"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                     <div class="person-info"><center>
-                                        <h2>Subhasish Kundu</h2>
-                                        <p>Lead Developer</p></center>
+                                        <h2>Joyvishek Ghosh</h2>
+                                        <p>Web Developer</p></center>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-xs-6">
+                                <div class="team-single-wrapper">
+                                    <div class="team-single">
+                                        <div class="person-thumb">
+                                            <img src="/lib/images/aboutus/9.jpg" class="img-responsive" alt="">
+                                        </div>
+                                        <div class="social-profile">
+                                            <ul class="nav nav-pills">
+                                                <li><a href="https://www.facebook.com/joy.ghosh.330"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="https://www.linkedin.com/in/joy-ghosh-4ba973119/"><i class="fa fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="person-info"><center>
+                                        <h2>Joyvishek Ghosh</h2>
+                                        <p>Web Developer</p></center>
                                     </div>
                                 </div>
                             </div>
@@ -249,7 +774,6 @@
             </div>
         </div>
     </section>
-    <!--/#team-->
 
 <section id="action" class="responsive">
         <div class="vertical-center">
@@ -268,27 +792,26 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
 
 
-<section id="form1">
-      <center><h1>Request For Events</h1></center>
+<!--<section id="form1">
+      <center><h1>Request For Workshops</h1></center>
 
 <form ng-submit="workshopreq_apply()" name="workshopreqForm">
-        
     <div class="contentform">
         <div id="sendmessage"> Your message has been sent successfully. Thank you. </div>
 
 
         <div class="leftcontact">
              <div class="form-group">
-            <p>Name <span>*</span></p>
+            <p>FIrst Name <span>*</span></p>
             <span class="icon-case"><i class="fa fa-user"></i></span>
                 <input type="text" name="firstname" id="firstname" placeholder="Your First Name" ng-model="vm.workshopreqdata.firstname" class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.firstname.$invalid && workshopreqForm.firstname.$dirty">This field is required</div>
             </div>
                   <div class="form-group">
-                    <p>Surname<span>*</span></p>
+                    <p>Last Name<span>*</span></p>
                     <span class="icon-case"><i class="fa fa-male"></i></span>
                         <input type="text" name="lastname" id="lastname" placeholder="Your Last Name" data-rule="required" data-msg="" ng-model="vm.workshopreqdata.lastname"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.lastname.$invalid && workshopreqForm.lastname.$dirty">This field is required</div>
@@ -302,14 +825,14 @@
             </div>  
 
             <div class="form-group">
-            <p>Company/workshopreq/University<span>*</span></p>
+            <p>Organization Name<span>*</span></p>
             <span class="icon-case"><i class="fa fa-home"></i></span>
                 <input type="text" name="workshopreq" id="workshopreq" placeholder="Your workshopreq Name" data-rule="required" data-msg="" ng-model="vm.workshopreqdata.workshopreq"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.workshopreq.$invalid && workshopreqForm.workshopreq.$dirty">This field is required</div>
             </div>
 
             <div class="form-group">
-            <p>Company/workshopreq/University Address <span>*</span></p>
+            <p>Organization Address <span>*</span></p>
             <span class="icon-case"><i class="fa fa-location-arrow"></i></span>
                 <input type="text" name="workshopreqAddress" id="workshopreqAddress" placeholder="Your workshopreq Address" data-rule="required" data-msg="" ng-model="vm.workshopreqdata.workshopreqAddress"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.workshopreqAddress.$invalid && workshopreqForm.workshopreqAddress.$dirty">This field is required</div>
@@ -333,7 +856,7 @@
             </div>  
 
             <div class="form-group">
-            <p>Phone number <span>*</span></p>  
+            <p>Your Phone number <span>*</span></p>  
             <span class="icon-case"><i class="fa fa-phone"></i></span>
                 <input type="number" name="phone" id="phone" placeholder="Your Phone Number" ng-maxlength="10" data-msg="" ng-model="vm.workshopreqdata.phone"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.phone.$invalid && workshopreqForm.phone.$dirty">This field is invalid</div>
@@ -347,21 +870,22 @@
             </div>
 
             <div class="form-group">
-            <p>Subject <span>*</span></p>   
+            <p>Topic of Workshop <span>*</span></p>   
             <span class="icon-case"><i class="fa fa-comment-o"></i></span>
-                <input type="text" name="subject" id="subject" placeholder="Subject Of Your Message" ng-maxlength="10" data-msg="" ng-model="vm.workshopreqdata.subject"  class="form-control" required="required"/>
+                <input type="text" name="subject" id="subject" placeholder="Topic You Choose/Your Message Subject" ng-maxlength="10" data-msg="" ng-model="vm.workshopreqdata.subject"  class="form-control" required="required"/>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.subject.$invalid && workshopreqForm.subject.$dirty">This field is invalid</div>
             </div>
         
             <div class="form-group">
             <p>Message <span>*</span></p>
             <span class="icon-case"><i class="fa fa-comments-o"></i></span>
-                <textarea name="message" rows="14" placeholder="" data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.workshopreqdata.message"  class="form-control" required="required"></textarea>
+                <textarea name="message" rows="14" placeholder="Send the details about what type of event you are expecting from TheoreX (Workshop/Hackathon/Tech Talks)" data-msg="Please fill in this entry to complete the submission procedure." ng-model="vm.workshopreqdata.message"  class="form-control" required="required"></textarea>
 		<div class="col-xs-5 messageContainer" ng-show="workshopreqForm.message.$invalid && workshopreqForm.message.$dirty">This field is required</div>
 
             </div>  
     </div>
-    </div><br/>
+    </div>
+
 <button type="submit" class="bouton-contact">Send Your Request</button> 
 
         			<div class="alert alert-danger fade in" style="display:none;"  id="workshopreq_error_div">
@@ -373,11 +897,7 @@
 				  Thanks For Registering
 				</div>  
 </form>
-
-</form>
-</section>
-
-
+</section>-->
 <footer></footer>
 	<script ng-init='myVariable = true' ng-if='myVariable' type="text/javascript" src="/lib/js/wow.min.js"></script>
     <script type="text/javascript" src="/lib/js/main.js"></script> 
