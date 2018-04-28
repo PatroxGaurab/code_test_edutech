@@ -204,7 +204,7 @@
                         </div>
                         <h2>Internet of Things</h2>
                         <p>Heard latest about IOT? Let's Start!</p>
-                        <br/><a href="/lib/workshop/Internet of Things Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <br/><a href="/lib/workshop/Internet of Things Workshop.pdf" target="_blank"><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
                         <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
@@ -215,7 +215,7 @@
                         </div>
                         <h2>Big Data Analytics with R</h2>
                         <p>Data is everything in the world. Lets Learn!</p>
-                        <br/><a href="/lib/workshop/Big Data Analytics with R Programming Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <br/><a href="/lib/workshop/Big Data Analytics with R Programming Workshop.pdf" target="_blank"><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
                         <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
@@ -226,7 +226,7 @@
                         </div>
                         <h2>Data Warehousing & Mining</h2>
                         <p>Integrate data from multiple databases!</p>
-                        <br/><a href="/lib/workshop/Data Analytics & Data Mining Workshop.pdf" target=" "><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
+                        <br/><a href="/lib/workshop/Data Analytics & Data Mining Workshop.pdf" target="_blank"><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">More Details</button></a>
                         <a href=""><button id="myBtn1" class="btn" style="background: #00a0e3; color: #ffffff;">Request Workshop</button></a>
                     </div>
                 </div>
